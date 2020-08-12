@@ -1,0 +1,133 @@
+// General Flex Container rules
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+
+  &.justify-between {
+    justify-content: space-between;
+  }
+  &.justify-around {
+    justify-content: space-around;
+  }
+  &.justify-start {
+    justify-content: flex-start;
+  }
+  &.align-center {
+    align-items: center;
+  }
+  &.align-start {
+    align-items: flex-start;
+  }
+
+  &.flex-fill div {
+    flex: 1;
+  }
+}
+
+.container {
+  padding: 0 1rem;
+  margin: auto;
+  width: calc(100% - 6rem);
+  max-width: calc(1440px - 6rem);
+
+  .content {
+    margin: 5rem 0;
+  }
+
+  .card-content {
+    background-color: $white;
+    max-width: calc(680px - 6rem);
+    padding: 3rem;
+    margin-bottom: 4rem;
+
+    &.full-content {
+      max-width: none;
+    }
+  }
+
+  .content .card-content:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+// Header rules
+header {
+  margin: 0;
+
+  .header-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 2.25rem 1.5rem 5rem;
+    background-color: $neon_blue;
+
+    .logo-img {
+      max-width: 51px;
+    }
+  }
+}
+
+// Navigation rules
+nav {
+  margin-right: 2rem;
+
+  .nav-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+
+    ul {
+      display: flex;
+      margin: 0;
+
+      li.nav-links {
+        margin-right: 2.75rem;
+        padding: 0 0.625rem 0.875rem;
+      }
+    }
+  }
+}
+
+hr {
+  margin-top: 2.5rem;
+}
+
+// Footer rules
+footer {
+  color: $white;
+  padding: 2rem 0;
+
+  .footer-container {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+  }
+
+  .footer-logos {
+    .logo {
+      margin: 0 1rem;
+    }
+  }
+
+  .contacts a {
+    color: #85beff;
+  }
+
+  .flex-container {
+    margin: 1rem;
+  }
+
+  .footer-desc {
+    max-width: 400px;
+  }
+
+  .footer-links {
+    width: 50%;
+  }
+}

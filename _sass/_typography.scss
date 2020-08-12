@@ -1,0 +1,84 @@
+:root {
+  font-size: 16px;
+}
+
+body {
+  font-size: $font_default;
+  line-height: $font_default * 1.5;
+  font-family: $font_family_default;
+  background-color: $background_color;
+  color: $text_color;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+a {
+  color: $neon_blue;
+}
+
+li.nav-links {
+  list-style: none;
+
+  a {
+    text-decoration: none;
+    color: $neon_pink;
+    font-size: $font_xl;
+    line-height: $font_xl * 1.5;
+  }
+}
+
+footer .links-container {
+  .link {
+    color: $white;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+  }
+}
+
+small {
+  font-size: $font_default;
+  line-height: $font_default * 1.5;
+
+  @at-root footer #{&} {
+    color: $white;
+  }
+}
+
+h1, h2, h3 {
+  color: $neon_pink;
+}
+
+h1 {
+  font-size: $font_xl;
+  line-height: $font_xl;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: $font_default * 3;
+  line-height: $font_default * 3;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: $font_lg;
+  line-height: $font_lg;
+  font-weight: bold;
+}
+
+.search-container {
+  .nav-links {
+    text-align: right;
+    margin-bottom: 1.25rem;
+
+    a {
+      color: $neon_pink;
+      font-size: 0.875rem;
+    }
+  }
+}
