@@ -19,6 +19,9 @@
   &.align-start {
     align-items: flex-start;
   }
+  &.inverse {
+    flex-direction: row-reverse;
+  }
 
   &.flex-fill div {
     flex: 1;
@@ -27,28 +30,9 @@
 
 .container {
   padding: 0 1rem;
-  margin: auto;
+  margin: 3.5rem auto;
   width: calc(100% - 6rem);
   max-width: calc(1440px - 6rem);
-
-  .content {
-    margin: 5rem 0;
-  }
-
-  .card-content {
-    background-color: $white;
-    max-width: calc(680px - 6rem);
-    padding: 3rem;
-    margin-bottom: 4rem;
-
-    &.full-content {
-      max-width: none;
-    }
-  }
-
-  .content .card-content:last-of-type {
-    margin-bottom: 0;
-  }
 }
 
 // Header rules
@@ -96,35 +80,48 @@ nav {
 
 hr {
   margin-top: 2.5rem;
+  border: 2px solid #FF0080;
+  width: 100%;
+  width: calc(100% - 2rem);
+  max-width: calc(1440px - 2rem);
 }
 
 // Footer rules
 footer {
-  color: $white;
-  padding: 2rem 0;
+  padding: 0;
+  color: $black;
+  font-size: $font_xl;
 
   .footer-container {
     width: 100%;
+    background: $white;
     max-width: 1440px;
     margin: auto;
   }
 
-  .footer-logos {
-    .logo {
-      margin: 0 1rem;
+  .footer-details {
+    padding: 2rem;
+
+    .footer-desc {
+      width: 40%;
+
+      img {
+        margin-top: 5rem;
+      }
     }
-  }
 
-  .contacts a {
-    color: #85beff;
-  }
+    .social-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
 
-  .flex-container {
-    margin: 1rem;
-  }
-
-  .footer-desc {
-    max-width: 400px;
+      p {
+        margin-bottom: 0.5rem;
+      }
+      .social-links a {
+        margin-right: 0.5rem;
+      }
+    }
   }
 
   .footer-links {

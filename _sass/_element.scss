@@ -1,0 +1,12 @@
+.btn {
+  padding: 0.75rem 1rem;
+
+  &.project-btn {
+    background-color: $neon_pink;
+    color: $white;
+    position: relative;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    box-shadow: -0.5rem -0.5rem 0 $neon_blue;
+  }
+}
