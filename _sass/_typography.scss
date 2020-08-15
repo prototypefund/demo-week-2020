@@ -52,6 +52,7 @@ small {
   line-height: $font_xs * 1.25;
 }
 
+
 h1, h2, h3 {
   color: $neon_blue;
   font-weight: normal;
@@ -90,4 +91,18 @@ h4 {
   font-size: $font_xl;
   line-height: $font_xl;
   margin: 0;
+}
+
+
+.project-body {
+  color: $white;
+  max-width: 750px;
+  margin: auto;
+  margin-bottom: 10rem;
+
+  h1, h2, h3, h4 {
+    color: $white;
+    margin: 1.5rem 0;
+    line-height: 150%;
+  }
 }

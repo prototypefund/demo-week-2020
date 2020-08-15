@@ -113,3 +113,17 @@
     }
   }
 }
+
+.project-container {
+  .project-brief {
+    margin-bottom: 1rem;
+  }
+  .project-description {
+    margin-bottom: 1rem;
+  }
+
+  .project-details {
+    max-width: 35%;
+    margin-left: 5rem;
+  }
+}
