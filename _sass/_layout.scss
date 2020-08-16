@@ -44,17 +44,6 @@ header {
     width: 100%;
     margin: auto;
   }
-
-  .logo {
-    display: flex;
-    align-items: center;
-    padding: 1.5rem 2.25rem 1.5rem 5rem;
-    background-color: $neon_blue;
-
-    .logo-img {
-      max-width: 51px;
-    }
-  }
 }
 
 // Navigation rules

@@ -1,0 +1,78 @@
+header {
+  .logo {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 2.25rem 1.5rem 5rem;
+    background-color: $white;
+
+
+    .logo-img {
+      max-width: 51px;
+    }
+
+    .logo-animation {
+      margin-left: 0rem;
+      font-size: $font_6xl;
+      line-height: $font_6xl;
+      text-transform: uppercase;
+      opacity: 0;
+      width: 0;
+      transition: width 1s ease-in-out, opacity 1s ease-in-out, margin-left 1s ease-in-out;
+
+      :nth-child(2) {
+        color: #009ACF;
+        margin-left: 1.5rem;
+      }
+
+      :nth-child(1) {
+        color: #FF0080;
+        position: absolute;
+      }
+
+      div {
+        mix-blend-mode: multiply;
+      }
+    }
+
+    &:hover {
+      animation-name: blendAnimation;
+      animation-duration: 1.5s;
+      animation-timing-function: ease-out;
+      animation-delay: 0s;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+      animation-fill-mode: none;
+      animation-play-state: running;
+
+      .logo-animation {
+        width: 233px;
+        opacity: 1;
+        margin-left: 2rem;
+      }
+
+      svg path {
+        fill: $white;
+      }
+    }
+  }
+}
+
+@keyframes blendAnimation {
+  from {
+    background-color: $neon_blue;
+  }
+  to {
+    background-color: $neon_pink;
+  }
+}
+
+@keyframes expand {
+  from {
+    width: 0%;
+    display: none;
+  }
+  to {
+    width: 100%;
+    display: block;
+  }
+}

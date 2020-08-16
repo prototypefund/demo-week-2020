@@ -37,13 +37,13 @@
 
 .project {
   background-color: $background_dark;
-  color: $white;
   margin-bottom: 4rem;
 
   @at-root .featured-projects #{&} {
     padding: 3rem 5rem;
     border: 4px solid $neon_pink;
     margin-bottom: 0;
+    color: $white;
   }
 
   > div {
@@ -54,6 +54,7 @@
     max-width: 45%;
     display: flex;
     flex-direction: column;
+    align-self: center;
 
     @at-root .featured-projects #{&} {
       width: 45%;
@@ -64,14 +65,15 @@
     }
     .hashtags {
       background-color: $neon_pink;
+      color: $white;
       padding: 1.25rem 2.5rem;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
       word-wrap: break-word;
 
-     
-
       span {
-        text-transform: uppercase;  
-        margin: 0 1.25rem;
+        text-transform: uppercase;
       }
     }
   }

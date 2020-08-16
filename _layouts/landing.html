@@ -13,12 +13,12 @@ layout: default
     <p>
       Zum ersten Mal findet statt eines analogen Demo Day eine virtuelle Demo Week statt.
       Hier präsentieren die 21 Projekte der 7. Förderrunde die Softwareprototypen, an
-      denen sie in den vergangenen sechs Monaten im Rahmen ihrer Förderung gearbeitet haben. 
+      denen sie in den vergangenen sechs Monaten im Rahmen ihrer Förderung gearbeitet haben.
       <br/><br/>
       Wie kann man etwas vertrauen, das zum Großteil unsichtbar ist und aus abstrakten
       Bits und Bytes besteht? Und welche Technologien haben das Potenzial, für mehr
       Vertrauen zu sorgen? Damit und mit vielen weiteren Fragen haben sich die Projekte
-      beschäftigt. 
+      beschäftigt.
     </p>
   </div>
 </div>
@@ -32,7 +32,7 @@ layout: default
     <p>
       Die Ergebnisse ihrer Arbeit könnt ihr unten in Form Texten, Bildern, Videos und
       natürlich Demos ansehen.<br/>
-      Am Montag (24.08, 18.30) startet die Demo Week mit einer 
+      Am Montag (24.08, 18.30) startet die Demo Week mit einer
       <a href="">Eröffnung</a>. In den darauffolgenden Tagen stellen sich die
       <a href="">Projekte</a> vor. Am Freitagabend folgt der offizielle
       <a href="">Abschluss</a>.
@@ -106,60 +106,35 @@ layout: default
 </div>
 <div class="container">
   <h2 class="title">Alle Projekte</h2>
-  <div class="flex-container project justify-between">
-    <div class="project-details">
-      <div class="project-authors">
-        <a href="">Hadi al Khatib,</a> <a href="">Jeff Deutch,</a> <a href="">Nikolas Para</a>
-        <h2 class="project-title">ALARMDISPLAY</h2>
-        <p class="project-brief">
-          We are an open source ticket shop with no major hardware and software hurdles.
-        </p>
-        <a href="" class="btn project-btn">View Project</a>
+  {% for project in site.projects %}
+    {% assign mod = forloop.index | modulo: 2 %}
+    <div class="flex-container project {% if mod == 1%}inverse{% endif %} justify-between">
+      <div class="project-details">
+        <div class="project-authors">
+          {% for author in project.authors %}
+            <a {% if author.link %}href="{{ author.link }}"{% endif %}>
+              {{ author.author }}{% if forloop.last != true %}, {% endif %}
+            </a>
+          {% endfor %}
+          <h2 class="project-title">
+            {{ project.title }}
+          </h2>
+          <p class="project-brief">
+            {{ project.brief }}
+          </p>
+          <a href="{{ project.url }}" class="btn project-btn">View Project</a>
+        </div>
+      </div>
+      <div class="project-image">
+        <img src="/assets/images/project_img_placeholder.png" />
+        <div class="hashtags">
+          {% for hashtag in project.tags %}
+            <span>#{{ hashtag }}</span>
+          {% endfor %}
+        </div>
       </div>
     </div>
-    <div class="project-image">
-      <img src="/assets/images/project_img_placeholder.png" />
-      <div class="hashtags">
-        <span>#HASHTAG</span><span>#HASHTAG</span><span>#HASHTAG</span>
-      </div>
-    </div>
-  </div>
-  <div class="flex-container project inverse justify-between">
-    <div class="project-details">
-      <div class="project-authors">
-        <a href="">Hadi al Khatib,</a> <a href="">Jeff Deutch,</a> <a href="">Nikolas Para</a>
-        <h2 class="project-title">ALARMDISPLAY</h2>
-        <p class="project-brief">
-          We are an open source ticket shop with no major hardware and software hurdles.
-        </p>
-        <a href="" class="btn project-btn">View Project</a>
-      </div>
-    </div>
-    <div class="project-image">
-      <img src="/assets/images/project_img_placeholder.png" />
-      <div class="hashtags">
-        <span>#HASHTAG</span><span>#HASHTAG</span><span>#HASHTAG</span>
-      </div>
-    </div>
-  </div>
-  <div class="flex-container project justify-between">
-    <div class="project-details">
-      <div class="project-authors">
-        <a href="">Hadi al Khatib,</a> <a href="">Jeff Deutch,</a> <a href="">Nikolas Para</a>
-        <h2 class="project-title">ALARMDISPLAY</h2>
-        <p class="project-brief">
-          We are an open source ticket shop with no major hardware and software hurdles.
-        </p>
-        <a href="" class="btn project-btn">View Project</a>
-      </div>
-    </div>
-    <div class="project-image">
-      <img src="/assets/images/project_img_placeholder.png" />
-      <div class="hashtags">
-        <span>#HASHTAG</span><span>#HASHTAG</span><span>#HASHTAG</span>
-      </div>
-    </div>
-  </div>
+  {% endfor %}
 </div>
 <hr />
 <div class="flex-container video-container container justify-between">
