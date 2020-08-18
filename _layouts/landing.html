@@ -47,24 +47,29 @@ layout: default
 <div class="flex-container video-container container justify-between">
   <div class="description">
     <h2>Eröffnung</h2>
-    <p>Volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia
-      quis vel eros donec ac odio tempor orci dapibus ultrices Volutpat odio facilisis
-      mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac
-      odio tempor orci dapibus.</p>
+    <p>Am 24.08. haben wir die Demo Week mit einem Livestream eröffnet.
+      Falls ihr die Eröffnung verpasst habt, könnt ihr euch hier das Video
+      davon ansehen. Mit dabei sind
+      <a href="">Karolin Schwarz</a>
+      (Autorin und freie Journalistin) und
+      <a href="">Linus Neumann</a>
+      (Sprecher des CCC), die das Thema Vertrauen in zwei Impulsvorträgen
+      aus unterschiedlichen Perspektiven beleuchtet haben. Außerdem stellen
+      sich alle Projekte kurz vor und wir geben einen Überblick über die Woche.</p>
     <h2>Keynotes</h2>
     <div class="flex-container justify-start">
       <div class="speaker flex-container justify-start align-center">
         <img src="/assets/images/speaker.png" />
         <div class="speaker-details">
-          <h4>Maxi Muster</h4>
-          <small>Speaker.in</small>
+          <h4>Karolin Schwarz</h4>
+          <small>Autorin & Freie Journalistin</small>
         </div>
       </div>
       <div class="speaker flex-container justify-start align-center">
         <img src="/assets/images/speaker.png" />
         <div class="speaker-details">
-          <h4>Maxi Muster</h4>
-          <small>Speaker.in</small>
+          <h4>Linus Neumann</h4>
+          <small>Chaos Computer Club Sprecher</small>
         </div>
       </div>
     </div>
@@ -74,41 +79,63 @@ layout: default
   </div>
 </div>
 {% include separator.html %}
+{% assign featured_project = site.projects | sample: 2 %}
 <div class="featured-projects container">
-  <h2 class="title">
-    Featured
-  </h2>
+  <span class="featured-title">
+    Projekt Highlight
+  </span>
   <div class="flex-container project justify-around align-center">
     <div class="project-image">
       <img src="/assets/images/project_img_placeholder.png" />
       <div class="hashtags">
-        <span>#HASHTAG</span><span>#HASHTAG</span><span>#HASHTAG</span>
+        {% for hashtag in featured_project[0].tags %}
+          <span>#{{ hashtag }}</span>
+        {% endfor %}
       </div>
     </div>
     <div class="project-details">
       <div class="project-authors">
-        <a href="">Hadi al Khatib,</a> <a href="">Jeff Deutch,</a> <a href="">Nikolas Para</a>
-        <h2 class="project-title">ALARMDISPLAY</h2>
-        <p class="project-brief">
-          We are an open source ticket shop with no major hardware and software hurdles.
-        </p>
-        <p class="project-description">
-          Lightbeam verwendet interaktive Visualisierungen und zeigt die Verbindungen
-          zwischen besuchten Websites und Dritten, die möglicherweise tracken, an.
-          Wenn Lightbeam aktiviert ist und man währenddessen ein Website besucht,
-          erstellt die Browsererweiterung eine Echtzeit-Visualisierung aller auf dieser
-          Seite aktiven Drittanbieter.
-        </p>
-        <a href="" class="btn project-btn">View Project</a>
+        {% for author in featured_project[0].authors %}
+          <a {% if author.link %}href="{{ author.link }}"{% endif %}>
+            {{ author.author }}{% if forloop.last != true %}, {% endif %}
+          </a>
+        {% endfor %}
       </div>
+      <h2 class="project-title">{{ featured_project[0].title }}</h2>
+      <p class="project-brief">
+        {{ featured_project[0].brief }}
+      </p>
+      <p class="project-description">
+        {{ featured_project[0].description }}
+      </p>
+      <a href="{{ featured_project[0].url }}" class="btn project-btn">View Project</a>
     </div>
   </div>
 </div>
 <div class="container">
-  <h2 class="title">Alle Projekte</h2>
+  <h2 class="text-left">Alle Projekte</h2>
+  <p class="text-left project-section-desc">
+    Diese 21 Projekte haben wir in der 7. Runde des Prototype Fund mit Mitteln des BMBF
+    von März bis September 2020 gefördert. Ihr habt Fragen an ein Projekt? Schickt sie an
+    <a href="">email@email.com</a> oder twittert sie mit dem Hashtag 
+    <span class="hashtag">#prototypedemos</span> - beim
+    Abschlussevent am 28.08. werden die Projekte einige eurer Fragen beantworten
+  </p>
   {% for project in site.projects %}
     {% assign mod = forloop.index | modulo: 2 %}
     <div class="flex-container project {% if mod == 1%}inverse{% endif %} justify-between">
+      <div class="project-image">
+        {% if project.image %}
+          <img src="{{ project.image }}" />
+        {% else %}
+          <img src="/assets/images/project_img_placeholder.png" />
+        {% endif %}
+        <div class="hashtags">
+          {% for hashtag in project.tags %}
+            <span>#{{ hashtag }}</span>
+          {% endfor %}
+        </div>
+      </div>
       <div class="project-details">
         <div class="project-authors">
           {% for author in project.authors %}
@@ -116,22 +143,14 @@ layout: default
               {{ author.author }}{% if forloop.last != true %}, {% endif %}
             </a>
           {% endfor %}
-          <h2 class="project-title">
-            {{ project.title }}
-          </h2>
-          <p class="project-brief">
-            {{ project.brief }}
-          </p>
-          <a href="{{ project.url }}" class="btn project-btn">View Project</a>
         </div>
-      </div>
-      <div class="project-image">
-        <img src="/assets/images/project_img_placeholder.png" />
-        <div class="hashtags">
-          {% for hashtag in project.tags %}
-            <span>#{{ hashtag }}</span>
-          {% endfor %}
-        </div>
+        <h2 class="project-title">
+          {{ project.title }}
+        </h2>
+        <p class="project-brief">
+          {{ project.brief }}
+        </p>
+        <a href="{{ project.url }}" class="btn project-btn">View Project</a>
       </div>
     </div>
   {% endfor %}
@@ -166,3 +185,7 @@ layout: default
     <img src="/assets/images/video_placeholder.svg" />
   </div>
 </div>
+<script>
+  var projects = {{ site.projects | jsonify }}
+</script>
+<script src="/assets/js/randomFeaturedProject.js"></script>

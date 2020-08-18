@@ -52,7 +52,6 @@ small {
   line-height: $font_xs * 1.25;
 }
 
-
 h1, h2, h3 {
   color: $neon_blue;
   font-weight: normal;
@@ -79,7 +78,10 @@ h2 {
   &.project-title {
     color: $neon_pink;
     margin: 1.5rem 0;
+    word-break: break-all;
   }
+
+  
 }
 
 h3 {
@@ -93,6 +95,28 @@ h4 {
   margin: 0;
 }
 
+span.featured-title {
+  margin-bottom: 0;
+  font-size: $font_4xl;
+  line-height: $font_4xl * 1.25;
+  margin-top: 1rem;
+  background: $neon_pink;
+  color: #161730;
+  padding: 0.5rem 1rem 0.1rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.project-section-desc {
+  max-width: 655px;
+  margin-bottom: 3rem;
+
+  span.hashtag {
+    color: $neon_pink;
+  }
+}
 
 .project-body {
   max-width: 750px;

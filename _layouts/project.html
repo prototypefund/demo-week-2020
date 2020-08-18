@@ -5,24 +5,32 @@ layout: default
   <div class="flex-container project justify-between">
     <div class="project-details">
       <div class="project-authors">
-        <a href="">Hadi al Khatib,</a> <a href="">Jeff Deutch,</a> <a href="">Nikolas Para</a>
-        <h2 class="project-title">ALARMDISPLAY</h2>
-        <p class="project-brief">
-          We are an open source ticket shop with no major hardware and software hurdles.
-        </p>
-        <p class="project-description">
-          Lightbeam verwendet interaktive Visualisierungen und zeigt die Verbindungen
-          zwischen besuchten Websites und Dritten, die möglicherweise tracken, an.
-          Wenn Lightbeam aktiviert ist und man währenddessen ein Website besucht,
-          erstellt die Browsererweiterung eine Echtzeit-Visualisierung aller auf dieser
-          Seite aktiven Drittanbieter.
-        </p>
+        {% for author in page.authors %}
+          <a {% if author.link %}href="{{ author.link }}"{% endif %}>
+            {{ author.author }}{% if forloop.last != true %}, {% endif %}
+          </a>
+        {% endfor %}
       </div>
+      <h2 class="project-title">{{ page.title }}</h2>
+      <p class="project-brief">
+        {{ page.brief }}
+      </p>
+      {% if page.description %}
+        <p class="project-description">
+          {{ page.description }}
+        </p>
+      {% endif %}
     </div>
     <div class="project-image">
-      <img src="/assets/images/project_img_placeholder.png" />
+      {% if page.image %}
+        <img src="{{ project.image }}" />
+      {% else %}
+        <img src="/assets/images/project_img_placeholder.png" />
+      {% endif %}
       <div class="hashtags">
-        <span>#HASHTAG</span><span>#HASHTAG</span><span>#HASHTAG</span>
+        {% for hashtag in page.tags %}
+          <span>#{{ hashtag }}</span>
+        {% endfor %}
       </div>
     </div>
   </div>
