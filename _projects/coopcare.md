@@ -12,7 +12,7 @@ summary: "Wir entlasten mit der App CoopCare Pflegekräfte bei Dokumentation und
 
 ![Pflegedokumentations-Daten sind wie Puzzleteile, die das große Bild sichtbar machen, wenn wir sie kollaborativ richtig zusammensetzen. (Foto: © Alicia Magnuson Photography / Stocksy United)](/assets/images/project_images/coopcare-pflegedokumentation-ein-kollaboratives-puzzle.jpg)
 
-##### CoopCare – eine Omaha-System-basierte App für Pflegedokumentation und Planung – oder:
+##### CoopCare -- eine Omaha-System-basierte App für Pflegedokumentation und Planung -- oder:
 
 # „I've got 42 problems, but documentation ain't one”
 

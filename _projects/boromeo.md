@@ -82,7 +82,7 @@ Kommentaren zu versehen. Die Annotationen landen auf dem hypothes.is-Server und 
 
 Die Umsetzung für den beschriebenen Anwendungsfall lautet also im weitesten
 Sinne “Annotationen”. Trotzdem gab es für eine bestimmte Konstellation von
-Anforderungen bisher keine einfache technische Lösung – und dafür wurde im
+Anforderungen bisher keine einfache technische Lösung -- und dafür wurde im
 Rahmen der Förderung durch den Prototype Fund “Annotate & chill” gebaut. Diese Software geht von drei Nutzungsszenarien aus: Erstens, Annotierung kann (muss aber nicht) lokal
 und offline stattfinden und wird nicht (kann aber) in einer Cloud gespeichert.
 Zweitens, Annotierungen sind getrennt von den Quelldokumenten und können
@@ -101,7 +101,7 @@ Diese Datei importiert man in Youtube oder den lokalen Player, und schon werden
 die vorher fehlenden Untertitel, die nicht in der originalen Filmdatei
 enthalten waren, eingeblendet.
 
-Genau so funktioniert “Annotate & chill” – die Annotationen lassen sich als
+Genau so funktioniert “Annotate & chill” -- die Annotationen lassen sich als
 Datei exportieren und woanders wieder mit der Quelldatei verbinden und
 anzeigen. In besonders sicherheitssensiblen Recherche-Szenarios können so die
 Annotationen getrennt von den Dokumenten unter Kolleg\*innen geteilt werden. So
@@ -113,7 +113,7 @@ importiert, bearbeitet und wieder exportiert werden.
 ![Annotate & Chill: screenshot interface](/assets/images/project_images/Boromeo/annotateandchill.png)
 
 Zusätzlich gibt es auch eine Server-Anwendung, die kollaboratives Arbeiten in
-der Cloud ermöglicht – selbstverständlich self-hosted, um an die jeweiligen
+der Cloud ermöglicht -- selbstverständlich self-hosted, um an die jeweiligen
 Sicherheitsansprüche eines Projekts angepasst zu werden (z. B. Erreichbarkeit
 nur über einen VPN-Zugang). Mittels dieser Plattform werden Annotationen mit
 eindeutigen URLs versehen und können der Allgemeinheit zugänglich gemacht
@@ -150,7 +150,7 @@ für den Computer aufgrund technischer Gründe (Konvertierung, verschiedene
 Texterkennung via OCR, ...) aufgrund anderer Prüfsummen unterschiedlich sein.
 Doch so kann sichergestellt werden, dass zum “Koalitionsvertrag 2021
 (Langversion)” immer die richtigen Annotationen zugewiesen werden können, auch
-wenn es – technisch gesehen – verschiedene Versionen des Dokuments gibt.
+wenn es -- technisch gesehen -- verschiedene Versionen des Dokuments gibt.
 
 So ergibt sich aus Prüfsumme, Seitenzahl und Rechteck der eindeutige Ort,
 auf den sich eine Annotation bezieht. Diese Information wird samt einem “body”,

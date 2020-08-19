@@ -57,7 +57,7 @@ Als Anzeige kam zunächst eine einfache PHP-Seite zum Einsatz, die später durch
 
 Für ein Freizeitprojekt wurde das ganze aber schnell zu anspruchsvoll.
 Die 7. Runde des Prototype Funds bot den idealen Rahmen, um diese Lösung von Grund auf neu zu schreiben und zu erweitern.
-Das Ziel war es, ein modulares Open-Source-Projekt zur Alarmvisualisierung auf die Beine zu stellen, das Feuerwehren – oder andere Hilfsorganisationen – in den eigenen vier Wänden betreiben können.
+Das Ziel war es, ein modulares Open-Source-Projekt zur Alarmvisualisierung auf die Beine zu stellen, das Feuerwehren -- oder andere Hilfsorganisationen -- in den eigenen vier Wänden betreiben können.
 Die Kosten für Anschaffung und Betrieb sollten dabei so gering wie möglich gehalten werden und die Bereitstellung von APIs sollte die Erweiterbarkeit und die Kombination mit anderen Softwareprodukten sicherstellen.
 
 Entstanden sind zwei Komponenten: Die Alarmzentrale und die Alarmanzeige.
