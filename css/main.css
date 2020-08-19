@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Surt';
+  src: url('../fonts/Surt-Regular.otf');
+}
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  background-color: #161730;
+  min-height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Surt';
+  text-align: center;
+  color: #8385B7;
+}
+
+.logo-xs {
+  display: none;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 5rem;
+}
+
+.pink-border {
+  color: #FF0080;
+  -webkit-text-fill-color: #161730;
+  -webkit-text-stroke: 2.17949px #FF0080;
+}
+
+.blue-border {
+  color: #009ACF;
+  -webkit-text-fill-color: #161730;
+  -webkit-text-stroke: 2.17949px #009ACF;
+}
+
+.content {
+  max-width: 284px;
+  margin: auto;
+  margin-bottom: 6.25rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 150%;
+}
+
+p.blue {
+  color: #009ACE;
+}
+
+a {
+  color: #009ACE;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 414px) {
+  body {
+    text-align: left;
+  }
+  .content {
+    margin: 0 0 6.25rem;
+  }
+
+  .container {
+    margin-left: 2rem;
+  }
+
+  .logo-sm {
+    display: none;
+  }
+  .logo-xs {
+    display: block;
+  }
+}
