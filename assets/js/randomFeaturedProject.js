@@ -6,7 +6,7 @@ function renderProject(project) {
   var featuredContainer = document.querySelector(".featured-projects");
   featuredContainer.querySelector(".project-title").innerText = project.title;
   featuredContainer.querySelector(".project-brief").innerText = project.brief;
-  featuredContainer.querySelector(".project-description").innerText = project.description || "";
+  featuredContainer.querySelector(".project-description").innerText = project.summary || "";
   featuredContainer.querySelector(".project-btn").href = project.url;
   featuredContainer.querySelector(".project-image img").src = project.image || "/assets/images/project_img_placeholder.png";
 

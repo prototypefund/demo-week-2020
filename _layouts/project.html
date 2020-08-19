@@ -15,15 +15,15 @@ layout: default
       <p class="project-brief">
         {{ page.brief }}
       </p>
-      {% if page.description %}
+      {% if page.summary %}
         <p class="project-description">
-          {{ page.description }}
+          {{ page.summary }}
         </p>
       {% endif %}
     </div>
     <div class="project-image">
       {% if page.image %}
-        <img src="{{ project.image }}" />
+        <img src="{{ page.image }}" />
       {% else %}
         <img src="/assets/images/project_img_placeholder.png" />
       {% endif %}
