@@ -86,12 +86,11 @@ layout: default
   </span>
   <div class="flex-container project justify-around align-center">
     <div class="project-image">
-      <img src="/assets/images/project_img_placeholder.png" />
-      <div class="hashtags">
-        {% for hashtag in featured_project[0].tags %}
-          <span>#{{ hashtag }}</span>
-        {% endfor %}
-      </div>
+      {% if project.image %}
+          <img src="{{ featured_project[0].image }}" />
+      {% else %}
+        <img src="/assets/images/project_img_placeholder.png" />
+      {% endif %}
     </div>
     <div class="project-details">
       <div class="project-authors">
@@ -130,11 +129,6 @@ layout: default
         {% else %}
           <img src="/assets/images/project_img_placeholder.png" />
         {% endif %}
-        <div class="hashtags">
-          {% for hashtag in project.tags %}
-            <span>#{{ hashtag }}</span>
-          {% endfor %}
-        </div>
       </div>
       <div class="project-details">
         <div class="project-authors">

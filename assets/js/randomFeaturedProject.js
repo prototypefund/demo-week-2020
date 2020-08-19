@@ -8,6 +8,7 @@ function renderProject(project) {
   featuredContainer.querySelector(".project-brief").innerText = project.brief;
   featuredContainer.querySelector(".project-description").innerText = project.description || "";
   featuredContainer.querySelector(".project-btn").href = project.url;
+  featuredContainer.querySelector(".project-image img").src = project.image || "/assets/images/project_img_placeholder.png";
 
   var authorHTML = "";
   project.authors.forEach((author, index) => {
@@ -24,12 +25,6 @@ function renderProject(project) {
     }
   });
   featuredContainer.querySelector(".project-authors").innerHTML = authorHTML;
-  
-  var hashtagHTML = "";
-  project.tags.forEach(hashtag => {
-    hashtagHTML += '<span>#'+hashtag+'</span>';
-  });
-  featuredContainer.querySelector(".hashtags").innerHTML = hashtagHTML;
 }
 
 window.onload = function() {
