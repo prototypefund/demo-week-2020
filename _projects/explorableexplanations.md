@@ -1,8 +1,7 @@
 ---
 layout: project
-title:  "DATENGUIDE: STATISTIK ERKLÄRT!"
+title:  "Datenguide: Statistik erklärt!"
 image: /assets/images/project_images/Explorable_Explainations/datenguide_article.png
-tags: RUNDE7, BILDUNG/AUFKLÄRUNG, DATENVISUALISIERUNG
 authors:
     - author: Patricia Ennenbach
       link:

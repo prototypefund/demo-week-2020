@@ -1,8 +1,7 @@
 ---
 layout: project
-title:  "ANNOTATE & CHILL"
+title:  "Annotate & Chill"
 image: /assets/images/project_images/Boromeo/annotateandchill_teaser.jpg
-tags: RUNDE7, JOURNALISMUS/MEDIEN, PLATTFORMEN
 authors:
     - author: Simon Wörpel
       link:

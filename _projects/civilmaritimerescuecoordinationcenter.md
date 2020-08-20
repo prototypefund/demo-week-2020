@@ -1,11 +1,8 @@
 ---
 layout: project
-title:  "CIVIL MARITIME RESCUE COORDINATION CENTER"
+title:  "Civil Maritime Rescue Coordination Center (Civil MRCC)"
 image: /assets/images/project_images/CivilMRCC/Hauptbild.jpg
-tags: RUNDE7, ANWENDUNGEN, SOLIDARITÄT
 authors:
-    - author: Lea Reisner
-      link:
     - author: Jonas Wiegert
       link:
     - author: Nicolas Zemke
