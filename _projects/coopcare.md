@@ -1,8 +1,7 @@
 ---
 layout: project
-title:  "COOPCARE"
+title:  "Ethidat (CO2-Datenbank)"
 image: /assets/images/project_images/coopcare-pflegedokumentation-ein-kollaboratives-puzzle.jpg
-tags: RUNDE7, ANWENDUNGEN, GESUNDHEIT
 authors:
     - author: Michael Kamphausen
       link:

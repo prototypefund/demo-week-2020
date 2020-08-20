@@ -1,8 +1,7 @@
 ---
 layout: project
-title:  "ALARMDISPLAY"
+title:  "Alarmdisplay"
 image: /assets/images/project_images/Alarmdisplay/alarmdisplay_header.jpg
-tags: RUNDE7, ANWENDUNGEN, SICHERHEIT
 authors:
     - author: Andreas Brain
       link: https://alarmdisplay.org/

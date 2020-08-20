@@ -1,12 +1,11 @@
 ---
 layout: project
-title:  "DYSTONSE - WAHRSCHEINLICHKEITSBASIERTE ÖPNV-ROUTENSUCHE"
+title:  "Dystonse - Wahrscheinlichkeitsbasierte ÖPNV-Routenplanung"
 image: /assets/images/project_images/dystonse/logo_dark_theme_transparent.svg
-tags: RUNDE7, ANWENDUNGEN, STADT/MOBILITÄT
 authors:
-    - author: Kirstin Rohwer
-      link:
     - author: Lena Schimmel
+      link:
+    - author: Kirstin Rohwer
       link:
 brief: "Wir steigern das Vertrauen in den ÖPNV."
 summary: "Der erweiterte Abfahrtsmonitor macht die Wahrscheinlichkeitsverteilung von Ankunfts- und Abfahrtszeiten im ÖPNV sichtbar und berechnet die Chance für erfolgreiche Umstiege."

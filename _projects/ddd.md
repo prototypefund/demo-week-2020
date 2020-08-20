@@ -1,8 +1,7 @@
 ---
 layout: project
-title:  "DDD: DEUTSCHE DOKUMENTE DIGITALISIEREN"
+title:  "pd3f: PDF zu Fließtext mit Maschinellem Lernen"
 image: /assets/images/project_images/DDD/Beitragfsfoto-DDD_1500.jpg
-tags: RUNDE7, ANWENDUNGEN, JOURNALISMUS/MEDIEN
 authors:
     - author: Johannes Filter
       link:

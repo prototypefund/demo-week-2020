@@ -1,8 +1,7 @@
 ---
 layout: project
-title:  "BRIGHT SKY"
+title:  "Bright Sky"
 image: /assets/images/project_images/Bright_Sky/brightsky-demo.png
-tags: RUNDE7, API, TRANSPARENZ
 authors:
     - author: Jakob de Maeyer
       link:
