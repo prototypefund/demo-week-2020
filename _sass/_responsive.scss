@@ -29,3 +29,14 @@
     margin-right: 0;
   }
 }
+
+@media (max-width: 1440px) {
+  footer {
+    .separator-container {
+      :nth-child(5),
+      :nth-child(6) {
+        display: none;
+      }
+    }
+  }
+}

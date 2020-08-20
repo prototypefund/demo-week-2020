@@ -80,10 +80,10 @@ footer {
   padding: 0;
   color: $black;
   font-size: $font_xl;
+  background: $white;
 
   .footer-container {
     width: 100%;
-    background: $white;
     max-width: 1440px;
     margin: auto;
   }
