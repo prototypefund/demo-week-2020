@@ -65,14 +65,3 @@ header {
     background-color: $neon_pink;
   }
 }
-
-@keyframes expand {
-  from {
-    width: 0%;
-    display: none;
-  }
-  to {
-    width: 100%;
-    display: block;
-  }
-}
