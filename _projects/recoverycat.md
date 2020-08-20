@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Recovery Cat"
-image: /assets/images/project_images/Recovery_Cat/rc1.jpg
+image: /assets/images/project_images/Recovery_Cat/Recovery_Cat.jpg
 authors:
     - author: Alissa Rohrbach
       link:
@@ -25,7 +25,7 @@ Recovery Cat ist so aufgebaut, dass Dritte die App an andere medizinische Bereic
 
 In der ambulanten Psychiatrie (Arztpraxen, Institutsambulanzen) gehen zwischen den Behandlungsterminen viele Daten verloren, die für den Behandlungserfolg wichtig sind. In dieser Blackbox können sich Symptome dramatisch verändern, Nebenwirkungen und sogar Selbstmordgedanken auftreten. Die Zeit zwischen Terminen ist für Ärzt\*innen und Patient\*innen sehr belastend, zumal bei den Terminen selbst dann unter hohem Zeitdruck die letzten Wochen rekonstruiert werden müssen. In der Folge werden Therapien nicht optimal angepasst und ernstzunehmende Symptome zu spät bemerkt. Recovery Cat versucht, dieses Problem durch ein einfaches, personalisierbares Symptom-Reporting über eine App zu lösen, die einen Blick in die Blackbox gibt.
 
-![Logo](/assets/images/project_images/Recovery_Cat/rc2.jpg)
+![Logo](/assets/images/project_images/Recovery_Cat/Blackbox_in_MentalCare.png)
 
 ## Wie funktioniert Recovery Cat?
 
