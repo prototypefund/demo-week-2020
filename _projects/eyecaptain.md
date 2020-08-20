@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "EyeCaptain"
-image: /assets/images/project_images/EyeCaptain/vlcsnap-2020-08-05-20h48m14s016.jpg
+image: /assets/images/project_images/EyeCaptain/header.png
 authors:
     - author: Hannah Ricksgers
       link:

@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Trustping"
-image: /assets/images/project_images/Trustping/tp1.jpg
+image: /assets/images/project_images/Trustping/header.png
 authors:
     - author: Anke Nowottne
       link:

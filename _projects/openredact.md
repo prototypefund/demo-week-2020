@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "OpenRedact - Dokumente teil-automatisch anonymisieren"
-image: /assets/images/project_images/OpenRedact/logo/branding-black.png
+image: /assets/images/project_images/OpenRedact/logo/header.png
 authors:
     - author: Pascal Berrang
       link:

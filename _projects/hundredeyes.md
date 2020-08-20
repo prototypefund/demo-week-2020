@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Hundred Eyes - Werkzeug für vertrauensbildende Maßnahmen"
-image: /assets/images/project_images/100eyes/100eyes.jpg
+image: /assets/images/project_images/100eyes/header.png
 authors:
     - author: Astrid Csuraji
       link:

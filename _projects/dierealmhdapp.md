@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Food Rescue App"
-image: /assets/images/project_images/RealMHD/honig-opt.jpg
+image: /assets/images/project_images/RealMHD/header.png
 authors:
     - author: Matthias Ansorg
       link:

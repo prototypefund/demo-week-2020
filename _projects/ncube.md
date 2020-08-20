@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Ncube"
-image: /assets/images/project_images/N-Cube/workspaces_1.png
+image: /assets/images/project_images/N-Cube/header.png
 authors:
     - author: Olivia Solis
       link:

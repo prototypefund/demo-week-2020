@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Reactive Runtime"
-image: /assets/images/project_images/ReactiveRuntime/example-notebook.png
+image: /assets/images/project_images/ReactiveRuntime/header.png
 authors:
     - author: Simon Danisch
       link:

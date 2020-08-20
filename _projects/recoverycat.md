@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Recovery Cat"
-image: /assets/images/project_images/Recovery_Cat/Recovery_Cat.jpg
+image: /assets/images/project_images/Recovery_Cat/header.png
 authors:
     - author: Alissa Rohrbach
       link:

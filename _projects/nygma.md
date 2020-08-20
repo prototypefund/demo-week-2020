@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "NYGMA"
-image: /assets/images/project_images/nygma.png
+image: /assets/images/project_images/nygma/header.png
 authors:
     - author: Alexander Wamack
       link:

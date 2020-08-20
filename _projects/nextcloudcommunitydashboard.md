@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Nextcloud Community Dashboard"
-image: /assets/images/project_images/ncdash.png
+image: /assets/images/project_images/ncdash/header.png
 authors:
     - author: Azul
       link:
