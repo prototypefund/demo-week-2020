@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "OpenRedact - Dokumente teil-automatisch anonymisieren"
-image:
+image: /assets/images/project_images/OpenRedact/logo/branding-black.png
 authors:
     - author: Pascal Berrang
       link:
@@ -27,7 +27,7 @@ OpenRedact hat während des Förderzeitraums nicht nur an einer technischen Appl
 
 OpenRedact hat eine Web-App entwickelt. Über diese Web-App können die zu anonymisierenden Dokumente in verschiedenen Dateiformaten hochgeladen werden. Dabei werden gängige Formate wie DOCX (MS-Word) und PDF aber auch Plain-Text (.txt) unterstützt. Nach dem Hochladen wird das Dokument automatisch auf personenbezogene Daten wie Namen, Geburtsdatum oder Adresse geprüft. In der Bearbeitungsansicht können dann fehlende personenbezogene Daten korrigiert und Einstellungen festgelegt werden. Bei jeder Änderung erscheint automatisch eine Vorschau, die anzeigt wie das Ergebnis aussehen wird. In einem letzten Schritt müssen Nutzer\*Innen nochmals alle Änderungen überprüfen, insbesondere ob tatsächlich alle personenbezogenen Daten gelöscht bzw. unkenntlich gemacht wurden. OpenRedact kann nicht gewährleisten, dass eine vollständige und fehlerfreie Anonymisierung vorgenommen wird. Erst nach den letzten Korrekturen der Nutzer\*Innen, kann die anonymisierte Version heruntergeladen werden. Durch die Bearbeitungsansicht geben wir die volle Kontrolle an die Nutzer\*Innen. Zusätzlich kann über die Einstellungen zwischen verschiedenen Anonymisierungsmethoden (Pseudonymisierung oder Anonymisierung) gewählt werden. Alle während der Anonymisierung anfallenden Daten werden nicht dauerhaft gespeichert.
 
-![](charts/approach.png)
+![Vorgehen](/assets/images/project_images/OpenRedact/charts/approach.png)
 
 ## Komponenten
 
@@ -37,7 +37,7 @@ Auf technischer Ebene haben wir OpenRedact in unabhängige Komponenten geglieder
 
 Als Benutzeroberfläche wurde eine Web App auf Basis von [ReactJS](https://reactjs.org/) entwickelt. Der Bearbeitungsmodus nutzt [react-text-annotate](https://github.com/mcamac/react-text-annotate) und zum Anzeigen von PDFs wird auf [react-pdf](https://github.com/wojtekmaj/react-pdf) bzw. [pdf.js](https://mozilla.github.io/pdf.js/) zurückgegriffen. Das Backend basiert auf dem [FastAPI Framework](https://fastapi.tiangolo.com/). Durch die Trennung von Front- und Backend kann die Anonymisierungssoftware nicht nur über die Web-App, sondern auch direkt über eine RESTful API und eine CLI genutzt werden. Zudem erlauben Docker-Container die Nutzung von OpenRedact auf der eigenen Infrastruktur mit einem einfachen `docker-compose up`. 
 
-![](screencasts/end-to-end.gif)
+![Ende zu Ende](/assets/images/project_images/OpenRedact/screencasts/end-to-end.gif)
 
 ### ExposeText
 
@@ -61,7 +61,7 @@ Unsere Anonymisierungsmethoden lassen sich abhängig von den persönlichen Daten
 
 Mehr Details über die Funktionsweise und Benutzung unserer Anonymizer Bibliothek sind in unserem [Anonymizer Blog-Post](https://medium.com/@openredact/anonymizer-a-framework-for-text-anonymization-499855f639d4?source=friends_link&sk=01c89345b26ad44b49b9c1477e043ae9) zu finden.
 
-![](screencasts/anonymization.gif)
+![Annonymisierung](/assets/images/project_images/OpenRedact/screencasts/anonymization.gif)
 
 ### NERwhal
 

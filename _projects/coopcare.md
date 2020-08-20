@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Ethidat (CO2-Datenbank)"
+title:  "CoopCare"
 image: /assets/images/project_images/coopcare/header.png
 authors:
     - author: Michael Kamphausen

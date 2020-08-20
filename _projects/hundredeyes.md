@@ -1,8 +1,7 @@
 ---
 layout: project
-title:  "HUNDREDEYES - WERKZEUG FÜR VERTRAUENSBILDENDE MASSNAHMEN"
-image:
-tags: RUNDE7, ANWENDUNGEN, JOURNALISMUS/MEDIEN
+title:  "Hundred Eyes - Werkzeug für vertrauensbildende Maßnahmen"
+image: /assets/images/project_images/100eyes/100eyes.jpg
 authors:
     - author: Astrid Csuraji
       link:
