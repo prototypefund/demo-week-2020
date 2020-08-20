@@ -10,6 +10,7 @@ authors:
     - author: Simon Jockers
       link:
 brief: "Wir entwickeln Rezepte für haptische, visuelle und spielerische Darstellungsformen von Statistik."
+summary: "Explorable Explanations erklärt amtliche Statistiken und macht sie nutzbar -- auch für Menschen ohne besondere Vorkenntnisse."
 ---
 
 # Explorable Explanations zu Regionalstatistik
