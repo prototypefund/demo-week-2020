@@ -18,8 +18,7 @@ Unsere Vision mit Trustping ist es, dass Menschen auf der dringenden Suche nach 
 
 In Zeiten von COVID hat unser Anliegen eine neue Dringlichkeit erfahren. Menschen mit Krebserkrankungen sind besonders gefährdet, nicht nur durch eine potenzielle Ansteckung mit dem Virus, sondern auch durch eine Isolation mit ihrer Krankheitserfahrung. Trustping wird also wichtiger denn je.
 
-![Trustping](/assets/images/project_images/Trustping/tp2.jpg)
-
+![Trustping](/assets/images/project_images/Trustping/tp02.png)
 
 Trustping ist eine App fürs Smartphone. Zusätzlich zu einem klassischen Messenger bietet sie eine Match-Funktionalität »Ping«, die es ermöglicht über konkrete Fragen und Themen geschützt zueinander zu finden und sich auszutauschen. Die Transparenz der App und des Umgangs mit sämtlichen Daten sowie der Schutz aller persönlicher Kommunikation sind das Herz von Trustping.
 
@@ -31,9 +30,10 @@ Auch der Diskurs über Datenerhebung, Datenverwendung und der damit einhergehend
 
 In einer intensiven Recherche haben wir versucht, möglichst viel über unser Zielgruppe zu erfahren. Hier eine Zusammenfassung der wichtigsten Ergebnisse.
 
-Gruppen von Menschen, die Trustping nutzen und für die  
-1 —> der soziale Kontakt und Austausch am wichtigsten ist  
-2 —> gezielte Informationen am wichtigsten sind
+Gruppen von Menschen, die Trustping nutzen und für die
+
+1. der soziale Kontakt und Austausch am wichtigsten ist
+2. gezielte Informationen am wichtigsten sind
 
 Trustping ausprobieren,  
 Weil ich mich einsam fühle (1)  
@@ -60,7 +60,7 @@ Für diese Menschen entwickeln wir Trustping.
 
 Als gelernte Data Scientists wissen wir aus unserer täglichen Arbeit um das Potential von Daten, aber auch um die Gefahren für Missbrauch. Wir sind weder technologiefeindlich noch Kulturpessimist\*innen. Wir glauben an die Souveränität des Einzelnen und die Kontrolle der Vielen mittels Transparenz. Wir lieben Open Source, Open Data und unsere Privatsphäre. Wir glauben, Menschen wissen am besten selbst mit wem sie was teilen möchten und möchten ihnen diese Entscheidung nicht aus der Hand nehmen. Ganz besonders Menschen in schwierigen Situationen.
 
-Getragen von diesen Ideen haben wir uns in die sechsmonatige Prototypen-Entwicklung zu Trustping gestürzt. Wir holten Veronika fürs Design ins Boot, damit Trustping nicht nur sicher und sinnvoll ist, sondern auch gut aussieht und Freude macht. Dann kam Corona und das meiste wurde anders. Zwischen rumwuselnden Kita- und Schulkindern, Essenmachen und Stubenkoller haben wir uns bemüht, einen kühlen Kopf zu behalten und Pläne anzupassen. Anfangs haben wir mehrere umfangreiche User- und Expert\*innen-Interviews geführt, um unsere Annahmen zu prüfen und zusätzliche Erkenntnisse für die Konzeption zu gewinnen. Daraus haben wir User Stories in Bild und Text entwickelt, Prototypen in Figma entworfen, eine App in Dart/Flutter gebaut, Datenbanken angebunden, Schemata entworfen, Chatprotokolle evaluiert, Usertests durchgeführt, iteriert, iteriert und iteriert.... 
+Getragen von diesen Ideen haben wir uns in die sechsmonatige Prototypen-Entwicklung zu Trustping gestürzt. Wir holten Veronika fürs Design ins Boot, damit Trustping nicht nur sicher und sinnvoll ist, sondern auch gut aussieht und Freude macht. Dann kam Corona und das meiste wurde anders. Zwischen rumwuselnden Kita- und Schulkindern, Essenmachen und Stubenkoller haben wir uns bemüht, einen kühlen Kopf zu behalten und Pläne anzupassen. Anfangs haben wir mehrere umfangreiche User- und Expert\*innen-Interviews geführt, um unsere Annahmen zu prüfen und zusätzliche Erkenntnisse für die Konzeption zu gewinnen. Daraus haben wir User Stories in Bild und Text entwickelt, Prototypen in Figma entworfen, eine App in Dart/Flutter gebaut, Datenbanken angebunden, Schemata entworfen, Chatprotokolle evaluiert, Usertests durchgeführt, iteriert, iteriert und iteriert...
 
 Teil unserer Förderung war auch ein Coaching durch eine externe Agentur. Unser Gespräch mit Cade von »Simply Secure« hat einige unserer Entscheidungen beeinflusst. Wir haben den Fokus auf soziales Vertrauen per Design gerichtet und in unseren User Stories auch kontroverse und betrügerische Nutzer\*innen (z. B. Menschen mit Münchhausen Syndrom) berücksichtigt. Auch den Entschluss, die Profildatenbank nicht durchsuchbar zu machen, haben wir an dieser Stelle gefasst. Die Auseinandersetzung hat uns ehrlicher und bescheidener bezüglich möglicher Sicherheitsversprechen gemacht. Es geht nicht nur um technische Sicherheit, sondern ebenso um soziale Sicherheit. Es entstanden Ideen, wie wir Trustping noch vertrauenswürdiger gestalten könnten, die den Rahmen der Förderung des Prototype Funds aber gesprengt hätten (siehe »Verifizierte Profile« weiter unten).
 
@@ -69,9 +69,10 @@ Den fettesten Strich durch die Rechnung hat uns Corona bezüglich unserer Testph
 ## Wie genau funktioniert Trustping?
 
 ### Sign on
+
 Im Moment gibt es zwei Möglichkeiten, sich bei der App anzumelden: nach einem kurzen Intro zur Idee von Trustping kann sich der*die Nutzer\*in entscheiden, ob die Anmeldung anonym oder mit einer Mail-Adresse geschehen soll. Bei einer anonymen Registrierung ist der Account an das Smartphone gebunden und sollte es verloren gehen, besteht für uns keine Möglichkeit, den Account auf einem anderen Gerät wiederherzustellen. Trotz dieses Nachteils ist uns wichtig, diese Option anzubieten und damit den Einstieg in Trustping so niedrigschwellig wie möglich zu machen. Zu jedem späteren Zeitpunkt kann ein anonymer Account in einen Account mit Mail-Adresse umgewandelt werden.
 
-![Trustping](/assets/images/project_images/Trustping/tp3.jpg)
+![Trustping](/assets/images/project_images/Trustping/tp03.png)
 
 ### Onboarding
 
@@ -82,15 +83,13 @@ Jetzt werden einige Fragen gestellt, die später dazu dienen, passende Gespräch
 
 Nach dem Anmeldeprozess bietet die App zunächst noch ein recht übersichtliches Bild. Leere Chats, da noch keine Kontakte vorhanden sind, das selbst erstellte Profil und den Bereich »Match«, der zunächst am wichtigsten ist. In Trustping habe ich nicht die Möglichkeit durch andere Profile zu suchen und Menschen direkt zu kontaktieren. Diese Designentscheidung haben wir getroffen, um dem besonderen Schutzbedürfnis der erkrankten Menschen zu entsprechen und ihnen die volle Kontrolle über ihre Sichtbarkeit zu geben. Trustping erfordert eine gewisse Balance in den Aktivitäten der Nutzer\*innen; Menschen, die »nur« lesen wollen, ist mit zahlreichen Internetforen und Facebook-Gruppen bereits ausreichend gedient.
 
-![Trustping](/assets/images/project_images/Trustping/tp4.jpg)
+![Trustping](/assets/images/project_images/Trustping/tp04.png)
 
 Um mit meinen persönlichen Themen an Menschen herantreten zu können, erstelle ich nun einen »Ping«. Ein »Ping« ist eine Kombination aus Informationen über mich, die ich aus meinem Profil einzeln selektieren kann und einer persönlichen Nachricht oder Frage. Zusätzlich zu diesen Infos kann ich einstellen, welcher Fokus mir für die Übereinstimmung besonders wichtig ist. Sollen die Menschen möglichst genau die gleiche Diagnose haben oder sich in einer ganz ähnlichen Lebenslage befinden? Diese Einstellung lässt sich für jeden einzelnen »Ping« erneut anpassen. Ich kann so viele Pings versenden, wie ich möchte. Wenn ich einen »Ping« versende, wird er von der App an die fünf Menschen mit der größten Übereinstimmung für diesen »Ping« zugestellt.
 
 ### Gesprächspartner finden: »Ping« erhalten
 
 Eine erhaltene Ping-Nachricht kann ich ablehnen, ignorieren oder beantworten. Mit einer Antwort auf einen »Ping« habe ich auch die Möglichkeit Teile meines Profils, sowie eine persönliche Nachricht zu senden. Außerdem ist dieser Antwort implizit, dass ich der anderen Person einen Kontakt anbiete und wir in einen gemeinsamen direkten Chat treten können.
-
-![Trustping](/assets/images/project_images/Trustping/tp5.jpg)
 
 ### Kontakt entstanden
 

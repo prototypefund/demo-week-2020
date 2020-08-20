@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Datenguide: Statistik erklärt!"
+title: "Statistik erklärt – Explorable Explanations zu Regionalstatistik"
 image: /assets/images/project_images/Explorable_Explainations/header.png
 authors:
     - author: Patricia Ennenbach
@@ -9,8 +9,8 @@ authors:
       link:
     - author: Simon Jockers
       link:
-brief: "Wir entwickeln Rezepte für haptische, visuelle und spielerische Darstellungsformen von Statistik."
-summary: "Explorable Explanations erklärt amtliche Statistiken und macht sie nutzbar -- auch für Menschen ohne besondere Vorkenntnisse."
+brief: "Wir erklären Hintergründe amtlicher Statistik so, dass mehr Menschen sich trauen, damit zu arbeiten."
+summary: "Explorable Explanations erklärt amtliche Statistiken und macht sie nutzbar - auch für Menschen ohne besondere Vorkenntnisse."
 ---
 
 # Explorable Explanations zu Regionalstatistik
