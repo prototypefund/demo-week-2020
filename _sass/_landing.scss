@@ -28,10 +28,15 @@
 
   .speaker {
     width: 47%;
+    margin-bottom: 1rem;
 
     img {
       margin-right: 1rem;
     }
+  }
+
+  .video img {
+    max-width: 100%;
   }
 }
 

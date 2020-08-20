@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+  .container.flex-container {
+    display: block;
+  }
+
+  .project.flex-container {
+    display: block;
+
+    .project-image {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .project-details {
+      width: calc(100% - 4rem);
+      margin: 2rem;
+    }
+  }
+
+  .footer-details.flex-container {
+    display: block;
+
+    div {
+      width: 100%;
+    }
+  }
+
+  .video-container .description p {
+    margin-right: 0;
+  }
+}
