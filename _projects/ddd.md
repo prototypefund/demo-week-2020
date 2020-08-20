@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "pd3f: PDF zu Fließtext mit Maschinellem Lernen"
-image: /assets/images/project_images/DDD/Beitragfsfoto-DDD_1500.jpg
+image: /assets/images/project_images/DDD/header.png
 authors:
     - author: Johannes Filter
       link:

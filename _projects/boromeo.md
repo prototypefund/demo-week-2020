@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Annotate & Chill"
-image: /assets/images/project_images/Boromeo/annotateandchill_teaser.jpg
+image: /assets/images/project_images/Boromeo/header.png
 authors:
     - author: Simon Wörpel
       link:

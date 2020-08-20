@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Civil Maritime Rescue Coordination Center (Civil MRCC)"
-image: /assets/images/project_images/CivilMRCC/Hauptbild.jpg
+image: /assets/images/project_images/CivilMRCC/header.png
 authors:
     - author: Jonas Wiegert
       link:

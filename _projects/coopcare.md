@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Ethidat (CO2-Datenbank)"
-image: /assets/images/project_images/coopcare-pflegedokumentation-ein-kollaboratives-puzzle.jpg
+image: /assets/images/project_images/coopcare/header.png
 authors:
     - author: Michael Kamphausen
       link:

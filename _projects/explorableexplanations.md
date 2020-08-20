@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Datenguide: Statistik erklärt!"
-image: /assets/images/project_images/Explorable_Explainations/datenguide_article.png
+image: /assets/images/project_images/Explorable_Explainations/header.png
 authors:
     - author: Patricia Ennenbach
       link:

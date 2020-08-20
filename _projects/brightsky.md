@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Bright Sky"
-image: /assets/images/project_images/Bright_Sky/brightsky-demo.png
+image: /assets/images/project_images/Bright_Sky/header.png
 authors:
     - author: Jakob de Maeyer
       link:
