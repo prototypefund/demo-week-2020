@@ -5,7 +5,7 @@ image: https://prototypefund.de/wp-content/uploads/2020/08/coopcare-header.png
 video: https://www.youtube.com/watch?v=9lqvZyEVWDY
 authors:
     - author: Michael Kamphausen
-      link:
+      link: https://www.coopcare.de
 brief: "Wir entlasten Pflegekräfte und verhelfen Pflegebedürftigen zu größerer Selbstständigkeit."
 summary: "Wir entlasten mit der App CoopCare Pflegekräfte bei Dokumentation und Planung und wollen Pflege-Teams sowohl in kooperativer Selbstorganisation unterstützen, als auch darin Pflegebedürftige selbständiger zu machen. Ein persönlicher Erfahrungsbericht über den Entstehungsprozess und Ausblick auf die nächsten Schritte."
 ---
@@ -16,10 +16,10 @@ summary: "Wir entlasten mit der App CoopCare Pflegekräfte bei Dokumentation und
 
 **Wir entlasten mit der App [CoopCare](https://www.coopcare.de) Pflegekräfte bei Dokumentation und Planung und wollen Pflege-Teams sowohl in kooperativer Selbstorganisation unterstützen als auch darin, Pflegebedürftige selbständiger zu machen. Ein persönlicher Erfahrungsbericht über den Entstehungsprozess und Ausblick auf die nächsten Schritte.**
 
-## Welchen Bezug hat ein\*e Software-Entwickler\*in zur Pflege?
+## Welchen Bezug hast du als Software-Entwickler zur Pflege?
 
 Das werde ich immer wieder gefragt. Eigene Erfahrungen in der Pflege habe ich nicht.  
-Gestartet bin ich mit dem Wunsch, Arbeit an sich sinn- und würdevoller zu gestalten, für mich selbst und für andere. Als Fan des Genossenschaftsgedankens war ein Aspekt, den ich unbedingt lernen wollte, wie sich Teams selbst organisieren und ganz kooperativ und ko-kreativ ohne formelle Hierarchien effektiv Entscheidungen treffen. Unter anderem habe ich das Buch *[Reinventing Organizations](https://www.reinventingorganizations.com)* von Frederic Laloux gelesen. Es enthält viele Praxisbeispiele, darunter das des niederländischen Pflegedienstes [Buurtzorg](https://de.wikipedia.org/wiki/Buurtzorg), der mit einer Vielzahl guter Prinzipien die ambulante Pflege entscheidend für Patient\*innen und Pflegekräfte verbessert hat. Das fand ich sehr ermutigend und meine Neugierde war geweckt. Aus der deutschen [Hörbuchfassung](https://www.thedive.com/hoerbuchplus/) habe ich erfahren, dass auch hierzulande einige Pflegedienstleister angefangen haben, nach diesem Paradigma zu arbeiten. Mit der Sehnsucht zu dieser Veränderung beizutragen, habe ich den Kontakt gesucht um die Bedürfnisse von Pflegekräften in Bezugauf Software zu verstehen. So habe ich neben weiteren Erkenntnissen von den Vorteilen des [Omaha-Klassifikationssystems](https://de.wikipedia.org/wiki/Omaha-Klassifikation) für die Pflege erfahren. Seitdem spüre ich eine Berufung, gute Software für Menschen in Pflegeberufen zu bauen.
+Gestartet bin ich mit dem Wunsch, Arbeit an sich sinn- und würdevoller zu gestalten, für mich selbst und für andere. Als Fan des Genossenschaftsgedankens war ein Aspekt, den ich unbedingt lernen wollte, wie sich Teams selbst organisieren und ganz kooperativ und ko-kreativ ohne formelle Hierarchien effektiv Entscheidungen treffen. Unter anderem habe ich das Buch *[Reinventing Organizations](https://www.reinventingorganizations.com)* von Frederic Laloux gelesen. Es enthält viele Praxisbeispiele, darunter das des niederländischen Pflegedienstes [Buurtzorg](https://de.wikipedia.org/wiki/Buurtzorg), der mit einer Vielzahl guter Prinzipien die ambulante Pflege entscheidend für Patient\*innen und Pflegekräfte verbessert hat. Das fand ich sehr ermutigend und meine Neugierde war geweckt. Aus der deutschen [Hörbuchfassung](https://www.thedive.com/hoerbuchplus/) habe ich erfahren, dass auch hierzulande einige Pflegedienstleister angefangen haben, nach diesem Paradigma zu arbeiten. Mit der Sehnsucht zu dieser Veränderung beizutragen, habe ich den Kontakt gesucht um die Bedürfnisse von Pflegekräften in Bezug auf Software zu verstehen. So habe ich neben weiteren Erkenntnissen von den Vorteilen des [Omaha-Klassifikationssystems](https://de.wikipedia.org/wiki/Omaha-Klassifikation) für die Pflege erfahren. Seitdem spüre ich eine Berufung, gute Software für Menschen in Pflegeberufen zu bauen.
 
 Erst im Nachhinein ist mir bewusst geworden, dass mein Bezug zur Pflege womöglich doch persönlicher ist, als mir zunächst klar war.  
 Meine Mutter arbeitete ihr ganzes Leben in der Pflege: erst als OP-Schwester, dann als Gemeindeschwester, später in der ambulanten und stationären Pflege. Ich bekam mit, wie ihr die Arbeit erst emotional und dann auch körperlich immer mehr zu schaffen machte, bis sie schließlich mit Anfang 50 arbeitsunfähig und Frührentnerin wurde. Sie hat mich wiederholt davor gewarnt, mir „ja keinen sozialen Beruf zu suchen”. Also bin ich Software-Entwickler geworden anstatt was Anständiges zu lernen…  
@@ -56,12 +56,13 @@ Um weitere organisatorische Aufgaben kooperativ im Team bewältigen zu können, 
 Die Benutzung von CoopCare soll Spaß machen und möglichst intuitiv und verständlich sein. Dafür soll mit Hilfe des Feedbacks von Pflegekräften die Benutzeroberfläche weiter vereinfacht und verbessert werden.
 
 * **Wissen:**
-Das Omaha-System ist wie eine Sprache mit etwa 140 Vokabeln und will gelernt werden, in Deutschland ist jedoch kaum bekannt. Eine Einführung mit kurzen Tutorial-Videos, Übungen und interaktiven Fallbeispielen als Bestandteil der App soll an Bekanntes anknüpfen, den Einstieg erleichtern und dabei helfen, Sicherheit im Umgang mit dem Omaha-System und CoopCare zu erreichen.
+Das Omaha-System ist wie eine Sprache mit etwa 140 Vokabeln und will gelernt werden, ist in Deutschland jedoch kaum bekannt. Eine Einführung mit kurzen Tutorial-Videos, Übungen und interaktiven Fallbeispielen als Bestandteil der App soll an Bekanntes anknüpfen, den Einstieg erleichtern und dabei helfen, Sicherheit im Umgang mit dem Omaha-System und CoopCare zu erreichen.
 
 ## Show, don't tell
 
 Genug der Worte, Zeit für Ergebnisse: Mach dir mit der **[Demo-Version](https://demo.coopcare.de)** online ein eigenes Bild vom CoopCare-Projekt!  
 Weitere Infos und Kontaktmöglichkeiten findest du auf der [Projekt-Webseite](https://www.coopcare.de). Gibt es bei CoopCare etwas, das noch schwer verständlich ist oder besser werden kann? Ich freue mich über Rückmeldungen. 
 
--
+---
+
 Foto: © Alicia Magnuson Photography / [Stocksy United](https://www.stocksy.com/)
