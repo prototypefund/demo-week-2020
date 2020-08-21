@@ -5,7 +5,7 @@ image: /assets/images/project_images/coopcare/header.png
 video: https://www.youtube.com/watch?v=9lqvZyEVWDY
 authors:
     - author: Michael Kamphausen
-      link:
+      link: https://www.coopcare.de
 brief: "Wir entlasten Pflegekräfte und verhelfen Pflegebedürftigen zu größerer Selbstständigkeit."
 summary: "Wir entlasten mit der App CoopCare Pflegekräfte bei Dokumentation und Planung und wollen Pflege-Teams sowohl in kooperativer Selbstorganisation unterstützen, als auch darin Pflegebedürftige selbständiger zu machen. Ein persönlicher Erfahrungsbericht über den Entstehungsprozess und Ausblick auf die nächsten Schritte."
 ---
