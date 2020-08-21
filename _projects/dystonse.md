@@ -11,6 +11,19 @@ brief: "Wir steigern das Vertrauen in den ÖPNV."
 summary: "Der erweiterte Abfahrtsmonitor macht die Wahrscheinlichkeitsverteilung von Ankunfts- und Abfahrtszeiten im ÖPNV sichtbar und berechnet die Chance für erfolgreiche Umstiege."
 ---
 
+
+<style>
+.dystonse-image {
+   width: 49%;
+}
+
+@media (max-width: 844px) {
+  .dystonse-image {
+    width: 100%;
+  }
+}
+</style>
+
 # Wir steigern das Vertrauen in den ÖPNV
 
 > _Wann kommt endlich die Straßenbahn? Laut Fahrplan sollte sie schon längst da sein, aber sie ist noch nicht zu sehen. So langsam wirst du nervös -- falls sie jetzt noch mehr als drei Minuten braucht, dann würdest du lieber den Bus nehmen, den du am Bussteig nebenan schon einfahren siehst. Wobei… der braucht halt eigentlich eh immer länger, du müsstest unterwegs umsteigen und der Umstieg ist dann auch oft ziemlich knapp. Also doch lieber weiter auf die Straßenbahn warten?_
@@ -31,8 +44,8 @@ Um die Routenauskunft diesmal verlässlich, realistisch und effizient umzusetzen
 
 Pünktlich zur Demo Week präsentieren wir unseren **erweiterten Abfahrtsmonitor**. Anders als die leuchtenden Anzeigen, die über manch einer Haltestelle hängen, zeigt er dir nicht nur die Abfahrten an deiner Start-Haltestelle an sondern mit einem Klick auch den weiteren Verlauf der Linie und wie sich ihre Pünktlichkeit voraussichtlich entwickeln wird. Von da aus kannst du den den Halt auswählen, an dem du aus- oder umsteigst, und Klick für Klick selbst deine Route zusammenstellen. Der Monitor zeigt dir jeweils an, wann du ungefähr ankommen wirst und wie wahrscheinlich die Umstiege sind.
 
-<a href="/assets/images/project_images/dystonse/abfahrten.png"><img title="Screenshot 1" src="/assets/images/project_images/dystonse/abfahrten.png" width="45%"></a>
-<a href="/assets/images/project_images/dystonse/halte.png"><img title="Screenshot 2" src="/assets/images/project_images/dystonse/halte.png" width="45%"></a>
+<a href="/assets/images/project_images/dystonse/abfahrten.png"><img class="dystonse-image" title="Screenshot 1" src="/assets/images/project_images/dystonse/abfahrten.png"></a>
+<a href="/assets/images/project_images/dystonse/halte.png"><img class="dystonse-image" title="Screenshot 2" src="/assets/images/project_images/dystonse/halte.png"></a>
 
 Hier kannst du den erweiterten Abfahrtsmonitor für den **Verkehrsverbund Bremen/Niedersachsen** gleich ausprobieren:
 
