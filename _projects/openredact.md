@@ -4,11 +4,11 @@ title: "OpenRedact - Dokumente teil-automatisch anonymisieren"
 image: /assets/images/project_images/OpenRedact/screenshots/openredact.png
 authors:
     - author: Pascal Berrang
-      link:
+      link: https://pascal-berrang.de
     - author: Jonas Langhabel
-      link:
+      link: https://langhabel.com
     - author:  Malte Ostendorff
-      link:
+      link: https://ostendorff.org
     - author: Saskia Ostendorff
       link:
 brief: "Wir bereinigen Dokumente von personenbezogenen Daten."
