@@ -63,5 +63,6 @@ Das Omaha-System ist wie eine Sprache mit etwa 140 Vokabeln und will gelernt wer
 Genug der Worte, Zeit für Ergebnisse: Mach dir mit der **[Demo-Version](https://demo.coopcare.de)** online ein eigenes Bild vom CoopCare-Projekt!  
 Weitere Infos und Kontaktmöglichkeiten findest du auf der [Projekt-Webseite](https://www.coopcare.de). Gibt es bei CoopCare etwas, das noch schwer verständlich ist oder besser werden kann? Ich freue mich über Rückmeldungen. 
 
--
+---
+
 Foto: © Alicia Magnuson Photography / [Stocksy United](https://www.stocksy.com/)
