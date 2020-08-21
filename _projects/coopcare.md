@@ -10,8 +10,6 @@ brief: "Wir entlasten Pflegekräfte und verhelfen Pflegebedürftigen zu größer
 summary: "Wir entlasten mit der App CoopCare Pflegekräfte bei Dokumentation und Planung und wollen Pflege-Teams sowohl in kooperativer Selbstorganisation unterstützen, als auch darin Pflegebedürftige selbständiger zu machen. Ein persönlicher Erfahrungsbericht über den Entstehungsprozess und Ausblick auf die nächsten Schritte."
 ---
 
-![Pflegedokumentations-Daten sind wie Puzzleteile, die das große Bild sichtbar machen, wenn wir sie kollaborativ richtig zusammensetzen. (Foto: © Alicia Magnuson Photography / Stocksy United)](/assets/images/project_images/coopcare/puzzle.jpg)
-
 ##### CoopCare -- eine Omaha-System-basierte App für Pflegedokumentation und Planung -- oder:
 
 # „I've got 42 problems, but documentation ain't one”
