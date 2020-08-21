@@ -3,6 +3,10 @@ layout: project
 title:  "Civil Maritime Rescue Coordination Center (Civil MRCC)"
 image: /assets/images/project_images/CivilMRCC/header.png
 authors:
+    - author: Mareike Ippen
+      link:
+    - author: Lea Reisner
+      link:
     - author: Jonas Wiegert
       link:
     - author: Nicolas Zemke
