@@ -1,20 +1,17 @@
 ---
 layout: project
-title:  "pd3f: PDF zu Fließtext mit Maschinellem Lernen"
+title:  "pd3f: PDF zu Fließtext mit maschinellem Lernen"
 image: /assets/images/project_images/DDD/header.png
 authors:
     - author: Johannes Filter
       link:
 brief: "Wir machen Dokumente barrierefrei."
-summary: "Durch lange Wörter im Deutschen sind aus PDF extrahierte Texte mit Zeilenumbrüchen zerstückelt. `pd3f` rekonsturiert mithilfe von Maschinellem Lernen den ursprünglichen Fließtext."
+summary: "Durch lange Wörter im Deutschen sind aus PDF extrahierte Texte mit Zeilenumbrüchen zerstückelt. pd3f rekonstruiert mithilfe von maschinellem Lernen den ursprünglichen Fließtext."
 ---
 
-# PDF zu Fließtext mit Maschinellem Lernen
+# PDF zu Fließtext mit maschinellem Lernen
 
-> Durch lange Wörter im Deutschen sind aus PDF extrahierte Texte mit Zeilenumbrüchen zerstückelt.
-> `pd3f` rekonstruiert mithilfe von Maschinellem Lernen den ursprünglichen Fließtext.
-
-PDFs sind für Menschen gemacht und nicht für Maschinen.
+PDFs sind für Menschen gemacht und nicht für Maschinen (Computer).
 Das führt dazu, dass wir sie lesen können, aber Maschinen Probleme damit haben, Text zu extrahieren.
 Dies ist jedoch notwendig, um z. B. große Mengen von PDFs im Rahmen journalistischer Recherchen auszuwerten.
 Auch Personen mit Seheinschränkungen sind darauf angewiesen, dass Computer ihnen Texte vorlesen.
@@ -63,7 +60,7 @@ Es gibt aber auch "-" am Zeilenenden, das nicht entfernt werden darf, weil es Be
 > Staaten, wie bspw. Polen, ...
 
 Um an dieser Stelle weiterzukommen, braucht es mehr Verständnis über die deutsche Sprache.
-Hier kommt Maschinelles Lernen in Form von Sprachmodellen zum Einsatz.
+Hier kommt maschinelles Lernen in Form von Sprachmodellen zum Einsatz.
 
 ## Was sind Sprachmodelle? (Language Models)
 
