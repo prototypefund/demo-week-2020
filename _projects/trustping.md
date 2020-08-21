@@ -13,12 +13,13 @@ brief: "Wir ermöglichen einen geschützten Austausch für Menschen mit Krebserk
 summary: "Mit der App Trustping finden Menschen mit Krebs gezielt Gesprächspartner*innen, ohne sensible Informationen aus der Hand zu geben."
 ---
 
-Eine Krebsdiagnose ist ein Schock, verbunden mit einer großen Verunsicherung.  
+Eine Krebsdiagnose ist ein Schock, verbunden mit einer großen Verunsicherung.
 Unsere Vision mit Trustping ist es, dass Menschen auf der dringenden Suche nach Austausch und Unterstützung, diese einfach finden können, ohne dabei ihre persönlichen Daten zu veröffentlichen und so ihre eigene Privatsphäre verletzen zu müssen. Im Moment findet dieser Austausch hauptsächlich in öffentlichen Internetforen oder Facebookgruppen statt. Trustping bietet eine sichere Alternative.
+
+![Trustping](/assets/images/project_images/Trustping/tp01.png)
 
 In Zeiten von COVID hat unser Anliegen eine neue Dringlichkeit erfahren. Menschen mit Krebserkrankungen sind besonders gefährdet, nicht nur durch eine potenzielle Ansteckung mit dem Virus, sondern auch durch eine Isolation mit ihrer Krankheitserfahrung. Trustping wird also wichtiger denn je.
 
-![Trustping](/assets/images/project_images/Trustping/tp02.png)
 
 Trustping ist eine App fürs Smartphone. Zusätzlich zu einem klassischen Messenger bietet sie eine Match-Funktionalität »Ping«, die es ermöglicht über konkrete Fragen und Themen geschützt zueinander zu finden und sich auszutauschen. Die Transparenz der App und des Umgangs mit sämtlichen Daten sowie der Schutz aller persönlicher Kommunikation sind das Herz von Trustping.
 
@@ -32,28 +33,15 @@ In einer intensiven Recherche haben wir versucht, möglichst viel über unser Zi
 
 Gruppen von Menschen, die Trustping nutzen und für die
 
-1. der soziale Kontakt und Austausch am wichtigsten ist
-2. gezielte Informationen am wichtigsten sind
+1. der soziale Kontakt und Austausch am wichtigsten ist (chatten, sich gegenseitig aufmuntern, sich mental unterstützen, eine Gemeinschaft bilden),
+2. gezielte Informationen am wichtigsten sind (Kliniken & Rehaeinrichtungen, Behandlungen, Nebenwirkungen, Unterstützenden Methoden, psychologische Unterstützung, sozialrechtlichen Anlaufstellen, Ärzt\*innen).
 
-Trustping ausprobieren,  
-Weil ich mich einsam fühle (1)  
-chatten  
-sich gegenseitig aufmuntern  
-sich mental unterstützen  
-eine Gemeinschaft bilden
-
-Um persönliche Erfahrungen anderer kennen zu lernen (2)   
-Kliniken & Rehaeinrichtungen  
-Behandlungen  
-Nebenwirkungen  
-Unterstützenden Methoden  
-Psychologischer Unterstützung  
-sozialrechtlichen Anlaufstellen  
-Ärzt\*innen
 
 ## Wer seid ihr und was habt ihr in den letzten sechs Monaten gemacht?
 
 Anfang März startet unsere Förderung durch den Prototype Fund kurz darauf tritt in unserem Land der größte Ausnahmezustand der Nachkriegszeit in Kraft. Die Förderphase hatten wir uns wirklich anders vorgestellt! Schulen und Kitas bleiben geschlossen und machen für uns Eltern den Alltag zur Kraftprobe. Innerhalb von Tagen verlagern sich bundesweit die Büroplätze in die heimischen Wohnungen, wo schon die Kinder und Partner\*innen warten und quasi das gesamte soziale Leben in den virtuellen Raum.
+
+![Trustping](/assets/images/project_images/Trustping/tp02.png)
 
 Für die meisten Menschen war COVID-19 in diesen Wochen und Monaten die größte Herausforderung. Aber auch in den Wochen, wo fast jede Nachricht eine Corona-Nachricht war, erkranken Menschen neu an Krebs, allein in Deutschland etwas über 500.000 im Jahr. Durchschnittlich 1300 Menschen täglich werden abrupt aus ihrem Alltag gerissen und mit einer lebensverändernden Diagnose konfrontiert.
 Für diese Menschen entwickeln wir Trustping.
@@ -129,7 +117,7 @@ Wenn es um Gesundheitsdaten geht, spielt das Potenzial für Forschung immer auch
 
 ### Nachhaltigkeit und Finanzierung
 
-Wir machen Trustping aus Leidenschaft, aber wir sind nicht naiv. Um eine nachhaltige Ausarbeitung, Weiterentwicklung und einen dauerhaften Betrieb einer App zu sichern, braucht es Ressourcen. Wir werden uns um eine Anschlussförderung bemühen und haben einige Überlegungen zur Produktisierung von Trustping angestellt. Wichtigstes Kriterium hierbei war für uns, keine kommerzielle Verwendung irgendwelcher Daten zu erwägen. Das Thema kam auch auf, als wir in Verhandlung mit dem Universitätsklinikum Freiburg über die Teilnahme an der Pilotphase standen. Es ist im Moment nichts entschieden, aber einige Ideen werden wir abwägen und evaluieren. 
+Wir machen Trustping aus Leidenschaft, aber wir sind nicht naiv. Um eine nachhaltige Ausarbeitung, Weiterentwicklung und einen dauerhaften Betrieb einer App zu sichern, braucht es Ressourcen. Wir werden uns um eine Anschlussförderung bemühen und haben einige Überlegungen zur Produktisierung von Trustping angestellt. Wichtigstes Kriterium hierbei war für uns, keine kommerzielle Verwendung irgendwelcher Daten zu erwägen. Das Thema kam auch auf, als wir in Verhandlung mit dem Universitätsklinikum Freiburg über die Teilnahme an der Pilotphase standen. Es ist im Moment nichts entschieden, aber einige Ideen werden wir abwägen und evaluieren.
 
 ## Disclaimer
 
