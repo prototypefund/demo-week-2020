@@ -11,8 +11,34 @@ brief: "Wir steigern das Vertrauen in den ÖPNV."
 summary: "Der erweiterte Abfahrtsmonitor macht die Wahrscheinlichkeitsverteilung von Ankunfts- und Abfahrtszeiten im ÖPNV sichtbar und berechnet die Chance für erfolgreiche Umstiege."
 ---
 
-
 <style>
+.dystonse-yes {
+  background-color: #FF0080;
+  color:#FFFFFF;
+  padding:5px;
+  text-align: center;
+}
+
+.dystonse-partly {
+  background-color: #009ACE;
+  color:#FFFFFF;
+  padding:5px;
+  text-align: center;
+}
+
+.dystonse-no {
+  background-color: #000067;
+  color:#FFFFFF;
+  padding:5px;
+  text-align: center;
+}
+
+.dystonse-head {
+  background-color: #0D0D22;
+  color:#FFFFFF;
+  padding:5px;
+}
+
 .dystonse-image {
    width: 49%;
 }
@@ -66,48 +92,48 @@ Letztlich wollen wir alle wichtigen Infos in einer Anwendung zusammen bringen:
 
 Klassische Routensuchen und Abfahrtsmonitore berücksichtigen diese Infos teilweise gar nicht oder nur eingeschränkt:
 
-<div style="overflow-x: scroll;">
-<table>
+<div style="overflow-x: auto;">
+<table style="min-width: 500px;">
 <thead>
 <tr>
-<th></th>
-<th>Linien&shy;netz</th>
-<th>Fahr&shy;plan&shy;zeiten</th>
-<th>Aktuelle Echt&shy;zeit&shy;daten</th>
-<th>Verspätungs&shy;modell</th>
+<th class="dystonse-head"></th>
+<th class="dystonse-head">Linien&shy;netz</th>
+<th class="dystonse-head">Fahr&shy;plan&shy;zeiten</th>
+<th class="dystonse-head">Aktuelle Echt&shy;zeit&shy;daten</th>
+<th class="dystonse-head">Verspätungs&shy;modell</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><b>Klassischer Monitor</b></td>
-<td style="background-color:#fdd;">Nein</td>
-<td style="background-color:#aea;">Ja</td>
-<td style="background-color:#aea;">Ja</td>
-<td style="background-color:#ffd;">Teils</td>
+<td class="dystonse-head"><b>Klassischer Monitor</b></td>
+<td class="dystonse-no">Nein</td>
+<td class="dystonse-yes">Ja</td>
+<td class="dystonse-yes">Ja</td>
+<td class="dystonse-partly">Teils</td>
 </tr>
 
 <tr>
-<td><b>Klassische Routen&shy;suche</b></td>
-<td style="background-color:#aea;">Ja</td>
-<td style="background-color:#aea;">Ja</td>
-<td style="background-color:#ffd;">Teils</td>
-<td style="background-color:#ffd;">Teils</td>
+<td class="dystonse-head"><b>Klassische Routen&shy;suche</b></td>
+<td class="dystonse-yes">Ja</td>
+<td class="dystonse-yes">Ja</td>
+<td class="dystonse-partly">Teils</td>
+<td class="dystonse-partly">Teils</td>
 </tr>
 
 <tr>
-<td><b>Dystonse Monitor</b></td>
-<td style="background-color:#ffd;">Teils</td>
-<td style="background-color:#aea;">Ja</td>
-<td style="background-color:#aea;">Ja</td>
-<td style="background-color:#aea;">Ja</td>
+<td class="dystonse-head"><b>Dystonse Monitor</b></td>
+<td class="dystonse-partly">Teils</td>
+<td class="dystonse-yes">Ja</td>
+<td class="dystonse-yes">Ja</td>
+<td class="dystonse-yes">Ja</td>
 </tr>
 
 <tr>
-<td><b>Dystonse Routen&shy;suche</b></td>
-<td style="background-color:#aea;">Ja</td>
-<td style="background-color:#aea;">Ja</td>
-<td style="background-color:#aea;">Ja</td>
-<td style="background-color:#aea;">Ja</td>
+<td class="dystonse-head"><b>Dystonse Routen&shy;suche</b></td>
+<td class="dystonse-yes">Ja</td>
+<td class="dystonse-yes">Ja</td>
+<td class="dystonse-yes">Ja</td>
+<td class="dystonse-yes">Ja</td>
 </tr>
 </tbody></table>
 
