@@ -1,12 +1,12 @@
 ---
 layout: project
-title:  "Nextcloud Community Dashboard"
+title:  "Nextcloud Collectives"
 image: /assets/images/project_images/ncdash/header.png
 authors:
     - author: Azul
-      link:
+      link: https://gitlab.com/azul
     - author: Jonas
-      link:
+      link: https://gitlab.com/mejo-
 brief: "Wir vereinfachen Zusammenarbeit für soziale Bewegungen in der Cloud."
 summary: Wir haben im letzten halben Jahr an einer Community Wiki App für Nextcloud gearbeitet und dabei viel über die Entwicklung von Prototypen in Software-Ökosystemen gelernt. Hier teilen wir unsere Erfahrungen.
 ---
@@ -60,11 +60,11 @@ Was war passiert? Zum einen waren wir im Sommerurlaub-Loch gelandet - zum andere
 
 Wir hatten uns am Anfang der Förderung mit mehreren Nextcloud-Entwickler:innen getroffen und unser Projekt erklärt. Schon da hatten sie uns ihre Mockups für ein Dashboard gezeigt. Es spiegelte ziemlich genau unsere Vorstellungen von der Zusammenfassung der letzten Aktivitäten wieder - nur nicht auf eine Gruppe bezogen. Wir hätten nicht gedacht, dass die Implementierung der Mockups so schnell passieren würde.
 
-## ... zum Collective Wiki
+## ... zu Nextcloud Collectives
 
 Mit der Entwicklung des Dashboards deckt Nextcloud selbst einen Teil der Ziele ab, die wir uns für unseren Prototypen gesetzt haben. Vermutlich wird auch ein Gruppen Dashboard in Zukunft wesentlich leichter zu implementieren sein, wenn verschiedene Apps ihre Daten für das Nextcloud Dashboard zur Verfügung stellen. Aber dieses Gruppen Dashboard parallel zu entwickeln, während die Nextcloud Codebase sich in dem Bereich schnell verändert, erscheint uns nicht sinnvoll.
 
-Stattdessen konzentrieren wir uns auf den Aspekt der selbst verfassten Informationen für die Gruppe. Um diese Entwicklung abzubilden und Verwechslungen zu vermeiden, benennen wir unsere App um. Aus dem Community Dashboard wird "Unite".
+Stattdessen konzentrieren wir uns auf den Aspekt der selbst verfassten Informationen für die Gruppe. Um diese Entwicklung abzubilden und Verwechslungen zu vermeiden, benennen wir unsere App um. Aus dem Community Dashboard wird "Collectives".
 
 ## Teilen oder Beitragen
 
@@ -97,7 +97,7 @@ An dieser Stelle möchten wir uns herzlich bedanken. Das [BMBF][] hat durch sein
 [Kalender]: https://apps.nextcloud.com/apps/calendar
 [Todo-Listen]: https://apps.nextcloud.com/apps/tasks
 [Video Calls]: https://apps.nextcloud.com/apps/spreed
-[Unsere App]: https://gitlab.com/collectivecloud/unite
+[Unsere App]: https://gitlab.com/collectivecloud/collectives
 [Nextcloud Design Guidelines]: https://docs.nextcloud.com/server/latest/developer_manual/design/
 [Textbearbeitung]: https://apps.nextcloud.com/apps/text
 [Circles-App]: https://apps.nextcloud.com/apps/circles
