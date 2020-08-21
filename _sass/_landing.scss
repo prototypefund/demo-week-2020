@@ -1,0 +1,133 @@
+.flex-container.container > div {
+  flex: 1;
+}
+.landing-hero {
+  margin-top: 8rem;
+
+  .description p {
+    margin-right: 10rem;
+  }
+
+  h1.pink-border {
+    margin-top: 1rem;
+    color: #FF0080;
+    -webkit-text-fill-color: $background_color;
+    -webkit-text-stroke: 2.17949px #FF0080;
+  }
+  h1.blue-border {
+    color: #009ACF;
+    -webkit-text-fill-color: $background_color;
+    -webkit-text-stroke: 2.17949px #009ACF;
+  }
+}
+
+.video-container {
+  .description p {
+    margin-right: 12rem;
+  }
+
+  .speaker {
+    width: 47%;
+    margin-bottom: 1rem;
+
+    img {
+      margin-right: 1rem;
+    }
+  }
+
+  .video img {
+    max-width: 100%;
+  }
+}
+
+.project {
+  background-color: $background_dark;
+  margin-bottom: 4rem;
+
+  @at-root .featured-projects #{&} {
+    padding: 3rem 5rem;
+    border: 4px solid $neon_pink;
+    margin-bottom: 0;
+    color: $white;
+  }
+
+  .project-image {
+    width: 37.5%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+    @at-root .featured-projects #{&} {
+      width: 45%;
+    }
+
+    img {
+      width: 100%;
+    }
+    .hashtags {
+      background-color: $neon_blue;
+      color: $white;
+      padding: 1.25rem 2.5rem;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      word-wrap: break-word;
+
+      span {
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .project-details {
+    padding: 1.5rem 0 2.5rem;
+    width: 50%;
+    margin-right: 3rem;
+
+    @at-root .featured-projects #{&} {
+      max-width: none;
+      margin-right: 0;
+    }
+  }
+
+  .project-brief {
+    font-size: $font_xl;
+    line-height: $font_xl * 1.5;
+    margin-bottom: 3rem;
+    max-width: 80%;
+
+    @at-root .featured-projects #{&} {
+      margin-bottom: 0;
+    }
+  }
+
+  .project-description {
+    font-size: $font_sm;
+    line-height: $font_sm * 1.5;
+    margin-bottom: 4.5rem;
+  }
+
+
+  &.inverse {
+    .hashtags {
+      background-color: $neon_pink;
+    }
+    .project-details {
+      margin-left: 5rem;
+      margin-right: 0;
+    }
+  }
+}
+
+.project-container {
+  .project-brief {
+    margin-bottom: 1rem;
+  }
+  .project-description {
+    margin-bottom: 1rem;
+  }
+
+  .project-details {
+    margin-left: 5rem;
+  }
+}

@@ -1,0 +1,88 @@
+.separator-banner {
+  padding: 2rem;
+  font-size: $font_default * 4.75;
+  line-height: $font_default * 4.75;
+  flex: 1;
+  text-transform: uppercase;
+
+  &.blue-label {
+    background-color: $neon_blue;
+    animation-name: blendAnimationBlue;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+
+    :nth-child(2) {
+      color: #009ACF;
+      margin-left: 1.5rem;
+    }
+
+    :nth-child(1) {
+      color: #FF0080;
+      position: absolute;
+    }
+
+    div {
+      mix-blend-mode: multiply;
+    }
+  }
+
+  &.pink-label {
+    background-color: $neon_pink;
+    animation-name: blendAnimationPink;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+
+    :nth-child(2) {
+      color: #009ACF;
+      margin-left: 1.5rem;
+    }
+
+    :nth-child(1) {
+      color: #FF0080;
+      position: absolute;
+    }
+
+    div {
+      mix-blend-mode: multiply;
+    }
+  }
+}
+
+.separator-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+
+  @at-root footer #{&} {
+    max-width: none;
+  }
+}
+
+
+@keyframes blendAnimationBlue {
+  from {
+    background-color: $neon_blue;
+  }
+  to {
+    background-color: $neon_pink;
+  }
+}
+
+@keyframes blendAnimationPink {
+  from {
+    background-color: $neon_pink;
+  }
+  to {
+    background-color: $neon_blue;
+  }
+}

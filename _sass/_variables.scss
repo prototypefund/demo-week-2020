@@ -1,0 +1,29 @@
+/* Color */
+$neon_pink: #FF0080;
+$neon_blue: #009ACE;
+$neon_blue_dark: #005DA6;
+$neon_pink_dark: #FF0040;
+$neon_blue_pink: #000067;
+$black: #000000;
+$white: #FFFFFF;
+$gray: #F7F7F7;
+$text_color: #8385B7;
+$background_color: #161730;
+$background_dark: #0D0D22;
+
+/* Sizes */
+$margin_default: 5rem;
+
+$font_default: 1rem;
+$font_xs: $font_default * 0.75;
+$font_sm: $font_default * 0.875;
+$font_lg: $font_default * 1.125;
+$font_xl: $font_default * 1.25;
+$font_2xl: $font_default * 1.5;
+$font_3xl: $font_default * 1.875;
+$font_4xl: $font_default * 2.25;
+$font_5xl: $font_default * 3;
+$font_6xl: $font_default * 4;
+
+/* Font Family */
+$font_family_default: 'Surt', sans-serif;

@@ -1,0 +1,12 @@
+@mixin glow($glow_color, $background: #C4C4C4) {
+  background: $background;
+  box-shadow: 0px 0px 8px $glow_color;
+}
+
+@mixin pink_glow {
+  @include glow(#FF0080);
+}
+
+@mixin white_glow {
+  @include glow(rgba(255, 255, 255, 0.5));
+}

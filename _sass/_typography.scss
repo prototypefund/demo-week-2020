@@ -1,0 +1,122 @@
+:root {
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: 'Surt';
+  src: url('/assets/fonts/Surt-Regular.otf');
+}
+
+body {
+  font-size: $font_default;
+  line-height: $font_default * 1.5;
+  font-family: $font_family_default;
+  background-color: $background_color;
+  color: $text_color;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: $neon_blue;
+}
+
+li.nav-links {
+  list-style: none;
+
+  a {
+    text-decoration: none;
+    color: $neon_pink;
+    font-size: $font_xl;
+    line-height: $font_xl * 1.5;
+  }
+}
+
+footer .links-container {
+  .link {
+    color: $black;
+    text-decoration: none;
+    display: block;
+    margin: 1.25rem 0;
+    text-transform: uppercase;
+  }
+}
+
+small {
+  font-size: $font_xs;
+  line-height: $font_xs * 1.25;
+}
+
+h1, h2, h3 {
+  color: $neon_blue;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: $font_6xl;
+  line-height: $font_6xl * 1.125;
+  margin: 0;
+}
+
+h2 {
+  font-size: $font_4xl;
+  line-height: $font_4xl * 1.25;
+  margin-top: 1rem;
+
+  &.title {
+    font-size: $font_5xl;
+    line-height: $font_5xl * 1.5;
+    margin-top: 5rem;
+    text-align: center;
+  }
+
+  &.project-title {
+    color: $neon_pink;
+    margin: 1.5rem 0;
+    word-break: break-word;
+    font-size: $font_default * 1.875;
+    line-height: $font_default * 2.5;
+  }
+
+  
+}
+
+h3 {
+  font-size: $font_2xl;
+  line-height: $font_2xl * 1.5;
+}
+
+h4 {
+  font-size: $font_xl;
+  line-height: $font_xl;
+  margin: 0;
+}
+
+span.featured-title {
+  margin-bottom: 0;
+  font-size: $font_4xl;
+  line-height: $font_4xl * 1.25;
+  margin-top: 1rem;
+  background: $neon_pink;
+  color: #161730;
+  padding: 0.5rem 1rem 0.1rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.project-section-desc {
+  max-width: 655px;
+  margin-bottom: 3rem;
+
+  span.hashtag {
+    color: $neon_pink;
+  }
+}

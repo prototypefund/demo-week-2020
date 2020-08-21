@@ -1,0 +1,17 @@
+
+.project-body {
+  max-width: 750px;
+  margin: auto;
+  margin-bottom: 10rem;
+  color: #A8A9C2;
+
+  h1, h2, h3, h4 {
+    color: $white;
+    margin: 1.5rem 0;
+    line-height: 150%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
