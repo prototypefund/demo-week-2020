@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Dystonse - Wahrscheinlichkeitsbasierte ÖPNV-Routenplanung"
-image: /assets/images/project_images/dystonse/header.png
+image: /assets/images/project_images/dystonse/header.jpg
 authors:
     - author: Lena Schimmel
       link:
