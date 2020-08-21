@@ -30,7 +30,7 @@ summary: "Der erweiterte Abfahrtsmonitor macht die Wahrscheinlichkeitsverteilung
 
 Eine nervige Situation, die im Moment noch ziemlich oft vorkommt. Und wenn du mal in einer anderen Stadt unterwegs bist, hast du dort nicht mal dieses Gefühl dafür, welche Linien meistens pünktlich sind und welche nicht. Mit etwas Glück zeigt dir ein Abfahrtsmonitor die aktuellen Verspätungen an, aber das sagt dir auch nichts darüber, wie diese sich während der Fahrt wohl entwickeln werden und wie wahrscheinlich es ist, dass du deinen Umstieg schaffst.
 
-**Warum kann mir nicht einfach eine Software diese Entscheidung abnehmen?**
+> _Warum kann mir nicht einfach eine Software diese Entscheidung abnehmen?_
 
 Uns geht es selbst oft so -- und deswegen ist die Idee zu Dystonse entstanden. Wir sind davon überzeugt, dass Software für ÖPNV-Routenplanung nicht mit einfachen, absoluten Zeiten arbeiten sollte, sondern mit einer Verteilung von Wahrscheinlichkeiten.
 
@@ -47,13 +47,11 @@ Pünktlich zur Demo Week präsentieren wir unseren **erweiterten Abfahrtsmonitor
 <a href="/assets/images/project_images/dystonse/abfahrten.png"><img class="dystonse-image" title="Screenshot 1" src="/assets/images/project_images/dystonse/abfahrten.png"></a>
 <a href="/assets/images/project_images/dystonse/halte.png"><img class="dystonse-image" title="Screenshot 2" src="/assets/images/project_images/dystonse/halte.png"></a>
 
-Hier kannst du den erweiterten Abfahrtsmonitor für den **Verkehrsverbund Bremen/Niedersachsen** gleich ausprobieren:
+Hier kannst du den erweiterten Abfahrtsmonitor für den **Verkehrsverbund Bremen/Niedersachsen** gleich ausprobieren. Gib den Namen einer Haltestelle ein und klicke dann auf "Abfahrten anzeigen":
 
 {% raw %}
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="140" src="https://monitor.dystonse.org/embed"></iframe>
 {% endraw %}
-
-<img title="Hinweis darauf, dass das weiter oben kein Bild ist. Das hier ist ein Bild." src="/assets/images/project_images/dystonse/pfeil_pink.png" width="100%">
 
 _(falls über dieser Zeile keine Suchmaske angezeigt wird, kannst du auch [den Monitor direkt aufrufen](https://monitor.dystonse.org/))_
 
