@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Dystonse - Wahrscheinlichkeitsbasierte ÖPNV-Routenplanung"
-image: /assets/images/project_images/dystonse/header.png
+image: /assets/images/project_images/dystonse/header.jpg
 authors:
     - author: Lena Schimmel
       link:
@@ -38,6 +38,16 @@ summary: "Der erweiterte Abfahrtsmonitor macht die Wahrscheinlichkeitsverteilung
   color:#FFFFFF;
   padding:5px;
 }
+
+.dystonse-image {
+   width: 49%;
+}
+
+@media (max-width: 844px) {
+  .dystonse-image {
+    width: 100%;
+  }
+}
 </style>
 
 # Wir steigern das Vertrauen in den ÖPNV
@@ -46,7 +56,7 @@ summary: "Der erweiterte Abfahrtsmonitor macht die Wahrscheinlichkeitsverteilung
 
 Eine nervige Situation, die im Moment noch ziemlich oft vorkommt. Und wenn du mal in einer anderen Stadt unterwegs bist, hast du dort nicht mal dieses Gefühl dafür, welche Linien meistens pünktlich sind und welche nicht. Mit etwas Glück zeigt dir ein Abfahrtsmonitor die aktuellen Verspätungen an, aber das sagt dir auch nichts darüber, wie diese sich während der Fahrt wohl entwickeln werden und wie wahrscheinlich es ist, dass du deinen Umstieg schaffst.
 
-**Warum kann mir nicht einfach eine Software diese Entscheidung abnehmen?**
+> _Warum kann mir nicht einfach eine Software diese Entscheidung abnehmen?_
 
 Uns geht es selbst oft so -- und deswegen ist die Idee zu Dystonse entstanden. Wir sind davon überzeugt, dass Software für ÖPNV-Routenplanung nicht mit einfachen, absoluten Zeiten arbeiten sollte, sondern mit einer Verteilung von Wahrscheinlichkeiten.
 
@@ -58,18 +68,16 @@ Den Prototypen haben wir damals innerhalb weniger Tage entwickelt -- entsprechen
 
 Um die Routenauskunft diesmal verlässlich, realistisch und effizient umzusetzen, mussten wir nochmal bei Null anfangen und eine Menge Vorarbeit bei der Datensammlung und -aufbereitung leisten -- mehr dazu folgt weiter unten. Die neue Version unserer Routensuche ist daher noch nicht fertig -- wohl aber ein Vorgeschmack darauf.
 
-Pünktlich zur Demo Week präsentieren wir unseren **erweiterten Abfahrtsmonitor**. Anders als die leuchtenden Anzeigen, die über manch einer Haltestelle hängen, zeigt er dir nicht nur die Abfahrten an deiner Start-Haltestelle an sondern mit einem Klick auch den weiteren Verlauf der Linie und wie sich ihre Pünktlichkeit voraussichtlich entwickeln wird. Von da aus kannst du den den Halt auswählen, an dem du aus- oder umsteigst, und Klick für Klick selbst deine Route zusammenstellen. Der Monitor zeigt dir jeweils an, wann du ungefähr ankommen wirst und wie wahrscheinlich die Umstiege sind.
+Pünktlich zur Demo Week präsentieren wir unseren **erweiterten Abfahrtsmonitor**. Anders als die leuchtenden Anzeigen, die über manch einer Haltestelle hängen, zeigt er dir nicht nur die Abfahrten an deiner Start-Haltestelle an, sondern mit einem Klick auch den weiteren Verlauf der Linie und wie sich ihre Pünktlichkeit voraussichtlich entwickeln wird. Von da aus kannst du den Halt auswählen, an dem du aus- oder umsteigst, und Klick für Klick selbst deine Route zusammenstellen. Der Monitor zeigt dir jeweils an, wann du ungefähr ankommen wirst und wie wahrscheinlich die Umstiege sind.
 
-<a href="/assets/images/project_images/dystonse/abfahrten.png"><img title="Screenshot 1" src="/assets/images/project_images/dystonse/abfahrten.png" width="45%"></a>
-<a href="/assets/images/project_images/dystonse/halte.png"><img title="Screenshot 2" src="/assets/images/project_images/dystonse/halte.png" width="45%"></a>
+<a href="/assets/images/project_images/dystonse/abfahrten.png"><img class="dystonse-image" title="Screenshot 1" src="/assets/images/project_images/dystonse/abfahrten.png"></a>
+<a href="/assets/images/project_images/dystonse/halte.png"><img class="dystonse-image" title="Screenshot 2" src="/assets/images/project_images/dystonse/halte.png"></a>
 
-Hier kannst du den erweiterten Abfahrtsmonitor für den **Verkehrsverbund Bremen/Niedersachsen** gleich ausprobieren:
+Hier kannst du den erweiterten Abfahrtsmonitor für den **Verkehrsverbund Bremen/Niedersachsen** gleich ausprobieren. Gib den Namen einer Haltestelle ein und klicke dann auf "Abfahrten anzeigen":
 
 {% raw %}
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="140" src="https://monitor.dystonse.org/embed"></iframe>
 {% endraw %}
-
-<img title="Hinweis darauf, dass das weiter oben kein Bild ist. Das hier ist ein Bild." src="/assets/images/project_images/dystonse/pfeil_pink.png" width="100%">
 
 _(falls über dieser Zeile keine Suchmaske angezeigt wird, kannst du auch [den Monitor direkt aufrufen](https://monitor.dystonse.org/))_
 
@@ -185,7 +193,7 @@ Dabei definieren [Konfigurationsdateien](https://github.com/dystonse/dystonse-do
 
 ## Erfahrungen und Ausblick
 
-Wir haben nun schon fast ein halbes Jahr Förderzeit hinter uns, in der wir sowohl ungeplante Schwierigkeiten als auch überraschende Erfolge erlebt und vor allem viel gelernt haben. Vom Lernen einer wunderbaren neuen [Programmiersprache](https://www.rust-lang.org/) über Abenteuer mit Datenbankindizes über Gigabytes von Echtzeidaten gab es eine Menge Herausforderungen. Am Ende des Tages (d. h. oft auch erst in den frühen Morgenstunden) macht es einfach überglücklich, zu sehen, wie tausende Datensätze innerhalb von Sekunden durch unsere Softwarekomponenten fließen und in der Datenbank landen. Oder auch, dass der [heimische Verkehrsbetrieb](http://www.bsvg.net/startseite.html) seit Kurzem auch Echtzeitdaten liefert -- sogar für den Bus, der quasi Zuhause vorbei fährt.
+Wir haben nun schon fast ein halbes Jahr Förderzeit hinter uns, in der wir sowohl ungeplante Schwierigkeiten als auch überraschende Erfolge erlebt und vor allem viel gelernt haben. Vom Lernen einer wunderbaren neuen [Programmiersprache](https://www.rust-lang.org/) über Abenteuer mit Datenbankindizes über Gigabytes von Echtzeitdaten gab es eine Menge Herausforderungen. Am Ende des Tages (d. h. oft auch erst in den frühen Morgenstunden) macht es einfach überglücklich, zu sehen, wie tausende Datensätze innerhalb von Sekunden durch unsere Softwarekomponenten fließen und in der Datenbank landen. Oder auch, dass der [heimische Verkehrsbetrieb](http://www.bsvg.net/startseite.html) seit Kurzem auch Echtzeitdaten liefert -- sogar für den Bus, der quasi Zuhause vorbei fährt.
 
 Bis dahin war es aber auch ein langer Weg. So haben z. B. die Vorbereitung der Datensammlung, das Einrichten der Datenbank und die ersten Analysen _viel_ länger gebraucht, als wir vermutet hatten -- bei so großen Datenmengen ist es eben manchmal doch nötig, schon frühzeitig viel Aufwand in Performance-Optimierung zu stecken.
 
