@@ -28,13 +28,36 @@
   .video-container .description p {
     margin-right: 0;
   }
+
+  .separator-container {
+    > :nth-child(3),
+    > :nth-child(4) {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .featured-projects .project {
+    padding: 0;
+  }
+
+  .landing-hero .description p {
+    margin-right: 0;
+  }
+
+  .separator-container {
+    > :nth-child(2) {
+      display: none;
+    }
+  }
 }
 
 @media (max-width: 1440px) {
   footer {
     .separator-container {
-      :nth-child(5),
-      :nth-child(6) {
+      > :nth-child(5),
+      > :nth-child(6) {
         display: none;
       }
     }

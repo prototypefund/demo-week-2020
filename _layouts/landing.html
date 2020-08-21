@@ -44,7 +44,7 @@ layout: default
   </div>
 </div>
 <hr/>
-<div class="flex-container video-container container justify-between">
+<div class="flex-container video-container container justify-between" id="keynote1">
   <div class="description">
     <h2>Eröffnung</h2>
     <p>Am 24.08. haben wir die Demo Week mit einem Livestream eröffnet.
@@ -80,7 +80,7 @@ layout: default
 </div>
 {% include separator.html %}
 {% assign featured_project = site.projects | sample: 2 %}
-<div class="featured-projects container">
+<div class="featured-projects container" id="project-section">
   <span class="featured-title">
     Projekt Highlight
   </span>
@@ -150,7 +150,7 @@ layout: default
   {% endfor %}
 </div>
 <hr />
-<div class="flex-container video-container container justify-between">
+<div class="flex-container video-container container justify-between" id="keynote2">
   <div class="description">
     <h2>Eröffnung</h2>
     <p>Volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia
