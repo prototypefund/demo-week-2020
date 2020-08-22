@@ -51,7 +51,7 @@ Der FIDO Standard kann **auf Laptops und Smartphones (interne Sicherheitsschlüs
 
 USB-Sicherheitsschlüssel können außerdem **Bluetooth oder NFC-Übertragungswege** nutzen, um einen Stick auch über verschiedene Geräte hinweg einzusetzen. Dafür hält man den Stick entweder an die Rückseite des Smartphones oder drückt auf den Knopf, um eine Übertragung zu starten.
 
-# **Und wie funktioniert das technisch?
+# Und wie funktioniert das technisch?
 
 ![FIDO-Process](/assets/images/project_images/Identity_Stick/fido_process.jpg)
 
