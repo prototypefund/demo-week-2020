@@ -97,7 +97,7 @@ Basierend auf den Erkenntnissen der Papierprototypen und existierenden FIDO2 Use
 
 ## Passwortlos anmelden
 
-![Fido1FA User Flow](/assets/images/project_images/Identity_Stick/Flow_FIDO1FA.jpg)
+![Fido1FA User Flow](/assets/images/project_images/Identity_Stick/Flow_FIDO1FA.png)
 
 Beim Starten auf einer Login-Seite wurde die Auswahl um die Möglichkeit ‘Passwortlos anmelden’ erweitert, um die Begrifflichkeit des ‘Sicherheitsschlüssels’ zu vermeiden. Die Informationen und Auswahlmöglichkeiten des USB-Sticks wurden über Overlays abgebildet, wie es bei den bestehenden FIDO2-Implementationen schon Praxis ist.
 
