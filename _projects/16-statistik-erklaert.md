@@ -15,7 +15,7 @@ summary: "Explorable Explanations erklärt amtliche Statistiken und macht sie nu
 
 # Explorable Explanations zu Regionalstatistik
 
-Die siebte Runde des Prototype Fund brachte uns, das Team hinter der Projekt [Datenguide](https://datengui.de) (gegründet in der zweiten Runde des Prototype Fund 2017/2018), zurück zu unserer ursprünglichen Mission: **Statistiken für alle!** Wir wollen die amtliche Statistik erklären und nutzbar machen -- auch für Menschen ohne besondere Vorkenntnisse. Unser großes Vorbild waren dabei [„Explorable Explanations“](https://explorabl.es/): interaktive, ins Auge fallende Visualisierungen komplexer Zusammenhänge.
+Die siebte Runde des Prototype Fund brachte uns, das Team hinter dem Projekt [Datenguide](https://datengui.de) (gegründet in der zweiten Runde des Prototype Fund 2017/2018), zurück zu unserer ursprünglichen Mission: **Statistiken für alle!** Wir wollen die amtliche Statistik erklären und nutzbar machen -- auch für Menschen ohne besondere Vorkenntnisse. Unsere großen Vorbilder waren dabei [„Explorable Explanations“](https://explorabl.es/): interaktive, ins Auge fallende Visualisierungen komplexer Zusammenhänge.
 
 ![Ein Simulator für Ansteckungen mit dem Coronavirus](/assets/images/project_images/Explorable_Explainations/corona_sim.gif)
 <small>Aktuelles Beispiel für eine Explorable Explanation: [Ein Simulator für Ansteckungen mit dem Coronavirus](http://web.br.de/interaktiv/corona-simulation/), entwickelt von [BR Data](https://www.br.de/extra/br-data/)</small>
