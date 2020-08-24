@@ -37,12 +37,12 @@ So sinnvoll und nötig für die Arbeit mit Regionalstatistik diese Themen sind, 
 
 Die technische Umsetzung als Scrollytelling-Karte mit [MapboxGL](https://docs.mapbox.com/mapbox-gl-js/) für Kartendarstellungen und [Scrollama](https://pudding.cool/process/introducing-scrollama/) für die Scrollytelling-Interaktion hatte es dagegen in sich und fraß deutlich mehr Entwicklungszeit als wir gedacht hatten. Dazu kam die Erkenntnis, dass es wirklich schwer ist, komplexe Interaktionen, die auf verschiedenen Ebenen (Text, Karte, Highlighting) miteinander verzahnt sein sollen, im Kopf oder auf Papier vorauszuplanen. Das muss Mensch erst einmal denken lernen. Uns fehlt auch immer noch ein Wireframing-Tool, um solche vielschichtigen Interaktionen zu planen und zu testen, bevor Code dafür geschrieben ist. (Wer ein gutes Tool kennt, gerne melden.) 
 
-![Screenshot des interaktiven Erklärungstück zum NUTS-System](/assets/images/project_images/Explorable_Explainations/datenguide_nuts.png)
+[![Screenshot des interaktiven Erklärungstück zum NUTS-System](/assets/images/project_images/Explorable_Explainations/datenguide_nuts.png)](/assets/images/project_images/Explorable_Explainations/datenguide_nuts.png)
 <small>Interaktives Erklärungen zum NUTS-System</small>
 
 Wichtig war uns immer wieder die Rückbesinnung auf die Nutzer:innen. Ursprünglich geplant waren Long-Read-Artikel mit interaktiven Erklärungen. Wir merkten aber schnell, dass es zum Beispiel beim Amtlichen Gemeindeschlüssel (AGS) gar nicht so viel im Text zu sagen gab, sondern dass der Fokus eher auf einem personalisierten Tool liegen muss, in dem Nutzer:innen für ihre Gemeinde den AGS herausfinden können und die Erklärung dadurch mitgeliefert bekommen.
 
-![Screenshot des AGS-Tools von Datenguide](/assets/images/project_images/Explorable_Explainations/datenguide_ags.png)
+[![Screenshot des AGS-Tools von Datenguide](/assets/images/project_images/Explorable_Explainations/datenguide_ags.png)](/assets/images/project_images/Explorable_Explainations/datenguide_ags.png)
 <small>Interaktives Erklärungen zum Amtlichen Gemeindeschlüssel (AGS)</small>
 
 Die Ergebnisse unseres Projekts findet ihr hier:  
@@ -63,7 +63,7 @@ Für Datenguide sind die Ergebnisse dieser Prototype-Fund-Runde Meilensteine:
 - Dazu kommt ein Blogpost, der interaktiv anhand von Karten erklärt, wie die europäische NUTS-Klassifikation für Deutschland funktioniert.
 - Und ein Blogpost, der Nutzer:innen mit Tabellenformaten vertraut macht und sie schrittweise zur ersten Datenvisualisierung mit amtlichen Statistiken aus Datenguide führt.
 
-![Screenshot des Datenguide-Datenportals](/assets/images/project_images/Explorable_Explainations/datenguide_datenportal.png)
+[![Screenshot des Datenguide-Datenportals](/assets/images/project_images/Explorable_Explainations/datenguide_datenportal.png)](/assets/images/project_images/Explorable_Explainations/datenguide_datenportal.png)
 <small>[Datenguide](https://datengui.de/statistiken) ermöglicht es Nutzer:innen ohne vorkenntnisse, amtliche Statistiken herunterzuladen.</small>
 
 Alle diese Bausteine bieten Einstiegsmöglichkeiten in das Arbeiten mit amtlichen Statistiken und wir erhoffen uns, dass dadurch mehr Nutzer:innen zu Datenguide finden -- auch über Suchmaschinen. 

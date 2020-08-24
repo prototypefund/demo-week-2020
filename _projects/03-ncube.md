@@ -23,7 +23,7 @@ Es gibt zwar auch andere Werkzeuge mit ähnlichen Zielen, doch jedes von ihnen k
 
 Ncube ist eine grafische Desktop- und plattformübergreifende Anwendung, die es Menschenrechtsaktivist\*innen und anderen Forscher\*innen ermöglicht, Daten **zu sammeln**, **zu recherchieren** und **zu verifizieren**. Wir sind vom aktuellen Trend abgewichen, jede Anwendung als webbasierte Anwendung zu entwickeln. Stattdessen, um die Rechte der Benutzer\*innen zu betonen, haben wir Ncube als _Local-First Software_ konzipiert. Dieser Ansatz verbessert die Sicherheit, den Datenschutz, die langfristige Bewahrung und die Benutzerkontrolle von Daten. Obwohl Ncube selbst eine Desktop-Anwendung ist, kann es sich mit externen Workspaces verbinden, die auf einem zentralen Server gehostet werden und ermöglicht so Zusammenarbeit. In zukünftigen Versionen von Ncube können zudem dezentralisierte, peer-to-peer Formen von Kooperation möglich sein. 
 
-![data details](/assets/images/project_images/N-Cube/data_details_2.png)
+[![data details](/assets/images/project_images/N-Cube/data_details_2.png)](/assets/images/project_images/N-Cube/data_details_2.png)
 
 ### Sammlung
 
@@ -33,7 +33,7 @@ Ncube bietet eine Benutzerschnittstelle zur Ausführung von Sugarcube Datenproze
 
 Ncube ermöglicht den Zugriff auf die gesammelten Daten über ein Suchsystem. Ncube verwendet Suchoperatoren, die auf boolescher Logik basieren, welche die primäre Schnittstelle zur Erkundung der Datenbank darstellen. Die Suchergebnisse können darüber hinaus auf der Grundlage von Metadaten und Tags gefiltert werden. Relevante Suchanfragen können für einen späteren schnellen Zugriff gespeichert werden.
 
-![Investigation](/assets/images/project_images/N-Cube/investigation_3.png)
+[![Investigation](/assets/images/project_images/N-Cube/investigation_3.png)](/assets/images/project_images/N-Cube/investigation_3.png)
 
 ### Verifizierung
 
@@ -54,7 +54,7 @@ Alle Funktionen von Ncube dienen einem Zweck: _Dem Erstellen eines verifizierten
 
 Die Funktionen unseres Tools rund um die Sammlung, Recherche und Verifizierung von Daten dienen alle diesem einen Ziel.
 
-![Discovery](/assets/images/project_images/N-Cube/discovery_4.png)
+[![Discovery](/assets/images/project_images/N-Cube/discovery_4.png)](/assets/images/project_images/N-Cube/discovery_4.png)
 
 ## Das “nicht-skalierbare Projekt”
 

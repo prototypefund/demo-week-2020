@@ -50,7 +50,7 @@ Es entstand ein erster Prototyp auf Basis von [Node-RED](https://nodered.org/), 
 Diese Datei wurde mit [tesseract](https://tesseract-ocr.github.io/) in Text umgewandelt und dann ausgewertet.
 Als Anzeige kam zunächst eine einfache PHP-Seite zum Einsatz, die später durch eine Vue.js-Webanwendung ersetzt wurde.
 
-![Der Prototyp in Node-RED](/assets/images/project_images/Alarmdisplay/node-red.png)
+[![Der Prototyp in Node-RED](/assets/images/project_images/Alarmdisplay/node-red.png)](/assets/images/project_images/Alarmdisplay/node-red.png)
 
 ## Was erreicht wurde
 

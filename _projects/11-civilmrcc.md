@@ -35,7 +35,7 @@ Zudem haben wir mit unterschiedlichen AIS-Providern Gespräche geführt, um die 
 Wir hatten die Zeit, eine Deploymentstrategie zu entwickeln und das Update-, Build-, und Testsystem zu implementieren.
 Während der Förderzeit hatten wir auch die Möglichkeit, unser Projekt in der Open-Source-Community zu verbreiten und konnten neue Interessierte gewinnen, die an der App und Datenbank mitarbeiten.
 
-![Use case](/assets/images/project_images/CivilMRCC/case.jpg)
+[![Use case](/assets/images/project_images/CivilMRCC/case.jpg)](/assets/images/project_images/CivilMRCC/case.jpg)
 
 ## So geht es bei uns weiter
 

@@ -111,7 +111,7 @@ Anmerkungen an ein*e Kolleg\*in schicken, die das Originaldokument ebenfalls
 besitzt oder auf anderem Wege erhält. Annotationen können über das Interface
 importiert, bearbeitet und wieder exportiert werden.
 
-![Annotate & Chill: screenshot interface](/assets/images/project_images/Boromeo/annotateandchill.png)
+[![Annotate & Chill: screenshot interface](/assets/images/project_images/Boromeo/annotateandchill.png)](/assets/images/project_images/Boromeo/annotateandchill.png)
 
 Zusätzlich gibt es auch eine Server-Anwendung, die kollaboratives Arbeiten in
 der Cloud ermöglicht -- selbstverständlich self-hosted, um an die jeweiligen

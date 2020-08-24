@@ -37,13 +37,13 @@ Die meisten Accounts werden mit Passwörtern gesichert. Passwörter haben aber e
 
 ## Der passwortlose Login
 
+![Die Sticks übereinander](/assets/images/project_images/Identity_Stick/drei_sticks_übereinander.jpg)
+
 Wir sind es gewöhnt, unseren Benutzernamen und Passwort einzugeben, wenn wir uns zum Beispiel in unseren Social-Media-Account einloggen. Beim passwortlosen Login reicht der Benutzername aus. Zur Überprüfung der Nutzer\*innen wird dann nicht das Wissen über ein Passwort sondern der Besitz eines Sicherheitsschlüssels, auch Authentikator genannt, verwendet. Dies kann ein USB-Stick sein, aber auch Computer oder Smartphone können Sicherheitsschlüssel sein. Das bietet mehr Sicherheit als ein Login mit Passwort. Da gar keine Passwörter mehr verwendet werden, können Passwörter auch nicht auf gefälschten Anmeldeseiten, zum Beispiel durch [Phishing](https://de.wikipedia.org/wiki/Phishing), gestohlen werden. Ebenso hängt die Sicherheit des Accounts nicht mehr von der Wahl eines guten Passworts ab und automatisierter Identitätsdiebstahl im großen Stil wird ausgeschlossen. Da der gleiche Sicherheitsschlüssel bei allen Webseiten verwendet werden kann, bietet der passwortlose Login eine bessere Usability als Passwörter. Denn Nutzer\*innen müssen sich nichts spezielles für gewisse Webseiten merken, sondern melden sich stets gleich an.  
 Der offene Standard [FIDO2 (**F**ast **Id**entity **O**nline](https://fidoalliance.org/fido2/)) verspricht genau so einen passwortlosen Login. Er wird von der nicht-kommerziellen [FIDO Allianz](https://fidoalliance.org/members/) entwickelt, der bisher ca. 250 große Unternehmen (u. a. Google, Facebook, Amazon und viele mehr) und öffentliche Partner wie das deutsche Bundesamt für Sicherheit in der Informationstechnik (BSI) angehören. Da sich inzwischen auch Apple der Allianz angeschlossen hat, unterstützen alle wichtigen Browser (Chrome, Firefox, Edge, Opera, Safari) den Standard.  
 Durch diese breite Unterstützung und Verbreitung hat der FIDO2 Standard großen Potenzial, in Zukunft eine große Akzeptanz und breite Nutzer\*innenbasis für den passwortlosen Login zu bekommen.
 
 ## Was ist ein Sicherheitsschlüssel?
-
-![Die Sticks übereinander](/assets/images/project_images/Identity_Stick/drei_sticks_übereinander.jpg)
 
 Der FIDO Standard kann **auf Laptops und Smartphones (interne Sicherheitsschlüssel)** und auf anderer Hardware wie **USB-Sticks (externer Sicherheitsschlüssel)** implementiert werden. Verwendet man interne Sicherheitsschlüssel, wird auch nur dieses Gerät registriert. Das kann den Login über unterschiedliche Geräte hinweg erschweren, wenn zum Beispiel das eigene Smartphone für das Mail-Konto registriert wurde, Nutzer\*innen ihre Mails aber kurz auf dem Laptop eines Freundes checken möchten. Externe Sicherheitsschlüssel können dafür die Sicherheit erhöhen. Neben dem Laptop müsste ein*e Angreifer\*in dann auch noch den USB-Stick stehlen.
 
@@ -51,7 +51,7 @@ USB-Sicherheitsschlüssel können außerdem **Bluetooth oder NFC-Übertragungswe
 
 ## Und wie funktioniert das technisch?
 
-![FIDO-Process](/assets/images/project_images/Identity_Stick/fido_process.jpg)
+[![FIDO-Process](/assets/images/project_images/Identity_Stick/fido_process.jpg)](/assets/images/project_images/Identity_Stick/fido_process.jpg)
 
 Wenn Nutzer\*innen einen Sicherheitsschlüssel zum Beispiel bei ihrem Mail-Account verwenden möchten, müssen sie diesen zunächst dort registrieren. Dabei werden zwei neue Schlüssel auf dem Sicherheitsschlüssel erzeugt: ein privater und ein öffentlicher Schlüssel. Der öffentliche Schlüssel wird für den Mail-Account beim Mail-Anbieter gespeichert, während der private Schlüssel den Sicherheitsschlüssel nie verlässt. Für jeden Dienst und jede*n Nutzer\*in werden auf dem Sicherheitsschlüssel unterschiedliche Schlüsselpaare erzeugt.  
 Man kann sich das wie ein schwarzes Brett hinter einer Vitrine vorstellen, das jeder einsehen  kann, der den öffentlichen Schlüssel hat. Die Vitrine kann jedoch nur mit dem privaten Schlüssel geöffnet werden. Um zu überprüfen, ob jemand den privaten Schlüssel besitzt, kann man dieser Person also eine Information mitteilen (z. B. die Zahl "12") und sie auffordern diese auf das schwarze Brett zu schreiben. Wenn dann "12" auf dem schwarzen Brett auftaucht, können wir bestätigen, dass die Person Zugang zum privaten Schlüssel hat.
@@ -73,7 +73,7 @@ Zuerst wird der Sicherheitsschlüssel angefragt, ob die Identity Stick Erweiteru
 
 Diensteanbieter berechnen nun erneute den Hash der Attribute. Mittels des öffentlichen Schlüssels wird der signierte Hash entschlüsselt und mit dem berechneten verglichen. Dadurch können Diensteanbietende die Bestätigung der Attribute überprüfen. Dazu wird der Hash der Daten erneut berechnet. Dies ist vergleichbar mit der Überprüfung der Aussage des Boten mit dem Inhalt im versiegelten Brief.
 
-![Identity-Stick-Process](/assets/images/project_images/Identity_Stick/identity_stick_process.jpg)
+[![Identity-Stick-Process](/assets/images/project_images/Identity_Stick/identity_stick_process.jpg)](/assets/images/project_images/Identity_Stick/identity_stick_process.jpg)
 
 Für den Prototyp wurde auf dem Solo [FIDO2 Stick “Solo for Hackers”](https://github.com/solokeys/solo) aufgebaut, dessen Firm- und Hardware offen zur Verfügung stehen. Für die Umsetzung wurde eine Anpassung des Solo Codes vorgenommen, die das oben beschriebene Protokoll implementiert. Da der Solo nur begrenzten Speicher zur Verfügung hat, müssen zum Senden der Attribute mehrere Nachrichten ausgetauscht werden. Zum Testen und für die Erzeugung der signierten Daten wurden entsprechende Skripte erstellt.
 
@@ -95,13 +95,13 @@ Basierend auf den Erkenntnissen der Papierprototypen und existierenden FIDO2 Use
 
 ### Passwortlos anmelden
 
-![Fido1FA User Flow](/assets/images/project_images/Identity_Stick/Flow_FIDO1FA.png)
+[![Fido1FA User Flow](/assets/images/project_images/Identity_Stick/Flow_FIDO1FA.png)](/assets/images/project_images/Identity_Stick/Flow_FIDO1FA.png)
 
 Beim Starten auf einer Login-Seite wurde die Auswahl um die Möglichkeit ‘Passwortlos anmelden’ erweitert, um die Begrifflichkeit des ‘Sicherheitsschlüssels’ zu vermeiden. Die Informationen und Auswahlmöglichkeiten des USB-Sticks wurden über Overlays abgebildet, wie es bei den bestehenden FIDO2-Implementationen schon Praxis ist.
 
 ### Identifikation mit einem Identity-Stick
 
-![Ausweisen Flow](/assets/images/project_images/Identity_Stick/Ausweisen_Flow_Transparent.png)
+[![Ausweisen Flow](/assets/images/project_images/Identity_Stick/Ausweisen_Flow_Transparent.png)](/assets/images/project_images/Identity_Stick/Ausweisen_Flow_Transparent.png)
 
 Um einen Sicherheitsschlüssel zum Ausweisen zu nutzen, durchlaufen User verschiedene Stufen. In unserem beispielhaft gezeigten öffentlichen Dienst wird der Stick als Mittel ausgewählt und eine persönliche PIN als Sicherheitsmerkmal eingegeben. Die PIN kann vorher in den Einstellungen konfiguriert werden. Wenn der Stick Biometrie-fähig ist, kann die PIN auch durch einen Fingerabdruck ersetzt werden. Mit einem Tippen auf den Stick werden die Informationen angezeigt, die der Dienst vom Stick anfordert: In diesem Fall Vor- und Nachname, Geburtsdatum und der Wohnort. Nach einer erneuten Bestätigung durch Nutzer\*innen durch Tippen auf den blinkenden Stick werden die Daten übertragen und der User hat die eigene Identität bestätigt.
 

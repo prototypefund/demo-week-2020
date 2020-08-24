@@ -60,7 +60,7 @@ Den fettesten Strich durch die Rechnung hat uns Corona bezüglich unserer Testph
 
 Im Moment gibt es zwei Möglichkeiten, sich bei der App anzumelden: nach einem kurzen Intro zur Idee von Trustping kann sich der*die Nutzer\*in entscheiden, ob die Anmeldung anonym oder mit einer Mail-Adresse geschehen soll. Bei einer anonymen Registrierung ist der Account an das Smartphone gebunden und sollte es verloren gehen, besteht für uns keine Möglichkeit, den Account auf einem anderen Gerät wiederherzustellen. Trotz dieses Nachteils ist uns wichtig, diese Option anzubieten und damit den Einstieg in Trustping so niedrigschwellig wie möglich zu machen. Zu jedem späteren Zeitpunkt kann ein anonymer Account in einen Account mit Mail-Adresse umgewandelt werden.
 
-![Trustping](/assets/images/project_images/Trustping/tp03.png)
+[![Trustping](/assets/images/project_images/Trustping/tp03.png)](/assets/images/project_images/Trustping/tp03.png)
 
 ### Onboarding
 
@@ -71,7 +71,7 @@ Jetzt werden einige Fragen gestellt, die später dazu dienen, passende Gespräch
 
 Nach dem Anmeldeprozess bietet die App zunächst noch ein recht übersichtliches Bild. Leere Chats, da noch keine Kontakte vorhanden sind, das selbst erstellte Profil und den Bereich »Match«, der zunächst am wichtigsten ist. In Trustping habe ich nicht die Möglichkeit durch andere Profile zu suchen und Menschen direkt zu kontaktieren. Diese Designentscheidung haben wir getroffen, um dem besonderen Schutzbedürfnis der erkrankten Menschen zu entsprechen und ihnen die volle Kontrolle über ihre Sichtbarkeit zu geben. Trustping erfordert eine gewisse Balance in den Aktivitäten der Nutzer\*innen; Menschen, die »nur« lesen wollen, ist mit zahlreichen Internetforen und Facebook-Gruppen bereits ausreichend gedient.
 
-![Trustping](/assets/images/project_images/Trustping/tp04.png)
+[![Trustping](/assets/images/project_images/Trustping/tp04.png)](/assets/images/project_images/Trustping/tp04.png)
 
 Um mit meinen persönlichen Themen an Menschen herantreten zu können, erstelle ich nun einen »Ping«. Ein »Ping« ist eine Kombination aus Informationen über mich, die ich aus meinem Profil einzeln selektieren kann und einer persönlichen Nachricht oder Frage. Zusätzlich zu diesen Infos kann ich einstellen, welcher Fokus mir für die Übereinstimmung besonders wichtig ist. Sollen die Menschen möglichst genau die gleiche Diagnose haben oder sich in einer ganz ähnlichen Lebenslage befinden? Diese Einstellung lässt sich für jeden einzelnen »Ping« erneut anpassen. Ich kann so viele Pings versenden, wie ich möchte. Wenn ich einen »Ping« versende, wird er von der App an die fünf Menschen mit der größten Übereinstimmung für diesen »Ping« zugestellt.
 
