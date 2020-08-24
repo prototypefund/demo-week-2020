@@ -2,7 +2,6 @@
 layout: project
 title:  "CoopCare"
 image: https://prototypefund.de/wp-content/uploads/2020/08/coopcare-header.png
-video: https://youtu.be/wf_6QI6jzYY
 authors:
     - author: Michael Kamphausen
       link: https://www.coopcare.de
@@ -16,6 +15,8 @@ summary: "Wir entlasten mit der App CoopCare Pflegekräfte bei der Dokumentation
 ### CoopCare -- eine Omaha-System-basierte App für Pflegekräfte
 
 **Wir entlasten mit der App [CoopCare](https://www.coopcare.de) Pflegekräfte bei der Dokumentation und Planung und wollen Pflege-Teams sowohl in kooperativer Selbstorganisation unterstützen, als auch darin Pflegebedürftige selbständiger zu machen. Ein persönlicher Erfahrungsbericht über den Entstehungsprozess und Ausblick auf die nächsten Schritte.**
+
+<iframe width="750" height="422" src="https://www.youtube-nocookie.com/embed/wf_6QI6jzYY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Welchen Bezug hast du als Software-Entwickler zur Pflege?
 

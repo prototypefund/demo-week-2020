@@ -2,7 +2,6 @@
 layout: project
 title:  "Civil Maritime Rescue Coordination Center (Civil MRCC)"
 image: /assets/images/project_images/CivilMRCC/header.png
-video: https://youtu.be/OQln0H12eWI
 authors:
     - author: Mareike Ippen
       link:
@@ -17,6 +16,8 @@ summary: "CivilMRCC hat eine App entwickelt, mit deren Hilfe die Arbeit ziviler 
 ---
 
 Mithilfe einer App wollen wir die Arbeit für zivile Seenotrettungsorganisationen auf dem Mittelmeer verbessern. Seit 2015 gibt es eine Vielzahl von NGOs, die Seenotrettung leisten, da es von Seiten der europäischen Staaten keine angemessene Lösung für Menschen in Seenot gibt.
+
+<iframe width="750" height="422" src="https://www.youtube-nocookie.com/embed/OQln0H12eWI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Eine Karte für alle Organisationen
 

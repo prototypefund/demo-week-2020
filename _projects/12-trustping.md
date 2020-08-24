@@ -2,7 +2,6 @@
 layout: project
 title:  "Trustping"
 image: /assets/images/project_images/Trustping/header.png
-video: https://youtu.be/jOdNJ68lXk8
 authors:
     - author: Anke Nowottne
       link:
@@ -13,6 +12,8 @@ authors:
 brief: "Wir ermöglichen einen geschützten Austausch für Menschen mit Krebserkrankungen."
 summary: "Mit der App Trustping finden Menschen mit Krebs gezielt Gesprächspartner*innen, ohne sensible Informationen aus der Hand zu geben."
 ---
+
+<iframe width="750" height="422" src="https://www.youtube-nocookie.com/embed/jOdNJ68lXk8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Eine Krebsdiagnose ist ein Schock, verbunden mit einer großen Verunsicherung.
 Unsere Vision mit Trustping ist es, dass Menschen auf der dringenden Suche nach Austausch und Unterstützung, diese einfach finden können, ohne dabei ihre persönlichen Daten zu veröffentlichen und so ihre eigene Privatsphäre verletzen zu müssen. Im Moment findet dieser Austausch hauptsächlich in öffentlichen Internetforen oder Facebookgruppen statt. Trustping bietet eine sichere Alternative.

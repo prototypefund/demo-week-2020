@@ -1,7 +1,6 @@
 ---
 layout: project
 title:  "Identity Stick"
-video: https://youtu.be/4d9wFeLhmHM
 image: /assets/images/project_images/Identity_Stick/Druecken_zeigefinger.jpg
 authors:
     - author: Sina Beckstein
@@ -63,7 +62,7 @@ FIDO2 ermöglicht es momentan nur, sich bei Accounts einzuloggen. Wenn Nutzer\*i
 Die FIDO Allianz strebt an, [die Accounterstellung mit verifizierten Identitätsattributen](https://fidoalliance.org/fido-alliance-announces-id-and-iot-initiatives/) Wirklichkeit werden zu lassen und Probleme wie die Wiederherstellung von Accounts oder den FIDO-Standard im Internet der Dinge stärker einzusetzen. Bisher wurde der Standard aber nicht dementsprechend erweitert.  
 Ziel war es daher, einen externen Sicherheitsschlüssel zu entwickeln, der den passwortlosen Login weiterhin ermöglicht und gleichzeitig die Möglichkeit bietet, sich mit bestätigten Identitätsattributen auszuweisen. Im Demo-Video wird gezeigt, wie das aussehen könnte.
 
-[VIDEO](https://youtu.be/4d9wFeLhmHM)
+<iframe width="750" height="422" src="https://www.youtube-nocookie.com/embed/4d9wFeLhmHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Der FIDO-Standard kann für [bestimmte Anwendungszwecke angepasst werden](https://www.w3.org/TR/webauthn/#extensions). Diese Möglichkeit wurde genutzt, um ein eigenes Protokoll zu entwickeln, das es ermöglicht, Nachrichten mit Identitätsattributen von Nutzenden auszutauschen.  
 Die Idee für die Bestätigung der Informationen lässt sich mit einem versiegelten Empfehlungsschreiben vergleichen. In den Brief werden die Informationen geschrieben, die ein*e Bot\*in mündlich übertragen soll. Anschließend wird der Brief versiegelt und von*vom Bot\*in zum*zur Empfänger\*in gebracht. Wenn der*die Empfänger\*in das Siegel kennt, wird der Brief geöffnet und die Informationen mit denen der*des Bot\*in verglichen.
@@ -96,7 +95,7 @@ Basierend auf den Erkenntnissen der Papierprototypen und existierenden FIDO2 Use
 
 ### Passwortlos anmelden
 
-[![Fido1FA User Flow](/assets/images/project_images/Identity_Stick/Flow_FIDO1FA.png)](/assets/images/project_images/Identity_Stick/Flow_FIDO1FA.png)
+[![Fido1FA User Flow](/assets/images/project_images/Identity_Stick/Flow_Fido1FA.png)](/assets/images/project_images/Identity_Stick/Flow_Fido1FA.png)
 
 Beim Starten auf einer Login-Seite wurde die Auswahl um die Möglichkeit ‘Passwortlos anmelden’ erweitert, um die Begrifflichkeit des ‘Sicherheitsschlüssels’ zu vermeiden. Die Informationen und Auswahlmöglichkeiten des USB-Sticks wurden über Overlays abgebildet, wie es bei den bestehenden FIDO2-Implementationen schon Praxis ist.
 

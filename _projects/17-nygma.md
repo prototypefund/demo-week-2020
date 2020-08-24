@@ -2,7 +2,6 @@
 layout: project
 title:  "NYGMA"
 image: /assets/images/project_images/nygma/header.png
-video: https://youtu.be/dFbkR9pALEQ
 authors:
     - author: Alexander Wamack
       link:
@@ -29,7 +28,7 @@ des Netzwerk-Perimeters und schnelles Handeln im Ernstfall nach einem
 erfolgreichen Angriff dessen Auswirkung einschätzen und Gegenmaßnahmen
 einleiten. Hier fügt sich `NYGMA` in die Liste der Hilfswerkzeuge ein.
 
-[VIDEO1](https://youtu.be/dFbkR9pALEQ)
+<iframe width="720" height="422" src="https://www.youtube-nocookie.com/embed/dFbkR9pALEQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Für dieses Monitoring gibt es zahlreiche kommerzielle als auch nicht-kommerziell
 verfügbare Produkte. Kommerzielle Lösungen kommen oftmals schon aufgrund 
@@ -38,7 +37,7 @@ gängigsten Open-Source-Software (OSS)-Lösungen `Suricata` für
 regelbasierte Warnmeldungen und `Zeek` für Metadatenerfassung stellen zur
 Zeit die Grundlage für ein OSS-basiertes Netzwerk-Sicherheits-Monitoring dar.
 
-[VIDEO2](https://youtu.be/sns1dnBmbb0)
+<iframe width="720" height="422" src="https://www.youtube-nocookie.com/embed/sns1dnBmbb0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Beide Systeme bieten allerdings nicht -- oder nur sehr eingeschränkt
 -- die Möglichkeit, auf Rohmaterial zurückzugreifen. Auch eine Funktion für
@@ -51,7 +50,7 @@ beurteilen zu können. Hier setzt `NYGMA` an: `NYGMA` ergänzt `Suricata` und
 Rohformat gezielt abfragen zu können und weitere Erkenntnisse zu gewinnen
 oder tiefer gehende Analysen zu ermöglichen.
 
-[VIDEO3](https://youtu.be/CKgEsUNJTTs)
+<iframe width="720" height="422" src="https://www.youtube-nocookie.com/embed/CKgEsUNJTTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Die Vision ist, durch die Kombination von `Suricata`, `Zeek` und `NYGMA`
 die Cyber-Abwehrmöglichkeiten *für* *alle* zu verbessern. Da Monitoring-Lösungen
@@ -64,7 +63,7 @@ eingeschränkter) Fernzugriff oder Exfiltration nie auszuschließen,
 teilweise sogar verpflichtender Gegenstand eines Wartungs- oder Analysevertrags.
 Datenschutz- und Sicherheitsinteressen widersprechen dem selbstredend.
 
-[VIDEO4](https://youtu.be/pFefwIZgQVE)
+<iframe width="720" height="422" src="https://www.youtube-nocookie.com/embed/pFefwIZgQVE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Wie ist die Idee entstanden?
 
