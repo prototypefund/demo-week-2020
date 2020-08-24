@@ -188,8 +188,7 @@ einer freizügigen Lizenz (Blue-Oak License, ähnlich zu MIT/ISC) gepflegt.
 gefördert. Besonderer Dank geht an das DLR für die Unterstützung bei
 der Antragstellung und Hilfe bei allen organisatorischen Fragen. Absolut
 beeindruckend war die Projektbegleitung durch den Prototype Fund. Ohne die
-vielen Gespräche, wertvolles Feedback und die Organisation von @tasmo,
-@shiromarieke @PatriciaLeu, @KthrnMeyer und @AVWG wäre dieses Projekt nicht
+vielen Gespräche, wertvolles Feedback und die Organisation von [@tasmo](https://twitter.com/_Tasmo), [@shiromarieke](https://twitter.com/shiromarieke), Patricia Leu, [@KthrnMeyer](https://twitter.com/KthrnMeyer) und [@AVWG](https://twitter.com/avwgo) wäre dieses Projekt nicht
 möglich gewesen. Vielen, vielen Dank an alle beteiligten des Prototype Fund!
 
 ## Projekt-Links
