@@ -2,7 +2,7 @@
 layout: project
 title:  "CoopCare"
 image: https://prototypefund.de/wp-content/uploads/2020/08/coopcare-header.png
-video: https://www.youtube.com/watch?v=9lqvZyEVWDY
+video: https://youtu.be/wf_6QI6jzYY
 authors:
     - author: Michael Kamphausen
       link: https://www.coopcare.de

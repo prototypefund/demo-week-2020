@@ -2,6 +2,7 @@
 layout: project
 title:  "NYGMA"
 image: /assets/images/project_images/nygma/header.png
+video: https://youtu.be/dFbkR9pALEQ
 authors:
     - author: Alexander Wamack
       link:
@@ -28,12 +29,16 @@ des Netzwerk-Perimeters und schnelles Handeln im Ernstfall nach einem
 erfolgreichen Angriff dessen Auswirkung einschätzen und Gegenmaßnahmen
 einleiten. Hier fügt sich `NYGMA` in die Liste der Hilfswerkzeuge ein.
 
+[VIDEO1](https://youtu.be/dFbkR9pALEQ)
+
 Für dieses Monitoring gibt es zahlreiche kommerzielle als auch nicht-kommerziell
 verfügbare Produkte. Kommerzielle Lösungen kommen oftmals schon aufgrund 
 der Anschaffungs- als auch laufenden Betriebskosten nicht in Frage. Die
 gängigsten Open-Source-Software (OSS)-Lösungen `Suricata` für
 regelbasierte Warnmeldungen und `Zeek` für Metadatenerfassung stellen zur
 Zeit die Grundlage für ein OSS-basiertes Netzwerk-Sicherheits-Monitoring dar.
+
+[VIDEO2](https://youtu.be/sns1dnBmbb0)
 
 Beide Systeme bieten allerdings nicht -- oder nur sehr eingeschränkt
 -- die Möglichkeit, auf Rohmaterial zurückzugreifen. Auch eine Funktion für
@@ -46,6 +51,8 @@ beurteilen zu können. Hier setzt `NYGMA` an: `NYGMA` ergänzt `Suricata` und
 Rohformat gezielt abfragen zu können und weitere Erkenntnisse zu gewinnen
 oder tiefer gehende Analysen zu ermöglichen.
 
+[VIDEO3](https://youtu.be/CKgEsUNJTTs)
+
 Die Vision ist, durch die Kombination von `Suricata`, `Zeek` und `NYGMA`
 die Cyber-Abwehrmöglichkeiten *für* *alle* zu verbessern. Da Monitoring-Lösungen
 im Herzen des eigenen Netzwerks platziert werden, ist es eigentlich
@@ -56,6 +63,8 @@ genügt. Bei kommerziellen Black-Boxen ist ein (mehr oder weniger
 eingeschränkter) Fernzugriff oder Exfiltration nie auszuschließen,
 teilweise sogar verpflichtender Gegenstand eines Wartungs- oder Analysevertrags.
 Datenschutz- und Sicherheitsinteressen widersprechen dem selbstredend.
+
+[VIDEO4](https://youtu.be/pFefwIZgQVE)
 
 ## Wie ist die Idee entstanden?
 

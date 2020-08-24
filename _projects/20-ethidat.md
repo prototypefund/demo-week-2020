@@ -1,6 +1,7 @@
 ---
 layout: project
 title:  "Ethidat (CO2-Datenbank)"
+video: https://youtu.be/3MbmB0Fc4aw
 image: /assets/images/project_images/Ethidat/header.png
 authors:
     - author: Lars Wissler

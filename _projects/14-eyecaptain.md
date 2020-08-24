@@ -2,6 +2,7 @@
 layout: project
 title:  "EyeCaptain"
 image: /assets/images/project_images/EyeCaptain/header.png
+video: https://youtu.be/9peZOzOcSsM
 authors:
     - author: Hannah Ricksgers
       link:

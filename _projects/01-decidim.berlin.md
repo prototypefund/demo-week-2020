@@ -2,6 +2,7 @@
 layout: project
 title:  "Decidim Berlin - Infrastruktur zur Zivilgesellschaftlichen Interessenvertretung"
 image: /assets/images/project_images/decidim/header.png
+video: https://youtu.be/e-PaZhYj5Lk
 authors:
     - author: Maria Haberer
       link:

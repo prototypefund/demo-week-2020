@@ -2,6 +2,7 @@
 layout: project
 title:  "Trustping"
 image: /assets/images/project_images/Trustping/header.png
+video: https://youtu.be/jOdNJ68lXk8
 authors:
     - author: Anke Nowottne
       link:

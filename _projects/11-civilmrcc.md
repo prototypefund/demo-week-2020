@@ -2,6 +2,7 @@
 layout: project
 title:  "Civil Maritime Rescue Coordination Center (Civil MRCC)"
 image: /assets/images/project_images/CivilMRCC/header.png
+video: https://youtu.be/OQln0H12eWI
 authors:
     - author: Mareike Ippen
       link:
