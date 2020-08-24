@@ -1,4 +1,5 @@
 ---
+layout: empty
 ---
 <style>
   body {
