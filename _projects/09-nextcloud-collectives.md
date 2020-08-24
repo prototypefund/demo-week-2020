@@ -106,6 +106,6 @@ An dieser Stelle möchten wir uns herzlich bedanken. Das [BMBF][] hat durch sein
 [systemli wiki]: https://wiki.systemli.org/howto/nextcloud/gruppen
 [Prototyping]: https://de.wikipedia.org/wiki/Prototyping_%28Softwareentwicklung%29
 [BMBF]: https://www.bmbf.de/
-[Prototype - Fund]: https://prototypefund.de/
+[Prototype Fund]: https://prototypefund.de/
 [DLR]: http://www.dlr.de/
 [Nextcloud Team]: https://nextcloud.com/team/
