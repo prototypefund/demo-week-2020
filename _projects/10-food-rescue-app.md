@@ -11,7 +11,7 @@ summary: "Mit der Food Rescue App (vormals RealMHD-App) kannst Du herausfinden, 
 
 (This article also has an [English language version](https://fairdirect.org/blog/food-rescue-app-presentation).)
 
-# Ein wenig Geschichte
+## Ein wenig Geschichte
 
 Ob Menschen wohl für eine bestimmte Rolle geboren sind? Ich habe es schon immer gehasst zu sehen, wie brauchbare Dinge weggeworfen werden. Als ich drei oder vier Jahre alt war, sah ich zum ersten Mal wie ein Sperrmüllauto mit seiner hydraulischen Presse Möbel zertrümmerte. Ich weinte. Und jetzt schreibe ich Software gegen Lebensmittelverschwendung. Man kann da einen Zusammenhang sehen …
 
@@ -38,7 +38,7 @@ Was ich mir allerdings zu Beginn der Arbeit an Food Rescue App nicht vorstellen 
 In dieser Online-Demonstration einer Anwendung für Mobilgeräte stehen leider nicht alle  Funktionen zur Verfügung. Das Scannen von Barcodes etwa braucht eine Smartphone-Kamera. Du kannst aber Barcode-Nummern von Lebensmitteln direkt in das Suchfeld eingeben oder hineinkopieren, zum Beispiel 1000110007387 oder 2165741004149 oder 2205873003013. Am interessantesten ist es aber, nach Kategorien zu suchen, zum Beispiel „Reis“ oder „Alter Gouda“.
 Du kannst die Anwendung auch [herunterladen](http://fairdirect.org/downloads/foodrescue.apk) um sie auf deinem Android-Gerät zu installieren. Und du kannst [den Quelltext erhalten](https://github.com/fairdirect/foodrescue-app).
 
-# Essen, Umwelt, Klima
+## Essen, Umwelt, Klima
 
 Machen wir die Rechnung: Wie würden Umwelt und Klima profitieren wenn Lebensmittelabfälle in all ihren Formen vermieden würden? Im Jahr 2013 produzierte die Landwirtschaft im globalen Durchschnitt 9747 kcal pro Person und Tag, von denen 2353 kcal für den menschlichen Verzehr notwendig waren.<a id="cite_ref-1-1" href="#1"><sup>[1]</sup></a> Das bedeutet, dass (9747 kcal - 2353 kcal) / 9747 kcal = 75,9 % aller Kalorien für etwas anderes als menschliche Ernährung verbraucht wurden (vgl. Grafik unten). Nahrungsmittelproduktion ist laut einer Studie (mit Daten von 2010) für 26 % der globalen Treibhausgasemissionen verantwortlich.<a id="cite_ref-2" href="#2"><sup>[2]</sup></a> Zusammengenommen sind Lebensmittelabfälle also für 26 % × 75,9 % = 19,7 % der globalen Treibhausgasemissionen verantwortlich.
 
@@ -58,7 +58,7 @@ Die Auswirkungen auf die Treibhausgasemissionen sind nicht der einzige Vorteil v
 Lebensmittelabfälle zu minimieren ist, wie jede Abfallvermeidung, eine sehr erschwingliche Intervention. Es braucht dazu keine neue Technologie oder Infrastruktur, sondern "nur" Wissen. Das ist eine gute Gelegenheit für Innovationen aus der Open-Source-Bewegung. Ein Ergebnis davon ist nun die Food Rescue App, die wir im Folgenden im Detail vorstellen.
 
 
-# Die Food Rescue App im August 2020
+## Die Food Rescue App im August 2020
 
 Diese erste Version der Food Rescue App enthält Open-Source-Inhalte zur Lebensmittelrettung und eine Datenbank, in der Lebensmittelprodukte mit Kategorien verknüpft sind. Wer den Barcode eines Lebensmittelprodukts scannt oder nach einer Lebensmittelkategorie sucht, erfährt aus der Anwendung dann alles, was diese zur Rettung dieser Lebensmittel weiß. Die Innovation ist hier, einen Barcode-Scanner mit Informationen zur Lebensmittelrettung zu kombinieren. Dies macht die Informationen leichter und schneller zugänglich als in jeder mir bekannten existierenden Lösung.
 
@@ -77,7 +77,7 @@ Unabhängig von der aktuellen Funktionalität habe ich eine Architektur gewählt
 Diese Architektur ist noch nicht perfekt. Aufgrund von Qt QML – der Technologie, die auf der Kirigami basiert – enthält die Anwendung etwas JavaScript-Code und eine virtuelle JavaScript-Maschine. Diese bietet keine native Performance, wird aber auch nicht für performance-kritischen Code verwendet. Diese Situation wird bei Erscheinen von Qt 6 gelöst, denn dann wird es möglich, QML zu echtem C++-Code umzuwandeln.<a id="cite_ref-6" href="#6"><sup>[6]</sup></a> Eine weitere Herausforderung besteht darin, dass auf Systemen ohne einen geeigneten Paketmanager die Qt-Bibliotheken bei der Verteilung der Anwendung mitgeliefert werden müssen. Dadurch erhöht sich die installierte Größe von 400 KiB (unter Linux) auf 37 MiB (unter Android). Qt muss aber bei weitem nicht so groß sein; es hat sich bloß bisher niemand um dieses Problem unter Android und iOS gekümmert. Ich habe Techniken entdeckt, um diese Größe in einer zukünftigen Version um mindestens 75 % zu reduzieren ([Details](https://dynalist.io/d/To5BNup9nYdPq7QQ3KlYa-mA#z=dI8VwnzUsz7jXpZFlJJPQUaR)).
 
 
-# Vision
+## Vision
 
 Wir haben gesehen, was die Food Rescue App bisher kann – noch nicht besonders viel, aber es ist ein Anfang. Was aber steckt noch drin in dieser Idee? Was ist das volle Potenzial einer kleinen Anwendung wie dieser für die großen Ziele Klimaschutz, Artenschutz und Nahrungsmittelsicherheit?
 
@@ -94,7 +94,7 @@ Und es gibt zahlreiche weitere Möglichkeiten, mit Food Rescue App der Lebensmit
 
 ----
 
-# Fußnoten
+## Fußnoten
 
 1. <a id="1"/> Berners-Lee, M., Kennelly, C., Watson, R. und Hewitt, C.N., 2018. [Current global food production is sufficient to meet human nutritional needs in 2050 provided there is radical societal adaptation](http://doi.org/10.1525/elementa.310). Elem Sci Anth, 6(1), S. 52. Auszüge werden unter einer Creative-Commons-Attribution-4.0-Lizenz verwendet. [↩](#cite_ref-1-1) [↩](#cite_ref-1-2)
 

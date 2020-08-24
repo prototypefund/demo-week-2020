@@ -74,7 +74,8 @@ kann technisch gesehen als “Annotation” abgebildet werden. Auch darüber hab
 sich bereits viele Entwickler\*innen den Kopf zerbrochen: So ermöglicht das
 Projekt [“hypothes.is”](https://web.hypothes.is/) mehr oder weniger das
 komplette Internet zu annotieren, also beliebige Stellen von Webseiten mit
-Kommentaren zu versehen. Die Annotationen landen auf dem hypothes.is-Server und sind entweder privat sichtbar oder können mit User-Gruppen oder der
+Kommentaren zu versehen. Die Annotationen landen auf dem hypothes.is-Server und 
+sind entweder privat sichtbar oder können mit User-Gruppen oder der
 Öffentlichkeit geteilt werden.
 
 ## Die Nische
@@ -82,7 +83,8 @@ Kommentaren zu versehen. Die Annotationen landen auf dem hypothes.is-Server und 
 Die Umsetzung für den beschriebenen Anwendungsfall lautet also im weitesten
 Sinne “Annotationen”. Trotzdem gab es für eine bestimmte Konstellation von
 Anforderungen bisher keine einfache technische Lösung -- und dafür wurde im
-Rahmen der Förderung durch den Prototype Fund “Annotate & chill” gebaut. Diese Software geht von drei Nutzungsszenarien aus: Erstens, Annotierung kann (muss aber nicht) lokal
+Rahmen der Förderung durch den Prototype Fund “Annotate & chill” gebaut. Diese Software 
+geht von drei Nutzungsszenarien aus: Erstens, Annotierung kann (muss aber nicht) lokal
 und offline stattfinden und wird nicht (kann aber) in einer Cloud gespeichert.
 Zweitens, Annotierungen sind getrennt von den Quelldokumenten und können
 unabhängig davon verbreitet werden. Und drittens gibt es kein festgelegtes
