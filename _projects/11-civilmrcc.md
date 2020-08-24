@@ -17,7 +17,7 @@ summary: "CivilMRCC hat eine App entwickelt, mit deren Hilfe die Arbeit ziviler 
 
 Mithilfe einer App wollen wir die Arbeit für zivile Seenotrettungsorganisationen auf dem Mittelmeer verbessern. Seit 2015 gibt es eine Vielzahl von NGOs, die Seenotrettung leisten, da es von Seiten der europäischen Staaten keine angemessene Lösung für Menschen in Seenot gibt.
 
-# Eine Karte für alle Organisationen
+## Eine Karte für alle Organisationen
 
 Die zivilen Organisationen haben jedoch das Problem, dass sie nicht ausreichend untereinander vernetzt sind. Dies betrifft zum einen die Kommunikation zwischen einem Schiff und dem jeweiligen Team an Land. Zum anderen betrifft es auch die Kommunikation unter den Schiffen und Flugzeugen.
 
@@ -26,7 +26,7 @@ Dadurch sehen alle anderen Organisationen direkt, dass ein Boot in Seenot ist un
 
 Denn ein weiteres Problem für die zivilen Seenotrettungsorganisationen ist das Fehlen einer zentralen Dokumentationsstelle über all diese Bewegungen im Mittelmeer und die Infos zu den einzelnen Booten. Bislang sammeln Organisationen diese Daten teilweise selbst. Wir wollen eine zentrale, unabhängige Datenbank schaffen, die auch für Journalist\*innen und Forscher\*innen zugänglich ist. Somit wollen wir mehr Transparenz über die Situation auf dem Mittelmeer schaffen.
 
-# Was haben wir durch die Förderung erreicht?
+## Was haben wir durch die Förderung erreicht?
 
 Der Beginn des Projekts liegt mittlerweile schon drei Jahre zurück. Die Förderung durch den Prototype Fund haben wir genutzt, um uns intensiv mit den verschiedenen  Seenotrettungsorganisationen zu vernetzten. Wir haben eine erste Testphase durchgeführt, wodurch wir hilfreiches Feedback erhalten haben. Auf dieser Grundlage konnten wir neue, an die User\*innenbedürfnisse angepasste Funktionen und Features einbauen. Seitdem wird die App von einigen Organisationen genutzt -- somit haben wir bereits ein großes Ziel erreicht.
 
@@ -37,7 +37,7 @@ Während der Förderzeit hatten wir auch die Möglichkeit, unser Projekt in der 
 
 ![Use case](/assets/images/project_images/CivilMRCC/case.jpg)
 
-# So geht es bei uns weiter
+## So geht es bei uns weiter
 
 Noch einmal zusammengefasst ist es unser Ziel, allen Seenotrettungsorganisationen Zugang zur Karten-App und Datenbank zu geben, sowie interessierten Journalist\*innen und Forscher\*innen die Daten, die sie für ihre Arbeit benötigen, zur Verfügung zu stellen.
 Dadurch erhoffen wir uns zum einen, die Seenotrettung zu verbessern und somit mehr Menschen das Leben retten zu können. Zum anderen möchten wir mithilfe der Daten mehr Transparenz über die Situation von Flucht auf dem Mittelmeer schaffen. Die Debatte um Migration nach Europa und Seenotrettung ist von massiver Desinformation geprägt ist -- dies trägt zur Polarisierung der Gesellschaft bei.

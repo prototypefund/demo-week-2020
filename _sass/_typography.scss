@@ -6,6 +6,11 @@
   font-family: 'Surt';
   src: url('/assets/fonts/Surt-Regular.otf');
 }
+@font-face {
+  font-family: 'Surt';
+  src: url('/assets/fonts/Surt-Bold.otf');
+  font-weight: bold;
+}
 
 body {
   font-size: $font_default;
