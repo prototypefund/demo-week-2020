@@ -51,6 +51,17 @@
       display: none;
     }
   }
+  .video-container .description > .flex-container {
+    display: block;
+
+    .speaker {
+      width: 100%;
+    }
+  }
+
+  .container {
+    width: calc(100% - 3rem)
+  }
 }
 
 @media (max-width: 1440px) {
