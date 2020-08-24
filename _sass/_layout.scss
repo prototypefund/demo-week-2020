@@ -28,6 +28,26 @@
   }
 }
 
+.preload,
+.onload {
+  position:relative
+}
+.preload::after,
+.onload::after {
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background:#161730;
+  z-index:999999;
+  transition:opacity 0.6s ease-in-out
+}
+.onload::after {
+  opacity:0
+}
+
 .container {
   padding: 0 1rem;
   margin: 3.5rem auto;
