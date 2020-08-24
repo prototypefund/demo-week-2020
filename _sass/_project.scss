@@ -19,3 +19,22 @@
     color: #CFD0E2;
   }
 }
+
+.project-container {
+  .home-link {
+    color: $neon_pink;
+    text-transform: uppercase;
+
+    img {
+      margin-right: 1rem;
+    }
+
+    div {
+      margin-bottom: 3rem;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

@@ -27,6 +27,16 @@ body {
   overflow-x: hidden;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: #161730;
+  background: $neon_pink;
+}
+
+::selection {
+  color: #161730;
+  background: $neon_pink;
+}
+
 a {
   text-decoration: none;
   color: $neon_blue;
@@ -40,6 +50,7 @@ li.nav-links {
     color: $neon_pink;
     font-size: $font_xl;
     line-height: $font_xl * 1.5;
+    text-transform: uppercase;
   }
 }
 
