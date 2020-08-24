@@ -37,6 +37,10 @@
   }
 }
 
+.nav-xs-container {
+  display: none;
+}
+
 @media (max-width: 414px) {
   .featured-projects .project {
     padding: 0;
