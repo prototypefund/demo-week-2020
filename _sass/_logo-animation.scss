@@ -17,7 +17,7 @@ header {
       text-transform: uppercase;
       opacity: 0;
       width: 0;
-      transition: width 0.5s ease-in-out, opacity 0.5s ease-in-out, margin-left 0.5s ease-in-out;
+      transition: width 0.5s ease-in-out 0.15s, opacity 0.5s ease-in-out 0s, margin-left 0.5s ease-in-out;
 
       :nth-child(2) {
         color: #009ACF;
@@ -48,6 +48,7 @@ header {
         width: 233px;
         opacity: 1;
         margin-left: 2rem;
+        transition: width 0.5s ease-in-out, opacity 0.5s ease-in-out 0.5s, margin-left 0.5s ease-in-out;
       }
 
       svg path {

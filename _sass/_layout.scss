@@ -103,6 +103,8 @@ footer {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      align-items: end;
+      text-align: right;
 
       p {
         margin-bottom: 0.5rem;

@@ -59,14 +59,14 @@ layout: default
     <h2>Keynotes</h2>
     <div class="flex-container justify-start">
       <div class="speaker flex-container justify-start align-center">
-        <img src="/assets/images/speaker.png" />
+        <img src="/assets/images/speakers/KarolinSchwarz.png" />
         <div class="speaker-details">
           <h4>Karolin Schwarz</h4>
           <small>Autorin & Freie Journalistin</small>
         </div>
       </div>
       <div class="speaker flex-container justify-start align-center">
-        <img src="/assets/images/speaker.png" />
+        <img src="/assets/images/speakers/LinusNeumann.png" />
         <div class="speaker-details">
           <h4>Linus Neumann</h4>
           <small>Chaos Computer Club Sprecher</small>
@@ -124,11 +124,13 @@ layout: default
     {% assign mod = forloop.index | modulo: 2 %}
     <div class="flex-container project {% if mod == 1%}inverse{% endif %} justify-between">
       <div class="project-image">
-        {% if project.image %}
-          <img src="{{ project.image }}" />
-        {% else %}
-          <img src="/assets/images/project_img_placeholder.png" />
-        {% endif %}
+        <a href="{{ project.url }}" style="line-height: 0;">
+          {% if project.image %}
+            <img src="{{ project.image }}" />
+          {% else %}
+            <img src="/assets/images/project_img_placeholder.png" />
+          {% endif %}
+        </a>
       </div>
       <div class="project-details">
         <div class="project-authors">
@@ -138,9 +140,11 @@ layout: default
             </a>
           {% endfor %}
         </div>
-        <h2 class="project-title">
-          {{ project.title }}
-        </h2>
+        <a href="{{ project.url }}">
+          <h2 class="project-title">
+            {{ project.title }}
+          </h2>
+        </a>
         <p class="project-brief">
           {{ project.brief }}
         </p>
@@ -152,25 +156,43 @@ layout: default
 <hr />
 <div class="flex-container video-container container justify-between" id="keynote2">
   <div class="description">
-    <h2>Eröffnung</h2>
-    <p>Volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia
-      quis vel eros donec ac odio tempor orci dapibus ultrices Volutpat odio facilisis
-      mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac
-      odio tempor orci dapibus.</p>
-    <h2>Keynotes</h2>
+    <h2>Abschluss</h2>
+    <p>Zum Abschluss der Demo Week am 28.08. werden die Projektteams auf eure Fragen
+      antworten, bevor wir mit einem Panel abschließen. Mit unseren Panel-Gästen reden
+      wir darüber, wie die Corona-Pandemie unser Verhältnis zu Technologie gewandelt
+      hat: Was braucht Technologie, damit wir ihr vertrauen können, wie sieht sichere
+      Technologie aus und wie können wir die aktuelle Herausforderung als Chance auf
+      einen Wandel hin zu einer solchen begreifen?</p>
+    <h2>Panel</h2>
+    <div class="flex-container justify-start">
+      <div class="speaker flex-container justify-start align-center">
+        <img src="/assets/images/speakers/AnnCathrinRiedel.png" />
+        <div class="speaker-details">
+          <h4>Ann Cathrin Riedel</h4>
+          <small>Load e. V.</small>
+        </div>
+      </div>
+      <div class="speaker flex-container justify-start align-center">
+        <img src="/assets/images/speakers/MatthiasKirschner.png" />
+        <div class="speaker-details">
+          <h4>Matthias Kirschner</h4>
+          <small>Free Software Foundation Europe</small>
+        </div>
+      </div>
+    </div>
     <div class="flex-container justify-start">
       <div class="speaker flex-container justify-start align-center">
         <img src="/assets/images/speaker.png" />
         <div class="speaker-details">
-          <h4>Maxi Muster</h4>
-          <small>Speaker.in</small>
+          <h4>Michael Weber</h4>
+          <small>Bundesministerium für Bildung und Forschung</small>
         </div>
       </div>
       <div class="speaker flex-container justify-start align-center">
-        <img src="/assets/images/speaker.png" />
+        <img src="/assets/images/speakers/AdrianaGroh.png" />
         <div class="speaker-details">
-          <h4>Maxi Muster</h4>
-          <small>Speaker.in</small>
+          <h4>Adriana Groh</h4>
+          <small>Prototype Fund</small>
         </div>
       </div>
     </div>
