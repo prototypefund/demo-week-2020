@@ -17,12 +17,12 @@ summary: "Mit der App Trustping finden Menschen mit Krebs gezielt Gesprächspart
 Eine Krebsdiagnose ist ein Schock, verbunden mit einer großen Verunsicherung.
 Unsere Vision mit Trustping ist es, dass Menschen auf der dringenden Suche nach Austausch und Unterstützung, diese einfach finden können, ohne dabei ihre persönlichen Daten zu veröffentlichen und so ihre eigene Privatsphäre verletzen zu müssen. Im Moment findet dieser Austausch hauptsächlich in öffentlichen Internetforen oder Facebookgruppen statt. Trustping bietet eine sichere Alternative.
 
-![Trustping](/assets/images/project_images/Trustping/tp01.png)
-
 In Zeiten von COVID hat unser Anliegen eine neue Dringlichkeit erfahren. Menschen mit Krebserkrankungen sind besonders gefährdet, nicht nur durch eine potenzielle Ansteckung mit dem Virus, sondern auch durch eine Isolation mit ihrer Krankheitserfahrung. Trustping wird also wichtiger denn je.
 
 
 Trustping ist eine App fürs Smartphone. Zusätzlich zu einem klassischen Messenger bietet sie eine Match-Funktionalität »Ping«, die es ermöglicht über konkrete Fragen und Themen geschützt zueinander zu finden und sich auszutauschen. Die Transparenz der App und des Umgangs mit sämtlichen Daten sowie der Schutz aller persönlicher Kommunikation sind das Herz von Trustping.
+
+![Trustping](/assets/images/project_images/Trustping/tp01.png)
 
 ## Trustping und Gesellschaft
 
