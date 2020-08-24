@@ -7,14 +7,15 @@ authors:
     - author: Michael Kamphausen
       link: https://www.coopcare.de
 brief: "Wir entlasten Pflegekräfte und verhelfen Pflegebedürftigen zu größerer Selbstständigkeit."
-summary: "Wir entlasten mit der App CoopCare Pflegekräfte bei Dokumentation und Planung und wollen Pflege-Teams sowohl in kooperativer Selbstorganisation unterstützen, als auch darin Pflegebedürftige selbständiger zu machen. Ein persönlicher Erfahrungsbericht über den Entstehungsprozess und Ausblick auf die nächsten Schritte."
+summary: "Wir entlasten mit der App CoopCare Pflegekräfte bei der Dokumentation und Planung und wollen Pflege-Teams sowohl in kooperativer Selbstorganisation unterstützen, als auch darin Pflegebedürftige selbständiger zu machen. Ein persönlicher Erfahrungsbericht über den Entstehungsprozess und Ausblick auf die nächsten Schritte."
 ---
-
-##### CoopCare -- eine Omaha-System-basierte App für Pflegedokumentation und Planung -- oder:
 
 # „I've got 42 problems, but documentation ain't one”
 
-**Wir entlasten mit der App [CoopCare](https://www.coopcare.de) Pflegekräfte bei Dokumentation und Planung und wollen Pflege-Teams sowohl in kooperativer Selbstorganisation unterstützen als auch darin, Pflegebedürftige selbständiger zu machen. Ein persönlicher Erfahrungsbericht über den Entstehungsprozess und Ausblick auf die nächsten Schritte.**
+
+### CoopCare -- eine Omaha-System-basierte App für Pflegekräfte
+
+**Wir entlasten mit der App [CoopCare](https://www.coopcare.de) Pflegekräfte bei der Dokumentation und Planung und wollen Pflege-Teams sowohl in kooperativer Selbstorganisation unterstützen, als auch darin Pflegebedürftige selbständiger zu machen. Ein persönlicher Erfahrungsbericht über den Entstehungsprozess und Ausblick auf die nächsten Schritte.**
 
 ## Welchen Bezug hast du als Software-Entwickler zur Pflege?
 
