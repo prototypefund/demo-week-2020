@@ -59,8 +59,33 @@
     }
   }
 
+  .hidden-xs {
+    display: none;
+  }
+
   .container {
     width: calc(100% - 3rem)
+  }
+
+  .nav-xs-container {
+    display: block;
+    position: absolute;
+    right: 1rem;
+    text-align: right;
+
+    ul.navs {
+      background: $background_dark;
+      padding: 1rem;
+      display: none;
+
+      li.nav-links {
+        margin-bottom: 1rem;
+      }
+    }
+
+    .checkbox:checked ~ ul.navs {
+      display: block;
+    }
   }
 }
 
@@ -72,5 +97,11 @@
         display: none;
       }
     }
+  }
+}
+
+@media (min-width: 1440px) {
+  .fix-header {
+    width: 1440px;
   }
 }

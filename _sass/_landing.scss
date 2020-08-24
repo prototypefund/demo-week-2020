@@ -2,7 +2,7 @@
   flex: 1;
 }
 .landing-hero {
-  margin-top: 8rem;
+  margin-top: 15rem;
 
   h1.pink-border {
     margin-top: 1rem;
@@ -35,6 +35,13 @@
   .video img {
     max-width: 100%;
   }
+}
+
+#scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
 }
 
 .project {

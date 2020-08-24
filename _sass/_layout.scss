@@ -31,6 +31,12 @@
   }
 }
 
+.fix-header {
+  position: fixed;
+  width: 100vw;
+  background-color: $background_color;
+}
+
 .preload,
 .onload {
   position:relative
