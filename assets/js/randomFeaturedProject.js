@@ -26,7 +26,3 @@ function renderProject(project) {
   });
   featuredContainer.querySelector(".project-authors").innerHTML = authorHTML;
 }
-
-window.onload = function() {
-  renderProject(getRandomProject());
-}
