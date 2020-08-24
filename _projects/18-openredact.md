@@ -10,18 +10,18 @@ authors:
     - author:  Malte Ostendorff
       link: https://ostendorff.org
     - author: Saskia Ostendorff
-      link:
+      link: https://ostendorff.legal
 brief: "Wir bereinigen Dokumente von personenbezogenen Daten."
 summary: "Die Anonymisierungs-App OpenRedact bereinigt Dokumente von personenbezogenen Daten. Der Anonymisierungsleitfaden gibt einen Überblick zur Anonymisierung von amtlichen Werken."
 ---
 
-Der Wunsch Open Data zur Verfügung zu stellen, kollidiert häufig mit dem Datenschutz. Das Bewusstsein für Datenschutz ist seit der [Datenschutz-Grundverordnung (DSGVO)](https://dejure.org/gesetze/DSGVO) gestiegen und stellt eine Herausforderung nicht nur für die Entwicklung neuer Geschäftsmodelle, sondern auch für Open Data dar. Der große Aufwand staatlicher Stellen, ihre Daten für die Veröffentlichung zu anonymisieren steht dem Interesse der Bürger\*innen nach Transparenz gegenüber. Die manuelle Anonymisierung von Daten ist teuer und sehr zeitaufwändig.
+Der Wunsch Open Data zur Verfügung zu stellen, kollidiert häufig mit dem Datenschutz. Das Bewusstsein für Datenschutz ist seit der [Datenschutz-Grundverordnung (DSGVO)](https://de.wikipedia.org/wiki/Datenschutz-Grundverordnung) gestiegen und stellt eine Herausforderung nicht nur für die Entwicklung neuer Geschäftsmodelle, sondern auch für Open Data dar. Der große Aufwand staatlicher Stellen, ihre Daten für die Veröffentlichung zu anonymisieren steht dem Interesse der Bürger\*innen nach Transparenz gegenüber. Die manuelle Anonymisierung von Daten ist teuer und sehr zeitaufwändig.
 
 OpenRedact hat sich das Ziel gesetzt, den Aufwand der Anonymisierung von deutschsprachigen Texten und Dokumenten zu reduzieren. Dadurch soll die effiziente Veröffentlichung von Open Data ermöglicht und Datenschutz sichergestellt werden.
 
 ## Anonymisierungsrichtlinie
 
-OpenRedact hat während des Förderzeitraums nicht nur an einer technischen Applikation gearbeitet, sondern auch einen [Anonymisierungsleitfaden](https://openredact.org/leitfaden-anonymisierung) für Open Data entwickelt. Dieser Anonymisierungsleitfaden soll Behörden und der Justiz das Vorhaben von Open Data unter Wahrung des Datenschutzes ermöglichen. Grundsätzlich sind personenbezogene Daten zu anonymisieren. In unserem Leitfaden befassen wir uns mit den verschiedenen Methoden der Unkenntlichmachung von personenbezogenen Daten und schauen uns zwei Anwendungsfelder an. Die Anwendungsfelder betreffen Informationsfreiheitsgesetzanfragen und die Veröffentlichung von Urteilen. Wir zeigen auf, dass die semi-automatisierte Anonymisierung die Behörden bei dem Schutz personenbezogener Daten entlasten kann. Am Ende des Leitfaden schlagen wir vor, wovon es abhängig sein soll, ob personenbezogene Daten anonymisiert, pseudonymisiert oder mit Hilfe von Differential Privacy unkenntlich gemacht werden. Hierzu haben wir ein sogenanntes Abstufungskonzept entwickelt, was die Anwendung von OpenRedact von dem Inhalt abhängig macht. Die letztendliche Entscheidung, welche Methodik Anwendung findet, bleibt eine manuelle; ebenso die letzte Überprüfung nach dem Einsatz von OpenRedact. Ähnliche semi-automatisierte Anonymisierungstechniken wie in der Schweiz zeigen eine erhebliche Arbeitserleichterung.
+OpenRedact hat während des Förderzeitraums nicht nur an einer technischen Applikation gearbeitet, sondern auch einen [Anonymisierungsleitfaden](https://openredact.org/leitfaden-anonymisierung) für Open Data entwickelt. Dieser Anonymisierungsleitfaden soll Behörden und der Justiz das Vorhaben von Open Data unter Wahrung des Datenschutzes ermöglichen. Grundsätzlich sind personenbezogene Daten zu anonymisieren. In unserem Leitfaden befassen wir uns mit den verschiedenen Methoden der Unkenntlichmachung von personenbezogenen Daten und schauen uns zwei Anwendungsfelder an. Die Anwendungsfelder betreffen [Informationsfreiheitsgesetzanfragen](https://fragdenstaat.de) und die [Veröffentlichung von Urteilen](https://de.openlegaldata.io/). Wir zeigen auf, dass die semi-automatisierte Anonymisierung die Behörden bei dem Schutz personenbezogener Daten entlasten kann. Am Ende des Leitfaden schlagen wir vor, wovon es abhängig sein soll, ob personenbezogene Daten anonymisiert, pseudonymisiert oder mit Hilfe von Differential Privacy unkenntlich gemacht werden. Hierzu haben wir ein sogenanntes Abstufungskonzept entwickelt, was die Anwendung von OpenRedact von dem Inhalt abhängig macht. Die letztendliche Entscheidung, welche Methodik Anwendung findet, bleibt eine manuelle; ebenso die letzte Überprüfung nach dem Einsatz von OpenRedact. Ähnliche semi-automatisierte Anonymisierungstechniken wie in der Schweiz zeigen eine erhebliche Arbeitserleichterung.
 
 ## Übersicht
 
@@ -80,3 +80,10 @@ Die Teilnahme am Prototype Fund hat es OpenRedact ermöglicht, die Idee von eine
 Wir zeigen mit unserem Prototypen die technischen Möglichkeiten von teil-automatisierter Anonymisierung und bieten eine Grundlage für die zukünftige Zusammenarbeit und Nutzung des öffentlichen Sektors.
 
 Ein großer Dank für die Ermöglichung dieses Prototypen geht an das Prototype-Fund-Team und das BMBF. Weiterhin bedanken wir uns für die großartige Begleitung des Projektes durch den DLR Projektträger und [Simply Secure](https://simplysecure.org/).
+
+
+- Website: [https://openredact.org/](https://openredact.org/) 
+- Twitter: [https://twitter.com/openredact1](https://twitter.com/openredact1) 
+- GitHub: [https://github.com/openredact](https://github.com/openredact)
+
+
