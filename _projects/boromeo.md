@@ -4,19 +4,19 @@ title:  "Annotate & Chill"
 image: /assets/images/project_images/Boromeo/header.png
 authors:
     - author: Simon Wörpel
-      link:
+      link: https://twitter.com/simonwoerpel
 brief: "Wir zeigen, aus welchen Quellen Informationen stammen."
 summary: "Seit einigen Jahren arbeiten Recherche-Teams verstärkt mit großen Dokumentensammlungen oder “Leaks”. Die Herausforderung ist immer gleich: Aus einem unstrukturierten Wust strukturierte Erkenntnisse zu generieren, sie zunächst mit Kolleg*innen und später mit der Öffentlichkeit zu teilen. Hier eine Übersicht über Herangehensweise, den aktuellen Stand sowie ein neues Puzzleteil in einer immer weiter wachsenden Werkzeugkiste."
 ---
 
 # Die Stecknadel im Heuhaufen wiederfinden
 
-(Teaser/Vorspann) Seit einigen Jahren arbeiten Recherche-Teams verstärkt mit
+*Seit einigen Jahren arbeiten Recherche-Teams verstärkt mit
 großen Dokumentensammlungen oder “Leaks”. Die Herausforderung ist immer
 gleich: Aus einem unstrukturierten Wust strukturierte Erkenntnisse zu
 generieren, sie zunächst mit Kolleg\*innen und später mit der Öffentlichkeit zu
 teilen. Hier eine Übersicht über Herangehensweise, den aktuellen Stand sowie
-ein neues Puzzleteil in einer immer weiter wachsenden Werkzeugkiste.
+ein neues Puzzleteil in einer immer weiter wachsenden Werkzeugkiste.*
 
 ## Das Problem
 
@@ -216,4 +216,4 @@ geht Dank an Simon Höher von [zero360](https://zero360.de/), der einen
 und Johannes Filter für Support und inspirierenden Austausch über (fast) alles,
 was mit Erkenntnisgewinn aus Dokumenten zu tun hat, und an Marie & Tasmo vom
 Projektteam für die individuelle Betreuung über die vergangenen sechs Monate
-in diesem etwas seltsamen Jahr 2020. 
+in diesem etwas seltsamen Jahr 2020.
