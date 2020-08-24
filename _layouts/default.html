@@ -7,7 +7,7 @@
     <link rel="icon" href="/assets/images/favicon.svg" sizes="any" type="image/svg+xml">
     <link rel="stylesheet" href="/assets/css/main.css">
   </head>
-  <body {% if page.title == "Home" %}class="preload"{% endif %}>
+  <body {% if page.type == "landing" %}class="preload"{% endif %}>
     {% include header.html %}
     {{ content }}
     {% include footer.html %}
