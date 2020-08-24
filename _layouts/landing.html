@@ -1,185 +1,79 @@
----
-layout: default
----
-
-<div class="flex-container container landing-hero justify-between">
-  <div class="logo-details">
-    <img src="/assets/images/logo.svg" />
-    <h1 class="pink-border">Prototype</h1>
-    <h1 class="blue-border">Fund</h1>
-  </div>
-  <div class="description">
-    <h3>Runde 7</h3>
-    <p>
-      Zum ersten Mal findet statt eines analogen Demo Day eine virtuelle Demo Week statt.
-      Hier präsentieren die 21 Projekte der 7. Förderrunde die Softwareprototypen, an
-      denen sie in den vergangenen sechs Monaten im Rahmen ihrer Förderung gearbeitet haben.
-      <br/><br/>
-      Wie kann man etwas vertrauen, das zum Großteil unsichtbar ist und aus abstrakten
-      Bits und Bytes besteht? Und welche Technologien haben das Potenzial, für mehr
-      Vertrauen zu sorgen? Damit und mit vielen weiteren Fragen haben sich die Projekte
-      beschäftigt.
-    </p>
-  </div>
-</div>
-<hr />
-<div class="flex-container container justify-between">
-  <div class="header">
-    <h2>Engineering Trust<br/>
-      - Vertrauen bauen</h2>
-  </div>
-  <div class="description">
-    <p>
-      Die Ergebnisse ihrer Arbeit könnt ihr unten in Form von Texten, Bildern, Videos und
-      natürlich Demos ansehen.<br/>
-      Am Montag (24.08, 18.30) startet die Demo Week mit einer
-      <a href="">Eröffnung</a>. In den darauffolgenden Tagen stellen sich die
-      <a href="">Projekte</a> vor. Am Freitagabend folgt der offizielle
-      <a href="">Abschluss</a>.
-      <br/><br/>
-      Unsere Tweets zur Demo Week erkennt ihr an #prototypedemos - ihr seid herzlich
-      eingeladen mit zu zwitschern und zu diskutieren!<br/>
-      Wir wünschen euch eine inspirierende Woche!
-    </p>
-  </div>
-</div>
-<hr/>
-<div class="flex-container video-container container justify-between">
-  <div class="description">
-    <h2>Eröffnung</h2>
-    <p>Am 24.08. haben wir die Demo Week mit einem Livestream eröffnet.
-      Falls ihr die Eröffnung verpasst habt, könnt ihr euch hier das Video
-      davon ansehen. Mit dabei sind
-      <a href="">Karolin Schwarz</a>
-      (Autorin und freie Journalistin) und
-      <a href="">Linus Neumann</a>
-      (Sprecher des CCC), die das Thema Vertrauen in zwei Impulsvorträgen
-      aus unterschiedlichen Perspektiven beleuchtet haben. Außerdem stellen
-      sich alle Projekte kurz vor und wir geben einen Überblick über die Woche.</p>
-    <h2>Keynotes</h2>
-    <div class="flex-container justify-start">
-      <div class="speaker flex-container justify-start align-center">
-        <img src="/assets/images/speaker.png" />
-        <div class="speaker-details">
-          <h4>Karolin Schwarz</h4>
-          <small>Autorin & Freie Journalistin</small>
-        </div>
-      </div>
-      <div class="speaker flex-container justify-start align-center">
-        <img src="/assets/images/speaker.png" />
-        <div class="speaker-details">
-          <h4>Linus Neumann</h4>
-          <small>Chaos Computer Club Sprecher</small>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="video">
-    <img src="/assets/images/video_placeholder.svg" />
-  </div>
-</div>
-{% include separator.html %}
-{% assign featured_project = site.projects | sample: 2 %}
-<div class="featured-projects container">
-  <span class="featured-title">
-    Projekt Highlight
-  </span>
-  <div class="flex-container project justify-around align-center">
-    <div class="project-image">
-      {% if project.image %}
-          <img src="{{ featured_project[0].image }}" />
-      {% else %}
-        <img src="/assets/images/project_img_placeholder.png" />
-      {% endif %}
-    </div>
-    <div class="project-details">
-      <div class="project-authors">
-        {% for author in featured_project[0].authors %}
-          <a {% if author.link %}href="{{ author.link }}"{% endif %}>
-            {{ author.author }}{% if forloop.last != true %}, {% endif %}
-          </a>
-        {% endfor %}
-      </div>
-      <h2 class="project-title">{{ featured_project[0].title }}</h2>
-      <p class="project-brief">
-        {{ featured_project[0].brief }}
-      </p>
-      <p class="project-description">
-        {{ featured_project[0].summary }}
-      </p>
-      <a href="{{ featured_project[0].url }}" class="btn project-btn">View Project</a>
-    </div>
-  </div>
-</div>
-<div class="container">
-  <h2 class="text-left">Alle Projekte</h2>
-  <p class="text-left project-section-desc">
-    Diese 21 Projekte haben wir in der 7. Runde des Prototype Fund mit Mitteln des BMBF
-    von März bis September 2020 gefördert. Ihr habt Fragen an ein Projekt? Schickt sie an
-    <a href="">email@email.com</a> oder twittert sie mit dem Hashtag
-    <span class="hashtag">#prototypedemos</span> - beim
-    Abschlussevent am 28.08. werden die Projekte einige eurer Fragen beantworten
-  </p>
-  {% for project in site.projects %}
-    {% assign mod = forloop.index | modulo: 2 %}
-    <div class="flex-container project {% if mod == 1%}inverse{% endif %} justify-between">
-      <div class="project-image">
-        {% if project.image %}
-          <img src="{{ project.image }}" />
-        {% else %}
-          <img src="/assets/images/project_img_placeholder.png" />
-        {% endif %}
-      </div>
-      <div class="project-details">
-        <div class="project-authors">
-          {% for author in project.authors %}
-            <a {% if author.link %}href="{{ author.link }}"{% endif %}>
-              {{ author.author }}{% if forloop.last != true %}, {% endif %}
-            </a>
-          {% endfor %}
-        </div>
-        <h2 class="project-title">
-          {{ project.title }}
-        </h2>
-        <p class="project-brief">
-          {{ project.brief }}
-        </p>
-        <a href="{{ project.url }}" class="btn project-btn">View Project</a>
-      </div>
-    </div>
-  {% endfor %}
-</div>
-<hr />
-<div class="flex-container video-container container justify-between">
-  <div class="description">
-    <h2>Eröffnung</h2>
-    <p>Volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia
-      quis vel eros donec ac odio tempor orci dapibus ultrices Volutpat odio facilisis
-      mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac
-      odio tempor orci dapibus.</p>
-    <h2>Keynotes</h2>
-    <div class="flex-container justify-start">
-      <div class="speaker flex-container justify-start align-center">
-        <img src="/assets/images/speaker.png" />
-        <div class="speaker-details">
-          <h4>Maxi Muster</h4>
-          <small>Speaker.in</small>
-        </div>
-      </div>
-      <div class="speaker flex-container justify-start align-center">
-        <img src="/assets/images/speaker.png" />
-        <div class="speaker-details">
-          <h4>Maxi Muster</h4>
-          <small>Speaker.in</small>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="video">
-    <img src="/assets/images/video_placeholder.svg" />
-  </div>
-</div>
-<script>
-  var projects = {{ site.projects | jsonify }}
-</script>
-<script src="/assets/js/randomFeaturedProject.js"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1894.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p4 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p5 {margin: 0.0px 0.0px 6.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000e9; -webkit-text-stroke: #0000e9}
+    span.s1 {font-kerning: none}
+    span.s2 {text-decoration: underline ; font-kerning: none; color: #0000e9; -webkit-text-stroke: 0px #0000e9}
+    span.s3 {font: 12.0px Times; font-kerning: none}
+    span.s4 {text-decoration: underline ; font-kerning: none}
+    span.s5 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">--- layout: default ---</span></p>
+<p class="p1"><span class="s1"></span></p>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Prototype</b></span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Fund</b></span></h1>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Runde 7</b></span></h3>
+<p class="p4"><span class="s1">Zum ersten Mal findet statt eines analogen Demo Day eine virtuelle Demo Week statt. Hier prÃ¤sentieren die 21 Projekte der 7. FÃ¶rderrunde die Softwareprototypen, an denen sie in den vergangenen sechs Monaten im Rahmen ihrer FÃ¶rderung gearbeitet haben. <br>
+<br>
+Wie kann man etwas vertrauen, das zum GroÃŸteil unsichtbar ist und aus abstrakten Bits und Bytes besteht? Und welche Technologien haben das Potenzial, fÃ¼r mehr Vertrauen zu sorgen? Damit und mit vielen weiteren Fragen haben sich die Projekte beschÃ¤ftigt.<span class="Apple-converted-space"> </span></span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Engineering Trust<br>
+- Vertrauen bauen</b></span></h2>
+<p class="p4"><span class="s1">Die Ergebnisse ihrer Arbeit kÃ¶nnt ihr unten in Form von Texten, Bildern, Videos und natÃ¼rlich Demos ansehen.<br>
+Am Montag (24.08, 18.30) startet die Demo Week mit einer </span><span class="s2">ErÃ¶ffnung</span><span class="s1">. In den darauffolgenden Tagen stellen sich die </span><span class="s2">Projekte</span><span class="s1"> vor. Am Freitagabend folgt der offizielle </span><span class="s2">Abschluss</span><span class="s1">. <br>
+<br>
+Unsere Tweets zur Demo Week erkennt ihr an #prototypedemos - ihr seid herzlich eingeladen mit zu zwitschern und zu diskutieren!<br>
+Wir wÃ¼nschen euch eine inspirierende Woche!<span class="Apple-converted-space"> </span></span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>ErÃ¶ffnung</b></span></h2>
+<p class="p4"><span class="s1">Am 24.08. haben wir die Demo Week mit einem Livestream erÃ¶ffnet. Falls ihr die ErÃ¶ffnung verpasst habt, kÃ¶nnt ihr euch hier das Video davon ansehen. Mit dabei sind </span><span class="s2">Karolin Schwarz</span><span class="s1"> (Autorin und freie Journalistin) und </span><span class="s2">Linus Neumann</span><span class="s1"> (Sprecher des CCC), die das Thema Vertrauen in zwei ImpulsvortrÃ¤gen aus unterschiedlichen Perspektiven beleuchtet haben. AuÃŸerdem stellen sich alle Projekte kurz vor und wir geben einen Ãœberblick Ã¼ber die Woche.</span></p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Keynotes</b></span></h2>
+<p class="p1"><span class="s1"></span></p>
+<h4 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Karolin Schwarz</b></span></h4>
+<p class="p8"><span class="s1">Autorin &amp; Freie Journalistin</span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1"></span></p>
+<h4 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Linus Neumann</b></span></h4>
+<p class="p8"><span class="s1">Chaos Computer Club Sprecher</span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">{% include separator.html %} {% assign featured_project = site.projects | sample: 2 %}</span></p>
+<p class="p1"><span class="s1">Projekt Highlight</span></p>
+<p class="p1"><span class="s1">{% if project.image %} <span class="Apple-converted-space"> </span>{% else %} <span class="Apple-converted-space"> </span>{% endif %}<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">{% for author in featured_project[0].authors %} {{ author.author }}{% if forloop.last != true %}, {% endif %} {% endfor %}<span class="Apple-converted-space"> </span></span></p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>{{ featured_project[0].title }}</b></span></h2>
+<p class="p4"><span class="s1">{{ featured_project[0].brief }}<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1">{{ featured_project[0].summary }}<span class="Apple-converted-space"> </span></span></p>
+<p class="p9"><span class="s4"><a href="file:///Users/elioqoshi/Documents/GitHub/demo-week-2020/_layouts/%7B%7B%20featured_project%5B0%5D.url%20%7D%7D">View Project</a></span><span class="s5"><span class="Apple-converted-space"> </span></span></p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Alle Projekte</b></span></h2>
+<p class="p4"><span class="s1">Diese 21 Projekte haben wir in der 7. Runde des Prototype Fund mit Mitteln des BMBF von MÃ¤rz bis September 2020 gefÃ¶rdert. Ihr habt Fragen an ein Projekt? Schickt sie an </span><span class="s2">demoweek@prototypefund.de</span><span class="s1"> oder twittert sie mit dem Hashtag #prototypedemos - beim Abschlussevent am 28.08. werden die Projekte einige eurer Fragen beantworten<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">{% for project in site.projects %} {% assign mod = forloop.index | modulo: 2 %}</span></p>
+<p class="p1"><span class="s1">{% if project.image %} <span class="Apple-converted-space"> </span>{% else %} <span class="Apple-converted-space"> </span>{% endif %}<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">{% for author in project.authors %} {{ author.author }}{% if forloop.last != true %}, {% endif %} {% endfor %}<span class="Apple-converted-space"> </span></span></p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>{{ project.title }}<span class="Apple-converted-space"> </span></b></span></h2>
+<p class="p4"><span class="s1">{{ project.brief }}<span class="Apple-converted-space"> </span></span></p>
+<p class="p9"><span class="s4"><a href="file:///Users/elioqoshi/Documents/GitHub/demo-week-2020/_layouts/%7B%7B%20project.url%20%7D%7D">View Project</a></span><span class="s5"><span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">{% endfor %}<span class="Apple-converted-space"> </span></span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>ErÃ¶ffnung</b></span></h2>
+<p class="p4"><span class="s1">Volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices Volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio tempor orci dapibus.</span></p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Keynotes</b></span></h2>
+<p class="p1"><span class="s1"></span></p>
+<h4 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Maxi Muster</b></span></h4>
+<p class="p8"><span class="s1">Speaker.in</span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1"></span></p>
+<h4 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Maxi Muster</b></span></h4>
+<p class="p8"><span class="s1">Speaker.in</span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space"> </span></span></p>
+</body>
+</html>
