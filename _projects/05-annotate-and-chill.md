@@ -4,19 +4,19 @@ title:  "Annotate & Chill"
 image: /assets/images/project_images/Boromeo/header.png
 authors:
     - author: Simon Wörpel
-      link:
+      link: https://twitter.com/simonwoerpel
 brief: "Wir zeigen, aus welchen Quellen Informationen stammen."
 summary: "Seit einigen Jahren arbeiten Recherche-Teams verstärkt mit großen Dokumentensammlungen oder “Leaks”. Die Herausforderung ist immer gleich: Aus einem unstrukturierten Wust strukturierte Erkenntnisse zu generieren, sie zunächst mit Kolleg*innen und später mit der Öffentlichkeit zu teilen. Hier eine Übersicht über Herangehensweise, den aktuellen Stand sowie ein neues Puzzleteil in einer immer weiter wachsenden Werkzeugkiste."
 ---
 
 # Die Stecknadel im Heuhaufen wiederfinden
 
-(Teaser/Vorspann) Seit einigen Jahren arbeiten Recherche-Teams verstärkt mit
+*Seit einigen Jahren arbeiten Recherche-Teams verstärkt mit
 großen Dokumentensammlungen oder “Leaks”. Die Herausforderung ist immer
 gleich: Aus einem unstrukturierten Wust strukturierte Erkenntnisse zu
 generieren, sie zunächst mit Kolleg\*innen und später mit der Öffentlichkeit zu
 teilen. Hier eine Übersicht über Herangehensweise, den aktuellen Stand sowie
-ein neues Puzzleteil in einer immer weiter wachsenden Werkzeugkiste.
+ein neues Puzzleteil in einer immer weiter wachsenden Werkzeugkiste.*
 
 ## Das Problem
 
@@ -74,7 +74,8 @@ kann technisch gesehen als “Annotation” abgebildet werden. Auch darüber hab
 sich bereits viele Entwickler\*innen den Kopf zerbrochen: So ermöglicht das
 Projekt [“hypothes.is”](https://web.hypothes.is/) mehr oder weniger das
 komplette Internet zu annotieren, also beliebige Stellen von Webseiten mit
-Kommentaren zu versehen. Die Annotationen landen auf dem hypothes.is-Server und sind entweder privat sichtbar oder können mit User-Gruppen oder der
+Kommentaren zu versehen. Die Annotationen landen auf dem hypothes.is-Server und 
+sind entweder privat sichtbar oder können mit User-Gruppen oder der
 Öffentlichkeit geteilt werden.
 
 ## Die Nische
@@ -82,7 +83,8 @@ Kommentaren zu versehen. Die Annotationen landen auf dem hypothes.is-Server und 
 Die Umsetzung für den beschriebenen Anwendungsfall lautet also im weitesten
 Sinne “Annotationen”. Trotzdem gab es für eine bestimmte Konstellation von
 Anforderungen bisher keine einfache technische Lösung -- und dafür wurde im
-Rahmen der Förderung durch den Prototype Fund “Annotate & chill” gebaut. Diese Software geht von drei Nutzungsszenarien aus: Erstens, Annotierung kann (muss aber nicht) lokal
+Rahmen der Förderung durch den Prototype Fund “Annotate & chill” gebaut. Diese Software 
+geht von drei Nutzungsszenarien aus: Erstens, Annotierung kann (muss aber nicht) lokal
 und offline stattfinden und wird nicht (kann aber) in einer Cloud gespeichert.
 Zweitens, Annotierungen sind getrennt von den Quelldokumenten und können
 unabhängig davon verbreitet werden. Und drittens gibt es kein festgelegtes
@@ -216,4 +218,4 @@ geht Dank an Simon Höher von [zero360](https://zero360.de/), der einen
 und Johannes Filter für Support und inspirierenden Austausch über (fast) alles,
 was mit Erkenntnisgewinn aus Dokumenten zu tun hat, und an Marie & Tasmo vom
 Projektteam für die individuelle Betreuung über die vergangenen sechs Monate
-in diesem etwas seltsamen Jahr 2020. 
+in diesem etwas seltsamen Jahr 2020.
