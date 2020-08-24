@@ -35,6 +35,7 @@
   position: fixed;
   width: 100vw;
   background-color: $background_color;
+  z-index: 999;
 }
 
 .preload,
