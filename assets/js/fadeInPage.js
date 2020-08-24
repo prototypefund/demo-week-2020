@@ -3,5 +3,5 @@ window.onload = function() {
     setTimeout(function(){
       document.body.classList.remove('preload');
       document.body.classList.remove('onload'); 
-    }, 600);
+    }, 1200);
 };
