@@ -62,7 +62,9 @@ FIDO2 ermöglicht es momentan nur, sich bei Accounts einzuloggen. Wenn Nutzer\*i
 Die FIDO Allianz strebt an, [die Accounterstellung mit verifizierten Identitätsattributen](https://fidoalliance.org/fido-alliance-announces-id-and-iot-initiatives/) Wirklichkeit werden zu lassen und Probleme wie die Wiederherstellung von Accounts oder den FIDO-Standard im Internet der Dinge stärker einzusetzen. Bisher wurde der Standard aber nicht dementsprechend erweitert.  
 Ziel war es daher, einen externen Sicherheitsschlüssel zu entwickeln, der den passwortlosen Login weiterhin ermöglicht und gleichzeitig die Möglichkeit bietet, sich mit bestätigten Identitätsattributen auszuweisen. Im Demo-Video wird gezeigt, wie das aussehen könnte.
 
-<iframe width="750" height="422" src="https://www.youtube-nocookie.com/embed/4d9wFeLhmHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="iframe-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/4d9wFeLhmHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Der FIDO-Standard kann für [bestimmte Anwendungszwecke angepasst werden](https://www.w3.org/TR/webauthn/#extensions). Diese Möglichkeit wurde genutzt, um ein eigenes Protokoll zu entwickeln, das es ermöglicht, Nachrichten mit Identitätsattributen von Nutzenden auszutauschen.  
 Die Idee für die Bestätigung der Informationen lässt sich mit einem versiegelten Empfehlungsschreiben vergleichen. In den Brief werden die Informationen geschrieben, die ein*e Bot\*in mündlich übertragen soll. Anschließend wird der Brief versiegelt und von*vom Bot\*in zum*zur Empfänger\*in gebracht. Wenn der*die Empfänger\*in das Siegel kennt, wird der Brief geöffnet und die Informationen mit denen der*des Bot\*in verglichen.

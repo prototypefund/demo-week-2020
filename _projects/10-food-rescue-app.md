@@ -36,7 +36,9 @@ Mit der Food Rescue App wollen wir unseren Mitmenschen ein Werkzeug an die Hand 
 
 Was ich mir allerdings zu Beginn der Arbeit an Food Rescue App nicht vorstellen konnte, ist der oft so unklare Wissensstand zum Thema Lebensmittel retten. Es gibt sehr viele unterschiedliche Meinungen, sowohl übervorsichtige als auch unbedachte. Ich habe mich bemüht, all diese Inhalte in eine zugängliche Form mit verständlichen Erklärungen und leicht überprüfbaren Quellen zu bringen. Du kannst nun testen, inwieweit mir das gelungen ist:
 
-<iframe src="https://appetize.io/embed/hkw36e77yj8bqra3mufde078ug?device=nexus7&scale=78&orientation=landscape&osVersion=8.1&screenOnly=true&language=de" width="750px" height="469px" frameborder="0" scrolling="no"></iframe>
+<div class="iframe-container" style="padding-top: 66.67%;">
+    <iframe src="https://appetize.io/embed/hkw36e77yj8bqra3mufde078ug?device=nexus7&scale=78&orientation=landscape&osVersion=8.1&screenOnly=true&language=de" frameborder="0" scrolling="no"></iframe>
+</div>
 
 **Hinweise zur Demo.**
 
