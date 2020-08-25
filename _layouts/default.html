@@ -9,7 +9,7 @@
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
-    {% if page.image %}<meta name="twitter:image" content="{{ page.image }}">{% endif %}
+	{% if page.image %}<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">{% endif %}
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.title }}{% endif %}">
 	<meta name="twitter:site" content="@prototypefund">
