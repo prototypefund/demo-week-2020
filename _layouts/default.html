@@ -6,6 +6,20 @@
     <title>{{ page.title }}</title>
     <link rel="icon" href="/assets/images/favicon.svg" sizes="any" type="image/svg+xml">
     <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    {% if page.image %}<meta name="twitter:image" content="{{ page.image }}">{% endif %}
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.title }}{% endif %}">
+	<meta name="twitter:site" content="@prototypefund">
+    <!-- Open Graph -->
+    <meta property="og:locale" content="de_DE">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:site_name" content="{{ site.title }}">
   </head>
   <body {% if page.type == "landing" %}class="preload"{% endif %}>
     {% include header.html %}
