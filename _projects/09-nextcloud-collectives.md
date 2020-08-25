@@ -32,7 +32,7 @@ Wir wollen mit unserer App die Zusammenarbeit in selbstorganisierten Gruppen ver
 
 Im Laufe der Förderung sind wir recht weit vorangekommen. [Unsere App][] bietet grundlegende Wiki-Funktionen, Dokumente können untereinander verlinkt, mittels Versionskontrolle können alte Zustände wiederhergestellt werden. Jedes neue Wiki wird automatisch mit einem Nextcloud-Arbeitskreis ("Circle") geteilt und ist allen Mitgliedern verfügbar. Ein kollaborativer Texteditor ermöglicht es, parallel an Dokumenten zu schreiben.
 
-![Screencast: Übersicht der App-Funktionen](/assets/images/project_images/ncdash/app-uebersicht.gif)
+![Screencast: Übersicht der App-Funktionen](https://raw.githubusercontent.com/prototypefund/demo-week-2020/main/assets/images/project_images/ncdash/app-uebersicht.gif)
 
 Viel Arbeit ging in das Design der App-Oberfläche entsprechend der [Nextcloud Design Guidelines][]. Aber auch unter der Haube haben wir uns Mühe gegeben, sauber zu arbeiten, etwa durch Qualitätssicherung unseres Programmcodes mit Hilfe automatisierter Tests.
 
@@ -50,7 +50,7 @@ Als erstaunlich schwierig erwies sich dann allerdings das Verlinken auf andere D
 
 Also machen wir uns daran, Links auf Dokumente in der Text App zu entwickeln. Und siehe da - es gibt nicht nur Feature Requests für das, was wir vorhaben sondern sogar erste Schritte als verwaiste Pull Requests. Die entwickeln wir weiter, bis sie unseren Anforderungen entsprechen und in der Text App, der Talk App und bei uns gut funktionieren. Dabei lernen wir viel über den Editor und tragen etwas zu Nextcloud bei, das diese für alle User verbessert, auch wenn unsere App nicht installiert ist.
 
-![Screencast: Verlinken lokaler Dateien in Text-App](/assets/images/project_images/ncdash/local-file-link.gif)
+![Screencast: Verlinken lokaler Dateien in Text-App](https://raw.githubusercontent.com/prototypefund/demo-week-2020/main/assets/images/project_images/ncdash/local-file-link.gif)
 
 ## Entwicklungszyklen verstehen
 
