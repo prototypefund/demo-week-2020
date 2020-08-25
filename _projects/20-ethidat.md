@@ -13,7 +13,9 @@ summary: "Ethidat stellt ESG-Unternehmensdaten sowie die Emissionen von CO2-Gase
 
 Mit einem wachsenden Fokus auf Nachhaltigkeit und Verantwortlichkeit der Wirtschaft bestehen inzwischen zahlreiche Initiativen mit dem Ziel, das Agieren von Unternehmen transparenter zu machen. Aspekte wie ESG (Environmental, Social, Governance) oder CSR (Corporate Social Responsibility) gewinnen seit einigen Jahren stetig an Bedeutung. 
 
-<iframe width="750" height="422" src="https://www.youtube-nocookie.com/embed/3MbmB0Fc4aw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="iframe-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/3MbmB0Fc4aw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Die EU (z. B. mit dem [EU Emission Trading System](https://ec.europa.eu/clima/policies/ets/monitoring_en) und die Vereinten Nationen ([UN Global Compact](https://www.unglobalcompact.org/)) sowie Non-Profit-Organisationen wie die [Global Reporting Initiative](https://www.globalreporting.org/Pages/default.aspx) bemühen sich, Unternehmen auf Basis von Veröffentlichungsstandards, Richtlinien und Fragebögen zur Offenlegung von gesellschaftlich und ökologisch relevanten Informationen zu bewegen. Diese Initiativen geben vor, welche Informationen veröffentlicht werden müssen, aber nicht die Art und Struktur der Veröffentlichung. Als Resultat ist die maschinelle Verarbeitung der veröffentlichten Daten zeitaufwendig und technisch schwierig. Angesichts der enormen Datenmenge, die die Grenzen einer effektiven manuellen Verarbeitung übersteigt, wäre die strukturierte, maschinenlesbare Veröffentlichung jedoch essentiell für die vollständige Aufbereitung und den Vergleich von Unternehmensdaten. Ein Resultat sind Kosten von mehreren zehntausend Euro, die üblicherweise für den Zugriff auf verfügbare Datensätze aufgerufen werden und allgemeine Transparenz verhindern. 
 
