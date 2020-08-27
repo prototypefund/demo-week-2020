@@ -106,7 +106,7 @@ Genau so funktioniert “Annotate & chill” -- die Annotationen lassen sich als
 Datei exportieren und woanders wieder mit der Quelldatei verbinden und
 anzeigen. In besonders sicherheitssensiblen Recherche-Szenarios können so die
 Annotationen getrennt von den Dokumenten unter Kolleg\*innen geteilt werden. So
-kann ein*e Rechercheur\*in beispielsweise eine verschlüsselte Datei mit
+kann ein\*e Rechercheur\*in beispielsweise eine verschlüsselte Datei mit
 Anmerkungen an ein*e Kolleg\*in schicken, die das Originaldokument ebenfalls
 besitzt oder auf anderem Wege erhält. Annotationen können über das Interface
 importiert, bearbeitet und wieder exportiert werden.
