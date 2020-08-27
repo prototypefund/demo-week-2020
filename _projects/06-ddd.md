@@ -5,7 +5,7 @@ image: /assets/images/project_images/DDD/header.png
 authors:
     - author: Johannes Filter
       link:
-brief: "Wir machen Dokumente barrierefrei."
+brief: "Wir extrahieren Fließtext aus PDFs."
 summary: "Durch lange Wörter im Deutschen sind aus PDF extrahierte Texte mit Zeilenumbrüchen zerstückelt. pd3f rekonstruiert mithilfe von maschinellem Lernen den ursprünglichen Fließtext."
 ---
 
