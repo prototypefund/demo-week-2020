@@ -75,7 +75,10 @@ layout: default
     </div>
   </div>
   <div class="video">
-    <img src="/assets/images/video_placeholder.svg" />
+    <div class="iframe-container">
+      <iframe src="https://www.youtube.com/embed/LA8ntFNBk-A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <!-- img src="/assets/images/video_placeholder.svg" / -->
   </div>
 </div>
 {% include separator.html %}
@@ -198,17 +201,20 @@ layout: default
     </div>
   </div>
   <div class="video">
-    <img src="/assets/images/video_placeholder.svg" />
+    <div class="iframe-container">
+	  <iframe src="https://www.youtube.com/embed/4VtBl9f8ayo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    <!-- img src="/assets/images/video_placeholder.svg" / -->
   </div>
 </div>
 <img id="scroll-to-top" src="/assets/images/scroll.png" onclick="topFunction()" />
 <script>
   //Get the button
   var mybutton = document.getElementById("scroll-to-top");
-  
+
   // When the user scrolls down 20px from the top of the document, show the button
   window.onscroll = function() {scrollFunction()};
-  
+
   function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
       mybutton.style.display = "block";
@@ -216,7 +222,7 @@ layout: default
       mybutton.style.display = "none";
     }
   }
-  
+
   // When the user clicks on the button, scroll to the top of the document
   function topFunction() {
     document.body.scrollTop = 0;
