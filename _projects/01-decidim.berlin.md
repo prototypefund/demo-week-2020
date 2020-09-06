@@ -18,6 +18,10 @@ Decidim Berlin setzt sich mit der Übertragung der katalanischen Beteiligungspla
 
 Wir sind ein Verbund aus zivilgesellschaftlichen Akteuren aus unterschiedlichen Disziplinen und Bereichen. Wir arbeiten überparteilich und unabhängig. Die Zielgruppe sind Initiativen, die einen gemeinwohlorientierten und commons-verbundenen Anspruch verfolgen.
 
+<div class="iframe-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/e-PaZhYj5Lk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## Vision
 Die Vision von decidim ist die digitale Interpretation und Umsetzung einer selbstbestimmten Gesellschaft, in der sich Menschen unkompliziert und nachhaltig für ihre gesellschaftlichen Ziele und Themen engagieren können.
 
@@ -232,11 +236,3 @@ Die Crew des Torhauses auf dem Gelände des Temphofer Flughafens setzt sich für
 
 <img src="https://urban.decidim.de/uploads/decidim/attachment/file/115/7743b84813a406bdc2694ff6bb.jpg">
 <a href="https://torhausberlin.de/thfradio">[ Zur Podcast-Seite ]</a>
-
-<hr>
-
-# Prototype Fund
-
-<div class="iframe-container">
-    <iframe src="https://www.youtube-nocookie.com/embed/e-PaZhYj5Lk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
