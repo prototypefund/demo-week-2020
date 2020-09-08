@@ -10,7 +10,7 @@ authors:
     - author: Andreas Hellwig
       link:
 brief: "Wir ermöglichen digitale Beteiligungsverfahren für Bürgerinitiativen."
-summary: "Decidim Berlin setzt sich mit der Übertragung der katalanischen Beteiligungsplattform Decidim ins Deutsche auseinander und will erprobte Partizipationsverfahren aus Barcelona prototypisch auf Berlin anwenden. Die Plattform [decidim.de](https://decidim.de) soll stadtpolitisch-orientierten Initiativen ein Werkzeug bieten, um gemeinsam Positionen zu entwickeln und verbindlich einzufordern. Die Zielgruppe sind Initiativen, die einen gemeinwohlorientierten und commons-verbundenen Anspruch verfolgen."
+summary: "Decidim Berlin setzt sich mit der Übertragung der katalanischen Beteiligungsplattform Decidim ins Deutsche auseinander und will erprobte Partizipationsverfahren aus Barcelona prototypisch auf Berlin anwenden. Die Plattform decidim.de soll stadtpolitisch-orientierten Initiativen ein Werkzeug bieten, um gemeinsam Positionen zu entwickeln und verbindlich einzufordern. Die Zielgruppe sind Initiativen, die einen gemeinwohlorientierten und commons-verbundenen Anspruch verfolgen."
 ---
 
 # HINTERGRUND
@@ -18,9 +18,7 @@ Decidim Berlin setzt sich mit der Übertragung der katalanischen Beteiligungspla
 
 Wir sind ein Verbund aus zivilgesellschaftlichen Akteuren aus unterschiedlichen Disziplinen und Bereichen. Wir arbeiten überparteilich und unabhängig. Die Zielgruppe sind Initiativen, die einen gemeinwohlorientierten und commons-verbundenen Anspruch verfolgen.
 
-<div class="iframe-container">
-    <iframe src="https://www.youtube-nocookie.com/embed/e-PaZhYj5Lk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/e-PaZhYj5Lk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Vision
 Die Vision von decidim ist die digitale Interpretation und Umsetzung einer selbstbestimmten Gesellschaft, in der sich Menschen unkompliziert und nachhaltig für ihre gesellschaftlichen Ziele und Themen engagieren können.
